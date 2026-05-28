@@ -1,0 +1,8 @@
+@import "./styles/variables.css";
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--gradient-orange);
+  font-family: var(--font-family);
+}

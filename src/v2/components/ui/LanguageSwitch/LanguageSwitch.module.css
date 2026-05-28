@@ -1,0 +1,53 @@
+/* Language Switch Component */
+
+.languageToggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+}
+
+.languageButton {
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  color: var(--color-text-light);
+  font-weight: 500;
+  font-size: var(--font-size-body);
+  font-family: inherit;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  border-radius: var(--border-radius-small);
+}
+
+.languageButton:hover {
+  color: var(--color-orange);
+}
+
+.languageButton:focus {
+  outline: none;
+  color: var(--color-orange);
+}
+
+.languageButton:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 2px;
+}
+
+.languageButton.active {
+  color: var(--color-orange);
+  font-weight: 700;
+}
+
+.separator {
+  color: var(--color-text-muted);
+  user-select: none;
+  font-weight: 300;
+}
+
+@media (max-width: 480px) {
+  .languageButton {
+    font-size: 14px;
+    padding: 4px 6px;
+  }
+}

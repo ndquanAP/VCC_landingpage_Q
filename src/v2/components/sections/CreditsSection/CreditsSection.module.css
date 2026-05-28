@@ -1,0 +1,145 @@
+.creditsSection {
+  width: 100%;
+  padding: var(--section-padding-large);
+  background: linear-gradient(135deg, var(--color-text-dark) 0%, #1a1a1a 100%);
+  color: var(--color-white);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+}
+
+.mainContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap-xl);
+  margin-bottom: var(--gap-xl);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-medium);
+}
+
+.sectionTitle {
+  font-family: var(--font-family-saira);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-orange);
+  margin: 0;
+  /* margin-bottom: var(--gap-small); */
+}
+
+.linksList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+.link {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: var(--font-size-body);
+  line-height: 1.5;
+  transition: var(--transition-fast);
+}
+
+.link:hover {
+  color: var(--color-orange);
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+.contactItem {
+  color: #cccccc;
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.separator {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-orange-light) 50%,
+    transparent 100%
+  );
+  margin: var(--gap-large) 0;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap-medium);
+}
+
+.copyright {
+  font-size: var(--font-size-small);
+  color: #999999;
+}
+
+.legalLinks {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.legalLink {
+  color: #999999;
+  text-decoration: none;
+  font-size: var(--font-size-small);
+  transition: var(--transition-fast);
+}
+
+.legalLink:hover {
+  color: var(--color-orange);
+}
+
+.divider {
+  color: #666666;
+  font-size: var(--font-size-small);
+}
+
+/* TODO: Add responsive design for tablet and mobile */
+@media (max-width: 1024px) {
+  .mainContent {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-large);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--gap-small);
+  }
+
+  .creditsSection {
+    padding: var(--gap-xl) 0;
+  }
+
+  .mainContent {
+    grid-template-columns: 1fr;
+    gap: var(--gap-large);
+  }
+
+  .bottomSection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-small);
+  }
+
+  .legalLinks {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,375 @@
+.expertOpinionSection {
+  width: 100%;
+  padding: var(--section-padding-large);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xxl);
+}
+
+.expertCardContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-large);
+  width: 100%;
+  max-width: 1400px;
+}
+
+.expertCard {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: center;
+  flex: 1;
+  min-height: 350px;
+  background: var(--color-white);
+  padding: var(--gap-xl);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--shadow-medium);
+  border: 2px solid transparent;
+  background: linear-gradient(var(--color-white), var(--color-white))
+      padding-box,
+    linear-gradient(45deg, var(--color-orange-light), var(--color-orange))
+      border-box;
+}
+
+.expertImage {
+  flex-shrink: 0;
+}
+
+.image {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 3px solid var(--color-orange-light);
+  box-shadow: 0 5px 20px rgba(255, 140, 66, 0.2);
+}
+
+.expertContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-medium);
+}
+
+.seeMoreContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--gap-small);
+}
+
+.seeMoreButton {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.opinion {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-expert-opinion);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-text-medium);
+  font-style: italic;
+  position: relative;
+  padding-left: var(--gap-small);
+}
+
+.opinion::before {
+  content: '"';
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  font-size: 60px;
+  color: var(--color-orange);
+  font-family: serif;
+  line-height: 1;
+}
+
+.expertInfo {
+  border-top: 2px solid var(--color-orange-light);
+  padding-top: var(--gap-large);
+}
+
+.name {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-expert-name);
+  font-weight: 600;
+  color: var(--color-orange);
+  margin: 0 0 8px 0;
+}
+
+.position {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-body);
+  font-weight: 400;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.navButton {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  background: var(--color-white);
+  border: 2px solid var(--color-orange);
+  color: var(--color-orange);
+}
+
+.navButton:hover {
+  background: var(--color-orange);
+  color: var(--color-white);
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(255, 140, 66, 0.3);
+}
+
+.indicators {
+  display: flex;
+  gap: 12px;
+}
+
+.indicator {
+  padding: 8px;
+  border-radius: 100%;
+  border: none;
+  background: var(--color-orange-light);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background: var(--color-orange);
+  transform: scale(1.3);
+}
+
+.indicator:hover {
+  background: var(--color-orange);
+}
+
+@media (max-width: 1200px) {
+  .expertCard {
+    padding: var(--gap-large);
+  }
+
+  .image {
+    width: 250px;
+    height: 330px;
+  }
+
+  .opinion {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .expertOpinionSection {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 20px;
+    gap: var(--gap-large);
+  }
+
+  .expertCardContainer {
+    flex-direction: column;
+    gap: var(--gap-medium);
+  }
+
+  .expertCard {
+    flex-direction: column;
+    padding: var(--gap-large);
+    min-height: auto;
+    gap: var(--gap-large);
+  }
+
+  .expertImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    width: 200px;
+    height: 250px;
+  }
+
+  .expertContent {
+    gap: var(--gap-medium);
+  }
+
+  .opinion {
+    font-size: 16px;
+    text-align: left;
+    padding-left: var(--gap-medium);
+  }
+
+  .opinion::before {
+    left: 0;
+    font-size: 50px;
+  }
+
+  .expertInfo {
+    padding-top: var(--gap-medium);
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .position {
+    font-size: 14px;
+  }
+
+  .seeMoreButton {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+
+  .seeMoreContainer {
+    margin-top: var(--gap-small);
+  }
+}
+
+@media (max-width: 480px) {
+  .expertOpinionSection {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .expertCard {
+    padding: var(--gap-medium);
+    gap: var(--gap-medium);
+  }
+
+  .image {
+    width: 160px;
+    height: 200px;
+  }
+
+  .opinion {
+    font-size: 14px;
+    padding-left: var(--gap-small);
+  }
+
+  .opinion::before {
+    font-size: 40px;
+    left: -5px;
+    top: -8px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .position {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .seeMoreButton {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+
+/* Modal Styles */
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-large);
+}
+
+.modalExpertInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-large);
+  padding-bottom: var(--gap-large);
+  border-bottom: 2px solid var(--color-orange-light);
+}
+
+.modalImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-orange);
+  box-shadow: 0 5px 15px rgba(230, 122, 53, 0.3);
+}
+
+.modalExpertDetails {
+  flex: 1;
+}
+
+.modalName {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-h3);
+  font-weight: 600;
+  color: var(--color-orange);
+  margin: 0 0 8px 0;
+}
+
+.modalPosition {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-body);
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.modalOpinion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-medium);
+}
+
+.modalParagraph {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+  color: var(--color-text-medium);
+  margin: 0;
+}
+
+/* Mobile modal styles */
+@media (max-width: 768px) {
+  .modalExpertInfo {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--gap-medium);
+  }
+
+  .modalImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .modalName {
+    font-size: var(--font-size-h4);
+  }
+
+  .modalPosition {
+    font-size: 14px;
+  }
+
+  .modalParagraph {
+    font-size: 15px;
+  }
+}

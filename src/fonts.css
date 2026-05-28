@@ -1,0 +1,11 @@
+/* src/fonts.css */
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,700;1,400&display=swap");
+@font-face {
+  font-family: "UTM NguyenHa 02";
+  /* The path is relative to this CSS file's location */
+  src: url("./components/assets/fonts/00144-UTM-NguyenHa-02.ttf")
+    format("truetype"); /* <-- CORRECTED FORMAT */
+  font-weight: normal; /* 'normal' corresponds to 'regular' */
+  font-style: normal;
+}

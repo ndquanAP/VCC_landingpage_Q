@@ -1,0 +1,139 @@
+/* Title Component Styles */
+/* TODO: Add responsive font sizes for tablet and mobile */
+
+.title {
+  font-family: var(--font-family);
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: var(--transition-medium);
+}
+
+/* Size variants */
+.title--h1 {
+  font-size: var(--font-size-h1);
+  margin-bottom: 24px;
+}
+
+.title--h2 {
+  font-size: var(--font-size-h2);
+  margin-bottom: 20px;
+}
+
+.title--h3 {
+  font-size: var(--font-size-h3);
+  margin-bottom: 16px;
+}
+
+/* Override margins when inside pill */
+.titlePill .title {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+/* Alignment variants */
+.title--left {
+  text-align: left;
+}
+
+.title--center {
+  text-align: center;
+}
+
+.title--right {
+  text-align: right;
+}
+
+/* Color variants */
+.title--dark {
+  color: var(--color-text-dark);
+}
+
+.title--light {
+  color: var(--color-text-light);
+}
+
+.title--orange {
+  color: var(--color-orange);
+}
+
+.title--white {
+  color: var(--color-white);
+}
+
+.title--blue {
+  color: var(--color-blue);
+}
+
+/* Gradient Lines + Pill Variant */
+.titleWithLines {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.gradientLine {
+  flex: 1;
+  height: 2px;
+  background: var(--gradient-title-line);
+  border-radius: 2px;
+}
+
+.gradientLineReverse {
+  background: var(--gradient-title-line-reverse);
+}
+
+.titlePill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid var(--color-orange);
+  border-radius: 9999px;
+  white-space: nowrap;
+}
+
+.titleIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .titleWithLines {
+    gap: 16px;
+    margin: 30px 0;
+  }
+
+  .titlePill {
+    padding: 6px 16px;
+    gap: 6px;
+  }
+
+  .titlePill .title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titleWithLines {
+    gap: 12px;
+    margin: 20px 0;
+  }
+
+  .titlePill {
+    padding: 5px 14px;
+    gap: 5px;
+  }
+
+  .titlePill .title {
+    font-size: 14px;
+  }
+
+  .gradientLine {
+    height: 1.5px;
+  }
+}

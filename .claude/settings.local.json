@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\styles/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\NewsSection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\AboutSection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\MissionVisionSection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\ui\\NavBar/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\ContactSection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\FacultySection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\FacilitiesSection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components/**)",
+      "Bash(sed:*)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\TestimonialSection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\data/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\AboutSection/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\ui\\NavBar/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2/**)",
+      "Read(/D:\\Work\\Code\\React\\VCC\\vcc_landing_page\\src\\v2\\components\\sections\\AboutSection/**)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run lint)",
+      "Read(//c/Users/Zlash01/Downloads/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,98 @@
+.newsCard {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-white);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--shadow-light);
+  overflow: hidden;
+  transition: var(--transition-medium);
+  cursor: pointer;
+  height: 350px; /* Fixed height as requested */
+  border: 2px solid transparent;
+}
+
+.newsCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+  border-color: var(--color-orange-light);
+}
+
+.imageContainer {
+  height: 180px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-medium);
+}
+
+.newsCard:hover .image {
+  transform: scale(1.05);
+}
+
+.content {
+  padding: var(--gap-small);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-small);
+  flex: 1;
+  overflow: hidden;
+}
+
+.time {
+  font-size: var(--font-size-small);
+  color: var(--color-text-light);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-family: var(--font-family-saira);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  margin: 0;
+  line-height: 1.3;
+  
+  /* Line clamp for 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  font-size: var(--font-size-small);
+  color: var(--color-text-light);
+  margin: 0;
+  line-height: 1.4;
+  flex: 1;
+  
+  /* Line clamp for 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* TODO: Add responsive design for tablet and mobile */
+@media (max-width: 768px) {
+  .newsCard {
+    height: 320px;
+  }
+  
+  .imageContainer {
+    height: 160px;
+  }
+  
+  .title {
+    font-size: 16px;
+  }
+}

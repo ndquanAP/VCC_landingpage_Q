@@ -1,0 +1,42 @@
+@import "../styles/variables.css";
+
+.pageContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageHeader {
+  background: linear-gradient(135deg, var(--color-orange), var(--color-blue));
+  color: var(--color-white);
+  padding: 60px 0 40px;
+  text-align: center;
+  margin-top: 80px; /* Account for fixed navbar */
+}
+
+.pageTitle {
+  font-family: var(--font-family-russo);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .pageHeader {
+    padding: 40px 20px 30px;
+    margin-top: 70px;
+  }
+
+  .pageTitle {
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .pageHeader {
+    padding: 30px 16px 20px;
+    margin-top: 60px;
+  }
+}

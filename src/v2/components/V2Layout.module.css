@@ -1,0 +1,22 @@
+/* V2 Layout - 1920px base width with responsive design */
+/* TODO: Add responsive breakpoints for tablet (768px) and mobile (480px) */
+
+.layout {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--gradient-orange);
+  font-family: "UTM NguyenHa", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+/* TODO: Add responsive breakpoints */
+/* @media (max-width: 1920px) { } */
+/* @media (max-width: 1200px) { } */
+/* @media (max-width: 768px) { } */
+/* @media (max-width: 480px) { } */

@@ -1,0 +1,362 @@
+@import "../../../styles/variables.css";
+
+.testimonialSection {
+  width: 100%;
+  min-height: 638px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--section-padding-large);
+}
+
+.contentContainer {
+  position: relative;
+  width: 90%;
+  max-width: 1655px;
+  padding: 40px 20px;
+  border-radius: 67px;
+  filter: drop-shadow(0px 0px 7.6px rgba(255, 255, 255, 0.25))
+    drop-shadow(0px 0px 19.2px #ffffff);
+  background: linear-gradient(33.51deg, #ff6f00 9.28%, #298ecd 71.43%);
+}
+
+.testimonialCards {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.testimonialCard {
+  flex: 1;
+  min-width: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 530px;
+  height: 312px;
+  z-index: 10;
+}
+
+.imageBackground {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 27.67px;
+  overflow: hidden;
+}
+
+.testimonialImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(141, 55, 191, 0.15) 100%
+  );
+  border-radius: 27.67px;
+}
+
+.testimonialContent {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  align-self: center;
+  z-index: 10;
+  flex-grow: 1;
+  gap: 15px;
+}
+
+.testimonialTextContainer {
+  display: block;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.seeMoreLink {
+  display: inline;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "Saira SemiCondensed", var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-left: 4px;
+}
+
+.seeMoreLink:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+.seeMoreLink:active {
+  transform: scale(0.95);
+}
+
+.testimonialNamePosition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  gap: 20px;
+}
+
+.testimonialText {
+  width: 530px;
+  font-family: "Saira SemiCondensed", var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.607934px;
+  color: #ffffff;
+  text-shadow: 0px 4px 8.4px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
+.testimonialName {
+  font-family: "Saira SemiCondensed", var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.13608px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.testimonialPosition {
+  font-family: "Saira SemiCondensed", var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 1400px) {
+  .testimonialCards {
+    gap: 40px;
+  }
+
+  .testimonialCard {
+    min-width: 450px;
+  }
+
+  .imageContainer {
+    width: 450px;
+    height: 265px;
+  }
+
+  .testimonialText {
+    width: 450px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contentContainer {
+    padding: 40px 30px;
+  }
+
+  .backgroundImage {
+    left: calc(50% - 100vw / 2);
+    width: 100vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonialCards {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .testimonialCard {
+    min-width: unset;
+    width: 100%;
+    max-width: 400px;
+    gap: 20px;
+  }
+
+  .testimonialNamePosition {
+    gap: 12px;
+  }
+
+  .imageContainer {
+    width: 100%;
+    max-width: 400px;
+    height: 240px;
+  }
+
+  .testimonialText {
+    width: 100%;
+    max-width: 400px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .testimonialName {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .testimonialContent {
+    gap: 12px;
+  }
+
+  .testimonialTextContainer {
+    gap: 10px;
+  }
+
+  .testimonialPosition {
+    font-size: 13px;
+  }
+
+  .contentContainer {
+    padding: 30px 20px;
+    border-radius: 40px;
+  }
+
+  .testimonialSection {
+    padding: 40px 20px;
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonialCard {
+    gap: 16px;
+  }
+
+  .testimonialText {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .testimonialName {
+    font-size: 20px;
+  }
+
+  .testimonialPosition {
+    font-size: 12px;
+  }
+
+  .contentContainer {
+    padding: 24px 16px;
+  }
+}
+
+/* Modal Styles */
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-large);
+}
+
+.modalTestimonialInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-large);
+  padding-bottom: var(--gap-large);
+  border-bottom: 2px solid var(--color-orange-light);
+}
+
+.modalImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-orange);
+  box-shadow: 0 5px 15px rgba(230, 122, 53, 0.3);
+}
+
+.modalTestimonialDetails {
+  flex: 1;
+}
+
+.modalName {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-h3);
+  font-weight: 600;
+  color: var(--color-orange);
+  margin: 0 0 8px 0;
+}
+
+.modalPosition {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-body);
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.modalTestimonial {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-medium);
+}
+
+.modalParagraph {
+  font-family: var(--font-family-saira);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+  color: var(--color-text-medium);
+  margin: 0;
+}
+
+/* Mobile modal styles */
+@media (max-width: 768px) {
+  .modalTestimonialInfo {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--gap-medium);
+  }
+
+  .modalImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .modalName {
+    font-size: var(--font-size-h4);
+  }
+
+  .modalPosition {
+    font-size: 14px;
+  }
+
+  .modalParagraph {
+    font-size: 15px;
+  }
+}

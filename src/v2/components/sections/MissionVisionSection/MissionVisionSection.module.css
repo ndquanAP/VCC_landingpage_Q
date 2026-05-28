@@ -1,0 +1,66 @@
+.missionVisionSection {
+  width: 100%;
+  padding: var(--section-padding-mission);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-large);
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Responsive design for tablet and mobile */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  .cardsContainer {
+    gap: var(--gap-medium);
+  }
+}
+
+@media (max-width: 768px) {
+  .missionVisionSection {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 20px;
+    gap: var(--gap-large);
+  }
+
+  .cardsContainer {
+    flex-direction: column;
+    gap: var(--gap-medium);
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .missionVisionSection {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+    gap: var(--gap-medium);
+  }
+
+  .cardsContainer {
+    gap: var(--gap-small);
+  }
+}

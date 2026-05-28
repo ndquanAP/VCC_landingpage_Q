@@ -1,0 +1,142 @@
+/* ExpertOpinion.module.css */
+
+.expertSection {
+  width: 100%;
+  display: flex; /* Helps center the frame */
+  justify-content: center;
+}
+
+.frameContainer {
+  width: 100%;
+  max-width: 800px; /* Optional: Constrain max size on huge screens */
+
+  /* --- RESPONSIVE FRAME --- */
+  /* REMOVE fixed height */
+  /* height: 1000px; */
+
+  /* ADD aspect-ratio based on original 800x1000 dimensions */
+  aspect-ratio: 800 / 1200;
+
+  /* ADD responsive padding to create inner space */
+  /* padding: clamp(10rem, 25vw, 20rem) clamp(2rem, 12vw, 2rem); */
+  padding: 0;
+
+  /* --- Other styles --- */
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+
+  /* Make it a flex container for the content */
+  display: flex;
+  flex-direction: column;
+}
+
+/* REMOVED .padding rule */
+
+/* This new div will hold our content and allow it to be scrolled if needed */
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.titleContainer {
+  flex-shrink: 0; /* Prevent the title from shrinking */
+}
+
+.titleText {
+  margin-top: 65%;
+  font-family: "UTM NguyenHa 02", sans-serif;
+  /* Use clamp() for responsive font size */
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-weight: 600;
+  color: #ff6b47;
+  text-align: center;
+}
+
+/* expertList now acts as a container for our two view modes */
+.expertList {
+  width: 100%;
+  height: 700px;
+  flex-grow: 1; /* Allows it to take up available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* --- Keyframe for the card entrance animation --- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* --- Styles for the Carousel Dots --- */
+.dotsContainer {
+  display: none; /* Hidden by default */
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dotActive {
+  background-color: #ff6b47;
+}
+
+/* === DEFAULT (DESKTOP) STYLES === */
+.mobileView {
+  display: none; /* Hide mobile view on desktop */
+}
+
+.desktopView {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start; /* Align cards to the top */
+  gap: clamp(1rem, 3vw, 1rem);
+  width: 100%;
+}
+
+/* === MOBILE STYLES (Swapping to Carousel) === */
+@media (max-width: 800px) {
+  .desktopView {
+    display: none; /* Hide desktop view on mobile */
+  }
+
+  .mobileView {
+    display: flex; /* Show the mobile carousel view */
+    justify-content: center;
+    width: 100%;
+    padding: 0; /* Give some side padding */
+    box-sizing: border-box;
+    /* Apply animation to the item inside */
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  /* Make the card inside the mobile view wider */
+  .mobileView > * {
+    max-width: 100%;
+  }
+
+  .dotsContainer {
+    display: flex; /* Show the dots on mobile */
+  }
+}

@@ -1,0 +1,73 @@
+/* Organizational Structure Section */
+/* TODO: Add responsive design for tablet and mobile */
+
+.organizationalSection {
+  width: 100%;
+  padding: var(--section-padding);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--content-padding);
+  text-align: center;
+  border-radius: var(--border-radius-large);
+  padding: 1px 40px 60px 40px;
+  box-shadow: var(--shadow-light);
+  margin: 0 40px;
+}
+
+.imageContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.structureImage {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-small);
+  object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 0 20px;
+    padding: 1px 30px 50px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .organizationalSection {
+    padding: 60px 0;
+  }
+
+  .container {
+    margin: 0 16px;
+    padding: 1px 20px 40px 20px;
+  }
+
+  .imageContainer {
+    margin-top: 40px;
+  }
+
+  .structureImage {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .organizationalSection {
+    padding: 40px 0;
+  }
+
+  .container {
+    margin: 0 12px;
+    padding: 1px 16px 30px 16px;
+  }
+
+  .imageContainer {
+    margin-top: 30px;
+  }
+}
