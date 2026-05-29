@@ -17,7 +17,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_1'),
       opinion: t('expert_opinion_1'),
       fullOpinion: t('expert_opinion_1'),
-      image: "assets/image.webp",
+      image: "/src/v2/assets/image.webp",
       hasMore: false
     },
     {
@@ -25,7 +25,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_2'),
       opinion: t('expert_opinion_2'),
       fullOpinion: t('expert_opinion_2_full'),
-      image: "assets/image2.webp",
+      image: "/src/v2/assets/image2.webp",
       hasMore: true
     },
     {
@@ -33,7 +33,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_3'),
       opinion: t('expert_opinion_3'),
       fullOpinion: t('expert_opinion_3'),
-      image: "assets/TranthiB.webp",
+      image: "/src/v2/assets/TranthiB.webp",
       hasMore: false
     },
   ];
