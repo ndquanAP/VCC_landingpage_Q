@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <Router basename="/VCC">
+      <Router>
         {/* Navigation Bar - Sticky */}
         <NavBar />
 

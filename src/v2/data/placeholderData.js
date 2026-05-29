@@ -1,31 +1,26 @@
-import pic1 from '../assets/v1/random-pic1.webp';
-import pic2 from '../assets/v1/random-pic2.webp';
-import pic3 from '../assets/v1/random-pic3.webp';
-import pic4 from '../assets/v1/random-pic4.webp';
-import pic5 from '../assets/v1/random-pic5.webp';
-import pic6 from '../assets/v1/random-pic6.webp';
+// Placeholder data for components that were importing from deleted aboutData
 
-export const activitiesData = [
+export const getActivitiesData = (t) => [
   {
     id: 1,
-    title: "Student Orientation Program",
-    description: "Welcome new students to the VCC program",
-    date: "2024-01-15",
-    image: "https://via.placeholder.com/400x300/e67a35/ffffff?text=Activity+1"
+    title: t("act_1_title"),
+    description: t("act_2_des"),
+    date: t("act_1_date"),
+    image: "/src/v2/assets/news/act1.webp"
   },
   {
     id: 2,
-    title: "Cultural Exchange Event",
-    description: "Connect with Korean culture and language",
-    date: "2024-02-20",
-    image: "https://via.placeholder.com/400x300/e67a35/ffffff?text=Activity+2"
+    title: t("act_2_title"),
+    description: t("act_2_des"),
+    date: t("act_2_date"),
+    image: "/src/v2/assets/news/act2.1.webp"
   },
   {
     id: 3,
-    title: "Career Fair",
-    description: "Meet with industry professionals and potential employers",
-    date: "2024-03-15",
-    image: "https://via.placeholder.com/400x300/e67a35/ffffff?text=Activity+3"
+    title: t("act_3_title"),
+    description: t("act_3_des"),
+    date: t("act_3_date"),
+    image: "/src/v2/assets/news/act3.webp"
   }
 ];
 
@@ -33,74 +28,74 @@ export const facilitiesImages = [
   {
     id: 1,
     title: "Modern Facility 1",
-    image: pic1
+    image: "/src/v2/assets/v1/random-pic1.webp"
   },
   {
     id: 2,
     title: "Modern Facility 2",
-    image: pic2
+    image: "/src/v2/assets/v1/random-pic2.webp"
   },
   {
     id: 3,
     title: "Modern Facility 3",
-    image: pic3
+    image: "/src/v2/assets/v1/random-pic3.webp"
   },
   {
     id: 4,
     title: "Modern Facility 4",
-    image: pic4
+    image: "/src/v2/assets/v1/random-pic4.webp"
   },
   {
     id: 5,
     title: "Modern Facility 5",
-    image: pic5
+    image: "/src/v2/assets/v1/random-pic5.webp"
   },
   {
     id: 6,
     title: "Modern Facility 6",
-    image: pic6
+    image: "/src/v2/assets/v1/random-pic6.webp"
   }
 ];
 
-export const staffMembers = [
+export const getStaffMembers = (t) => [
   {
     id: 1,
-    name: "Dr. Nguyễn Văn A",
-    title: "Program Director",
-    description: "Leading the VCC program with over 15 years of experience in international education",
-    image: "https://via.placeholder.com/300x400/8b5fbf/ffffff?text=Director",
-    department: "Administration"
+    name: t("staff_1_name"),
+    title: t("staff_1_title"),
+    description: t("staff_1_des"),
+    image: "/src/v2/assets/NguyenvanA.webp",
+    department: t("staff_1_dep"),
   },
   {
     id: 2,
-    name: "Prof. Kim Min-jun",
-    title: "Korean Language Instructor",
-    description: "Native Korean speaker specializing in language pedagogy",
-    image: "https://via.placeholder.com/300x400/8b5fbf/ffffff?text=Professor",
-    department: "Language"
+    name: t("staff_2_name"),
+    title: t("staff_2_title"),
+    description: t("staff_2_des"),
+    image: "/src/v2/assets/kim-ha-neul-1.webp",
+    department: t("staff_2_dep"),
   },
   {
     id: 3,
-    name: "Dr. Trần Thị B",
-    title: "Academic Coordinator",
-    description: "Coordinating academic programs and student services",
-    image: "https://via.placeholder.com/300x400/8b5fbf/ffffff?text=Coordinator",
-    department: "Academics"
+    name: t("staff_3_name"),
+    title: t("staff_3_title"),
+    description: t("staff_3_des"),
+    image: "/src/v2/assets/TranthiB.webp",
+    department: t("staff_3_dep"),
   },
   {
     id: 4,
-    name: "Ms. Lee Soo-jin",
-    title: "Student Affairs Specialist",
-    description: "Supporting student life and cultural integration",
-    image: "https://via.placeholder.com/300x400/8b5fbf/ffffff?text=Specialist",
-    department: "Student Services"
+    name: t("staff_4_name"),
+    title: t("staff_4_title"),
+    description: t("staff_4_des"),
+    image: "/src/v2/assets/Lee.webp",
+    department: t("staff_4_dep"),
   },
   {
     id: 5,
-    name: "Dr. Phạm Văn C",
-    title: "Research Coordinator",
-    description: "Facilitating research opportunities and collaborations",
-    image: "https://via.placeholder.com/300x400/8b5fbf/ffffff?text=Research",
-    department: "Research"
-  }
+    name: t("staff_5_name"),
+    title: t("staff_5_title"),
+    description: t("staff_5_des"),
+    image: "/src/v2/assets/PhamvanC.webp",
+    department: t("staff_5_dep"),
+  },
 ];

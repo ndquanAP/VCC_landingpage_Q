@@ -13,7 +13,7 @@ function MissionVisionSection() {
       <div className={styles.container}>
         {/* Section Title */}
         <Title level="h2" color="orange" variant="gradient-lines">
-          {t('vision_title')}
+          {t('vision_mission')}
         </Title>
 
         {/* Mission & Vision Cards */}
@@ -21,17 +21,16 @@ function MissionVisionSection() {
           <MissionCard 
             variant="orange-gradient"
             icon={<Target size={28} color="#E67A35" />}
-            title="Our Mission"
-            description="To train high-quality human resources in information technology, contributing to the development of the digital economy and smart society. We aim to provide students with cutting-edge knowledge and practical skills."
+            title= {t("mission_title")}
+            description= {t("mission_description")}
             textAlign="left"
           />
 
           <MissionCard 
             variant="purple-gradient"
             icon={<Lightbulb size={28} color="#8B5FBF" />}
-            title="Our Vision"
-            description="Becoming a leading regional center for IT training and research, with sustainable and effective international cooperation. We envision creating global opportunities for Vietnamese students."
-            textAlign="left"
+            title= {t("vision_title")}
+            description= {t("vision_description")}
           />
         </div>
       </div>

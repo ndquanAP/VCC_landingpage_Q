@@ -1,39 +1,40 @@
 import React from "react";
 import { Star } from "lucide-react";
 import styles from "./StudentBenefitSection.module.css";
+import { useTranslation } from "../../../hooks/useTranslation.js";
 
 const StudentBenefitSection = () => {
+  const { t } = useTranslation();
   const benefits = [
     {
       id: 1,
-      title: "Transfer to CAU Korea",
-      description: "Transfer opportunities to CAU Korea in the 3rd or 4th year",
+      title: t('benefit_1_title'),
+      description: t('benefit_1_decs'),
     },
     {
       id: 2,
-      title: "International Degree",
-      description: "Receive a degree issued by Chung-Ang University (CAU)",
+      title: t('benefit_2_title'),
+      description: t('benefit_2_decs'),
     },
     {
       id: 3,
-      title: "World-Class Curriculum",
-      description:
-        "Access to international-standard curriculum and teaching methods",
+      title: t('benefit_3_title'),
+      description:t('benefit_3_decs'),
     },
     {
       id: 4,
-      title: "Global Competitions",
-      description: "Participate in international hackathons and workshops",
+      title: t('benefit_4_title'),
+      description: t('benefit_4_decs'),
     },
     {
       id: 5,
-      title: "Scholarship Support",
-      description: "Scholarships and financial support opportunities available",
+      title: t('benefit_5_title'),
+      description: t('benefit_5_decs'),
     },
     {
       id: 6,
-      title: "Career Orientation",
-      description: "Modern learning environment with clear career guidance",
+      title: t('benefit_6_title'),
+      description: t('benefit_6_decs'),
     },
   ];
 
@@ -41,8 +42,13 @@ const StudentBenefitSection = () => {
     <section className={styles.studentBenefitSection}>
       <div className={styles.container}>
         <div className={styles.titleContainer}>
-          <h2 className={styles.studentTitle}>Student</h2>
-          <h2 className={styles.benefitsTitle}>Benefits</h2>
+          <h2 className={styles.studentTitle}>
+            {t("student_title")}
+          </h2>
+
+          <h2 className={styles.benefitsTitle}>
+            {t("benefits_title")}
+          </h2>
         </div>
 
         <div className={styles.benefitsPath}>

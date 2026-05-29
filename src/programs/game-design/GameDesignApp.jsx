@@ -9,7 +9,7 @@ const GameDesignApp = () => {
       {/* Navigation back to main site */}
       <nav className="program-nav">
         <div className="nav-container">
-          <a href={import.meta.env.BASE_URL} className="back-link">
+          <a href="/" className="back-link">
             ← Back to PTIT VCC
           </a>
           <h1 className="program-title">Game Design & Development</h1>
@@ -26,7 +26,7 @@ const GameDesignApp = () => {
       <footer className="program-footer">
         <div className="footer-container">
           <p>&copy; 2024 PTIT VCC - Game Design & Development Program</p>
-          <a href={import.meta.env.BASE_URL} className="footer-link">
+          <a href="/" className="footer-link">
             Return to Main Site
           </a>
         </div>

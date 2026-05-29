@@ -2,41 +2,45 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import styles from "./NavBar.module.css";
 import { ChevronDown, Menu, X } from "lucide-react";
+import { useTranslation } from "../../../hooks/useTranslation";
 import LanguageSwitch from "../LanguageSwitch/LanguageSwitch";
 
+
 const NavBar = () => {
+  const { t } = useTranslation();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  
 
 
   const navItems = [
-    { key: "nav_home", path: "/", label: "Home" },
+    { key: "nav_home", path: "/", label: t("nav_home") },
     {
       key: "nav_program",
-      label: "Program",
+      label: t("nav_program"),
       hasDropdown: true,
       dropdownItems: [
-        { label: "Multimedia", href: `${import.meta.env.BASE_URL}multimedia.html` },
-        { label: "Game Design and Development", href: `${import.meta.env.BASE_URL}game-design.html` },
+        { label: t("nav_multimedia"), href: "/multimedia.html" },
+        { label: t("nav_game"), href: "/game-design.html" },
       ],
     },
     {
       key: "nav_student_benefits",
       path: "/student-benefits",
-      label: "Student Benefits",
+      label: t("nav_student_benefits"),
     },
     {
       key: "nav_expert_opinions",
       path: "/expert-opinions",
-      label: "Expert Opinions",
+      label: t("nav_expert_opinions"),
     },
     {
       key: "nav_news_and_activities",
       path: "/news-activities",
-      label: "News & Activities",
+      label: t("nav_news_and_activities"),
     },
-    { key: "nav_contact", path: "/contact", label: "Contact" },
+    { key: "nav_contact", path: "/contact", label: t("nav_contact") },
   ];
 
   return (
@@ -44,7 +48,7 @@ const NavBar = () => {
       <div className={styles.container}>
         {/* Logo */}
         <Link to="/" className={styles.logo}>
-          <img src={`${import.meta.env.BASE_URL}vite.svg`} alt="VCC Logo" className={styles.logoImage} />
+          <img src="/vite.svg" alt="VCC Logo" className={styles.logoImage} />
           <span className={styles.logoText}>PTIT VCC</span>
         </Link>
 
@@ -102,8 +106,10 @@ const NavBar = () => {
 
         {/* Right Side - Language, Sign In & Mobile Menu */}
         <div className={styles.rightSection}>
-          <LanguageSwitch />
-          <button className={styles.signInButton}>Sign In</button>
+          <div className={styles.desktopLanguage}>
+            <LanguageSwitch />
+          </div>
+          {/*<button className={styles.signInButton}>{t("sign_in")}</button>*/}
 
           {/* Mobile Menu Button */}
           <button
@@ -120,9 +126,6 @@ const NavBar = () => {
       {isMobileMenuOpen && (
         <div className={styles.mobileMenu}>
           <div className={styles.mobileMenuContent}>
-            <div className={styles.mobileLanguageWrapper}>
-              <LanguageSwitch />
-            </div>
             {navItems.map((item) => (
               <div key={item.key} className={styles.mobileNavItem}>
                 {item.hasDropdown ? (

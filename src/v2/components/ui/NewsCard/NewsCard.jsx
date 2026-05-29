@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './NewsCard.module.css';
-import placeholderImg from '../../../assets/placeholder.webp';
 
 function NewsCard({ img, link, time, title, description, ...props }) {
   const handleCardClick = () => {
@@ -19,7 +18,7 @@ function NewsCard({ img, link, time, title, description, ...props }) {
     >
       <div className={styles.imageContainer}>
         <img 
-          src={img || placeholderImg} 
+          src={img || '/src/v2/assets/placeholder.webp'} 
           alt={title} 
           className={styles.image}
         />

@@ -137,6 +137,11 @@
   box-shadow: 0 5px 15px rgba(255, 140, 66, 0.3);
 }
 
+.navButton:focus {
+  outline: none;
+  border: 1px solid var(--color-orange);
+}
+
 .indicators {
   display: flex;
   gap: 12px;
@@ -145,7 +150,7 @@
 .indicator {
   padding: 8px;
   border-radius: 100%;
-  border: none;
+  border: 1px solid var(--color-orange);
   background: var(--color-orange-light);
   cursor: pointer;
   transition: all 0.3s ease;
@@ -158,6 +163,12 @@
 
 .indicator:hover {
   background: var(--color-orange);
+  border: 1px solid var(--color-orange);
+}
+
+.indicator:focus {
+  outline: none;
+  border: 1px solid var(--color-orange);
 }
 
 @media (max-width: 1200px) {

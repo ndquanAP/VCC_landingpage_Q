@@ -58,6 +58,7 @@
 .navButton:hover {
   background: var(--color-orange);
   color: var(--color-white);
+  border: 2px solid var(--color-orange);
   transform: translateY(-50%) scale(1.1);
 }
 
@@ -67,6 +68,11 @@
 
 .navButton:last-of-type {
   right: 60px;
+}
+
+.navButton:focus {
+  outline: none;
+  border: 2px solid var(--color-orange);
 }
 
 /* Faculty Cards */
@@ -160,7 +166,14 @@
 }
 
 .dot:hover {
-  background: var(--color-orange-light);
+  background: var(--color-orange);
+  border: 2px solid var(--color-orange);
+}
+
+
+.dot:focus {
+  outline: none;
+  border: 2px solid var(--color-orange);
 }
 
 .dotActive {

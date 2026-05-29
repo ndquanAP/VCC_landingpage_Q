@@ -33,7 +33,7 @@ const ContactSection = () => {
               <div className={styles.contactItem}>
                 <MapPin size={20} />
                 <div>
-                  <span className={styles.contactLabel}>Office: </span>
+                  <span className={styles.contactLabel}>{t("contact_office_title")}: </span>
                   <span className={styles.contactValue}>
                     {t("contact_office_address") || "PTIT - Posts and Telecommunications Institute of Technology, Km10, Nguyen Trai Road, Ha Dong District, Hanoi, Vietnam"}
                   </span>
@@ -43,7 +43,7 @@ const ContactSection = () => {
               <div className={styles.contactItem}>
                 <Phone size={20} />
                 <div>
-                  <span className={styles.contactLabel}>Hotline: </span>
+                  <span className={styles.contactLabel}>{t("contact_hotline_title")}: </span>
                   <span className={styles.contactValue}>
                     {t("contact_hotline_number") || "+84 (024) 3854 2308"}
                   </span>
@@ -53,7 +53,7 @@ const ContactSection = () => {
               <div className={styles.contactItem}>
                 <Mail size={20} />
                 <div>
-                  <span className={styles.contactLabel}>Email: </span>
+                  <span className={styles.contactLabel}>{t("contact_email_title")}: </span>
                   <span className={styles.contactValue}>
                     {t("contact_email_address") || "vcc@ptit.edu.vn"}
                   </span>
@@ -67,7 +67,7 @@ const ContactSection = () => {
                 {t("newsletter_title") || "Stay Updated"}
               </h3>
               <p className={styles.newsletterDescription}>
-                Subscribe to our newsletter for the latest VCC news and updates.
+                {t("newsletter_description")}
               </p>
               <form onSubmit={handleSubmit} className={styles.newsletterForm}>
                 <div className={styles.inputContainer}>
@@ -114,7 +114,7 @@ const ContactSection = () => {
                   rel="noopener noreferrer"
                   className={styles.mapLink}
                 >
-                  View Larger Map
+                  {t("view_larger_map")}
                 </a>
               </div>
             </div>
