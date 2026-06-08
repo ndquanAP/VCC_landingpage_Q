@@ -24,7 +24,7 @@ const VideoSection = () => {
           <div className={styles.videoWrapper}>
             <div className={styles.videoContainer}>
               <iframe
-                src="https://www.youtube.com/embed/jfKfPfyJRdk"
+                src= "https://www.youtube.com/embed/Fq6ZR6vNDJk?rel=0"
                 title="VCC Introduction Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen

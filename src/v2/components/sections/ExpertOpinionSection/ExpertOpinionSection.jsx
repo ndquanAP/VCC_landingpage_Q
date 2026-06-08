@@ -6,8 +6,6 @@ import Modal from '../../ui/Modal/Modal';
 import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 import { useTranslation } from '../../../hooks/useTranslation';
 
-import placeholderImg from '../../../assets/placeholder.webp';
-
 function ExpertOpinionSection() {
   const { t } = useTranslation();
   const [currentExpert, setCurrentExpert] = useState(0);
@@ -19,7 +17,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_1'),
       opinion: t('expert_opinion_1'),
       fullOpinion: t('expert_opinion_1'),
-      image: placeholderImg,
+      image: "/src/v2/assets/image.webp",
       hasMore: false
     },
     {
@@ -27,7 +25,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_2'),
       opinion: t('expert_opinion_2'),
       fullOpinion: t('expert_opinion_2_full'),
-      image: placeholderImg,
+      image: "/src/v2/assets/image2.webp",
       hasMore: true
     },
     {
@@ -35,9 +33,9 @@ function ExpertOpinionSection() {
       position: t('expert_position_3'),
       opinion: t('expert_opinion_3'),
       fullOpinion: t('expert_opinion_3'),
-      image: placeholderImg,
+      image: "/src/v2/assets/TranthiB.webp",
       hasMore: false
-    }
+    },
   ];
 
   const nextExpert = () => {

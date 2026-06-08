@@ -105,6 +105,16 @@
 .seeMoreButton {
   align-self: flex-start;
   margin-top: 8px;
+  border: 2px solid var(--color-orange);
+  color: var(--color-orange);
+}
+
+.seeMoreButton:hover{
+  border: 2px solid var(--color-orange);
+}
+
+.seeMoreButton:focus{
+  outline: none;
 }
 
 @media (max-width: 1200px) {

@@ -4,8 +4,6 @@ import { useTranslation } from "../../../hooks/useTranslation";
 import Modal from "../../ui/Modal/Modal";
 import Button from "../../ui/Button/Button";
 import { ExternalLink } from "lucide-react";
-import image1 from "../../../assets/image.webp";
-import image2 from "../../../assets/image2.webp";
 
 const TestimonialSection = () => {
   const { t } = useTranslation();
@@ -15,7 +13,7 @@ const TestimonialSection = () => {
   const testimonials = [
     {
       id: 1,
-      image: image1,
+      image: "/src/v2/assets/image.webp",
       testimonial: t('testimonial_1_text'),
       fullTestimonial: t('testimonial_1_full'), // Full version
       name: t('testimonial_1_name'),
@@ -24,7 +22,7 @@ const TestimonialSection = () => {
     },
     {
       id: 2,
-      image: image2,
+      image: "/src/v2/assets/image2.webp",
       testimonial: t('testimonial_2_text'),
       fullTestimonial: t('testimonial_2_full'), // Full version from file
       name: t('testimonial_2_name'),

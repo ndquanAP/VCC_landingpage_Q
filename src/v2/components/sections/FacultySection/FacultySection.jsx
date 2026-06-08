@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Title from '../../ui/Title/Title';
 import { useTranslation } from '../../../hooks/useTranslation';
-import { staffMembers } from '../../../data/placeholderData';
+import { getStaffMembers } from '../../../data/placeholderData';
 import { Users, ChevronLeft, ChevronRight } from 'lucide-react';
 import styles from './FacultySection.module.css';
 
@@ -10,13 +10,15 @@ const FacultySection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
+  const staffMembers = getStaffMembers(t);
+
   useEffect(() => {
     if (!isAutoPlaying) return;
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % staffMembers.length);
     }, 4000);
     return () => clearInterval(interval);
-  }, [isAutoPlaying]);
+  }, [isAutoPlaying, staffMembers.length]);
 
   const stopAutoPlay = (callback) => {
     setIsAutoPlaying(false);
@@ -84,7 +86,7 @@ const FacultySection = () => {
                 className={`${styles.card} ${getCardClasses(index)}`}
                 onClick={() => goToSlide(index)}
                 style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${member.image})`,
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(${member.image})`,
                 }}
               >
                 <div className={styles.cardContent}>

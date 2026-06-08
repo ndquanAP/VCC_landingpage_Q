@@ -1,3 +1,5 @@
+import OrganizationalSection from "../components/sections/OrganizationalSection/OrganizationalSection";
+
 export const translations = {
   EN: {
     // Navigation
@@ -8,20 +10,51 @@ export const translations = {
     nav_expert_opinions: "Expert Opinions",
     nav_news_and_activities: "News and Activities",
     nav_contact: "Contact",
+    nav_multimedia: "Multimedia",
+    nav_game: "Game Design and Development",
 
     // About Section
     about_title: "About PTIT VCC",
     about_description: "International collaboration program between PTIT and Chung-Ang University (CAU)",
 
     // Mission & Vision Section
-    vision_title: "Mission - Vision",
+    vision_mission: "Mission - Vision",
+    vision_title: "Our Vision",
     mission_title: "Our Mission",
     mission_description: "To train high-quality human resources in information technology, contributing to the development of the digital economy and smart society. We aim to provide students with cutting-edge knowledge and practical skills.",
     vision_description: "Becoming a leading regional center for IT training and research, with sustainable and effective international cooperation. We envision creating global opportunities for Vietnamese students.",
 
+    // Organizational Structure
+    organizational: "Organizational Structure",
+
     // Faculty Section
     teachers_title: "Faculty Team",
     faculty_title: "Our Faculty",
+
+    staff_1_name:"Dr. Nguyễn Văn A",
+    staff_1_title:"Program Director",
+    staff_1_des:"Leading the VCC program with over 15 years of experience in international education",
+    staff_1_dep:"Administration",
+
+    staff_2_name:"Prof. Kim Min-jun",
+    staff_2_title:"Korean Language Instructor",
+    staff_2_des:"Native Korean speaker specializing in language pedagogy",
+    staff_2_dep:"Language",
+
+    staff_3_name:"Dr. Trần Thị B",
+    staff_3_title:"Academic Coordinator",
+    staff_3_des:"Coordinating academic programs and student services",
+    staff_3_dep:"Academics",
+
+    staff_4_name:"Ms. Lee Soo-jin",
+    staff_4_title:"Student Affairs Specialist",
+    staff_4_des:"Supporting student life and cultural integration",
+    staff_4_dep:"Student Services",
+
+    staff_5_name:"Dr. Phạm Văn C",
+    staff_5_title:"Research Coordinator",
+    staff_5_des:"Facilitating research opportunities and collaborations",
+    staff_5_dep:"Research",
     
     // Facilities Section
     infrastructure_title: "Modern Facilities",
@@ -42,6 +75,28 @@ export const translations = {
     vcc_opening_card_title: "VCC Introduction Video",
     vcc_opening_card_description: "Watch our comprehensive introduction video to learn more about the PTIT Vietnam-Korea Center, our facilities, programs, and student life.",
 
+    //Student Benefits Section
+    student_title: "Student",
+    benefits_title: "Benefits",
+
+    benefit_1_title: "Study Abroad Pathway",
+    benefit_1_decs: "Transfer opportunities to CAU Korea in the 3rd or 4th year",
+
+    benefit_2_title: "International Degree",
+    benefit_2_decs: "Receive a degree issued by Chung-Ang University (CAU)",
+
+    benefit_3_title: "Global Curriculum",
+    benefit_3_decs: "Access to international-standard curriculum and teaching methods",
+
+    benefit_4_title: "Global Competitions",
+    benefit_4_decs: "Participate in international hackathons and workshops",
+
+    benefit_5_title: "Scholarships",
+    benefit_5_decs: "Scholarships and financial support opportunities available",
+
+    benefit_6_title: "Career Development",
+    benefit_6_decs: "Modern learning environment with clear career guidance",
+
     // Expert Opinion Section
     expert_name_1: "Dr. Cao Minh Thang",
     expert_position_1: "Director of Institute of Information and Communications Technology (CDIT) - PTIT",
@@ -49,8 +104,8 @@ export const translations = {
 
     expert_name_2: "Professor Wi Jong Hyun",
     expert_position_2: "Dean, Virtual Convergence College, Chung-ang University",
-    expert_opinion_2: "Virtual Convergence College(VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.",
-    expert_opinion_2_full: "Virtual Convergence College(VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.\n\nOur innovative teaching methods include Game-based Learning, Project-Based Learning, and interdisciplinary collaborations, utilizing advanced IT platforms and AI for personalized, interactive learning experiences. We offer a mix of online and offline classes, providing students with both digital flexibility and hands-on, face-to-face interactions. Our curriculum covers games, animation, IT applications, film, and AI, preparing learners for careers in the evolving entertainment and software industries.\n\nTo enhance our international competitiveness, we are building strategic partnerships with the world's leading universities. Our students engage in diverse cross-cultural experiences, including collaborative classes with international peers, multinational project teams, and worldwide hackathons. By doing activities across different countries, our students see the world in a bigger way. They also learn skills that help them do well in the modern worldwide workplace.\n\nFurthermore, we are expanding our educational approach through industry partnerships, offering internships and collaborative curriculum design. This approach helps students start new businesses, think creatively, and make new things in tech. We teach our students important tech skills, how to think like business owners, and how to be creative. This helps them become leaders who can make big changes in the fast-changing world of technology.",
+    expert_opinion_2: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.",
+    expert_opinion_2_full: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.\n\nOur innovative teaching methods include Game-based Learning, Project-Based Learning, and interdisciplinary collaborations, utilizing advanced IT platforms and AI for personalized, interactive learning experiences. We offer a mix of online and offline classes, providing students with both digital flexibility and hands-on, face-to-face interactions. Our curriculum covers games, animation, IT applications, film, and AI, preparing learners for careers in the evolving entertainment and software industries.\n\nTo enhance our international competitiveness, we are building strategic partnerships with the world's leading universities. Our students engage in diverse cross-cultural experiences, including collaborative classes with international peers, multinational project teams, and worldwide hackathons. By doing activities across different countries, our students see the world in a bigger way. They also learn skills that help them do well in the modern worldwide workplace.\n\nFurthermore, we are expanding our educational approach through industry partnerships, offering internships and collaborative curriculum design. This approach helps students start new businesses, think creatively, and make new things in tech. We teach our students important tech skills, how to think like business owners, and how to be creative. This helps them become leaders who can make big changes in the fast-changing world of technology.",
 
     expert_name_3: "Dr. Tran Thanh Ha",
     expert_position_3: "Senior Software Architect",
@@ -64,8 +119,8 @@ export const translations = {
 
     testimonial_2_name: "Professor Wi Jong Hyun",
     testimonial_2_position: "Dean, Virtual Convergence College, Chung-ang University",
-    testimonial_2_text: "Virtual Convergence College(VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.",
-    testimonial_2_full: "Virtual Convergence College(VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.\n\nOur innovative teaching methods include Game-based Learning, Project-Based Learning, and interdisciplinary collaborations, utilizing advanced IT platforms and AI for personalized, interactive learning experiences. We offer a mix of online and offline classes, providing students with both digital flexibility and hands-on, face-to-face interactions. Our curriculum covers games, animation, IT applications, film, and AI, preparing learners for careers in the evolving entertainment and software industries.\n\nTo enhance our international competitiveness, we are building strategic partnerships with the world's leading universities. Our students engage in diverse cross-cultural experiences, including collaborative classes with international peers, multinational project teams, and worldwide hackathons. By doing activities across different countries, our students see the world in a bigger way. They also learn skills that help them do well in the modern worldwide workplace.\n\nFurthermore, we are expanding our educational approach through industry partnerships, offering internships and collaborative curriculum design. This approach helps students start new businesses, think creatively, and make new things in tech. We teach our students important tech skills, how to think like business owners, and how to be creative. This helps them become leaders who can make big changes in the fast-changing world of technology.",
+    testimonial_2_text: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.",
+    testimonial_2_full: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.\n\nOur innovative teaching methods include Game-based Learning, Project-Based Learning, and interdisciplinary collaborations, utilizing advanced IT platforms and AI for personalized, interactive learning experiences. We offer a mix of online and offline classes, providing students with both digital flexibility and hands-on, face-to-face interactions. Our curriculum covers games, animation, IT applications, film, and AI, preparing learners for careers in the evolving entertainment and software industries.\n\nTo enhance our international competitiveness, we are building strategic partnerships with the world's leading universities. Our students engage in diverse cross-cultural experiences, including collaborative classes with international peers, multinational project teams, and worldwide hackathons. By doing activities across different countries, our students see the world in a bigger way. They also learn skills that help them do well in the modern worldwide workplace.\n\nFurthermore, we are expanding our educational approach through industry partnerships, offering internships and collaborative curriculum design. This approach helps students start new businesses, think creatively, and make new things in tech. We teach our students important tech skills, how to think like business owners, and how to be creative. This helps them become leaders who can make big changes in the fast-changing world of technology.",
 
     // Contact Section
     contact_title: "Contact Us",
@@ -90,44 +145,114 @@ export const translations = {
     // News Items (hardcoded in component)
     news_item_1_title: "PTIT VCC Opens New AI Research Lab",
     news_item_1_description: "The Vietnam-Korea Center inaugurates state-of-the-art artificial intelligence research facilities.",
+    news_item_1_time: "March 15, 2024",
+
     news_item_2_title: "Student Exchange Program Launch",
     news_item_2_description: "First batch of VCC students depart for Chung-Ang University in South Korea.",
+    news_item_2_time: "March 10, 2024",
+
     news_item_3_title: "Game Development Competition 2024",
     news_item_3_description: "Annual gaming contest showcases innovative projects from VCC students.",
+    news_item_3_time: "March 5, 2024",
+    
     news_item_4_title: "Industry Partnership Announcement",
     news_item_4_description: "VCC signs MOU with leading tech companies for internship programs.",
+    news_item_4_time: "Febuary 28, 2024",
+    
     news_item_5_title: "New Curriculum Updates 2024",
     news_item_5_description: "Enhanced course structure includes cutting-edge technologies and practical training.",
+    news_item_5_time: "February 20, 2024",
+    
     news_item_6_title: "VCC Alumni Success Stories",
     news_item_6_description: "Former students share their achievements in the global tech industry.",
+    news_item_6_time: "February 15, 2024",
+    
     news_item_7_title: "Faculty Research Publications",
     news_item_7_description: "VCC professors contribute to international journals on computer science and AI.",
+    news_item_7_time: "February 10, 2024",
+    
     news_item_8_title: "Campus Infrastructure Upgrade",
-    news_item_8_description: "Modern laboratories and study spaces enhance the learning environment."
+    news_item_8_description: "Modern laboratories and study spaces enhance the learning environment.",
+    news_item_8_time: "February 5, 2024",
+
+    //NotableActivities
+    act_1_title: "Student Orientation Program",
+    act_1_des: "Welcome new students to the VCC program",
+    act_1_date:"01-15-2024",
+
+    act_2_title: "Cultural Exchange Event",
+    act_2_des: "Connect with Korean culture and language",
+    act_2_date:"02-20-2024",
+
+    act_3_title: "Career Fair",
+    act_3_des: "Meet with industry professionals and potential employers",
+    act_3_date:"03-15-2024",
+
+    //Credits Section
+    footer_menu: "Menu",
+    footer_social: "Social",
+    footer_policy: "Policy",
+    footer_contact_info: "Contact Info",
+
+    footer_privacy_policy: "Privacy Policy",
+    footer_terms_of_service: "Terms of Service",
+    footer_accessibility: "Accessibility",
+    footer_cookies_policy: "Cookies Policy",
+
+    footer_company_name: "PTIT - Posts and Telecommunications Institute of Technology",
+    footer_address: "Address: Km10, Nguyen Trai Road, Ha Dong District, Hanoi, Vietnam",
+    footer_phone: "Phone: +84 (024) 3854 2308",
+    footer_email: "Email: vcc@ptit.edu.vn",
   },
   VN: {
     // Navigation
     nav_home: "Trang chủ",
     nav_about: "Giới thiệu PTIT VCC",
     nav_program: "Chương trình",
-    nav_student_benefits: "Lợi ích sinh viên",
+    nav_student_benefits: "Quyền lợi sinh viên",
     nav_expert_opinions: "Ý kiến chuyên gia",
     nav_news_and_activities: "Tin tức và sự kiện",
     nav_contact: "Liên hệ",
+    nav_multimedia: "Đa phương tiện",
+    nav_game: "Thiết kế và phát triển trò chơi",
 
     // About Section
     about_title: "Về PTIT VCC",
     about_description: "Chương trình liên kết quốc tế giữa PTIT và Chung-Ang University (CAU)",
 
     // Mission & Vision Section
-    vision_title: "Sứ mệnh - Tầm nhìn",
+    vision_mission: "Sứ mệnh - Tầm nhìn",
+    vision_title: "Tầm nhìn của chúng tôi",
     mission_title: "Sứ mệnh của chúng tôi",
     mission_description: "Đào tạo nguồn nhân lực chất lượng cao trong lĩnh vực công nghệ thông tin, góp phần phát triển kinh tế số và xã hội thông minh. Chúng tôi hướng đến việc cung cấp cho sinh viên kiến thức tiên tiến và kỹ năng thực tế.",
     vision_description: "Trở thành trung tâm đào tạo và nghiên cứu hàng đầu khu vực về công nghệ thông tin, với sự hợp tác quốc tế bền vững và hiệu quả. Chúng tôi hướng đến việc tạo ra cơ hội toàn cầu cho sinh viên Việt Nam.",
 
+    // Organizational Structure
+    organizational: "Cơ cấu tổ chức",
+
     // Faculty Section
     teachers_title: "Đội ngũ giảng viên",
     faculty_title: "Đội ngũ giảng viên của chúng tôi",
+
+    staff_1_title:"Giám đốc chương trình",
+    staff_1_des:"Lãnh đạo chương trình VCC với hơn 15 năm kinh nghiệm trong giáo dục quốc tế",
+    staff_1_dep:"Hành chính",
+
+    staff_2_title:"Giảng viên tiếng Hàn",
+    staff_2_des:"Người bản xứ Hàn Quốc chuyên về phương pháp giảng dạy ngôn ngữ",
+    staff_2_dep:"Ngôn ngữ",
+
+    staff_3_title:"Điều phối học thuật",
+    staff_3_des:"Điều phối các chương trình học thuật và dịch vụ sinh viên",
+    staff_3_dep:"Học thuật",
+
+    staff_4_title:"Chuyên viên công tác sinh viên",
+    staff_4_des:"Hỗ trợ đời sống sinh viên và hội nhập văn hóa",
+    staff_4_dep:"Dịch vụ sinh viên",
+
+    staff_5_title:"Điều phối nghiên cứu",
+    staff_5_des:"Thúc đẩy cơ hội nghiên cứu và hợp tác học thuật",
+    staff_5_dep:"Nghiên cứu",
     
     // Facilities Section
     infrastructure_title: "Cơ sở vật chất hiện đại",
@@ -148,6 +273,28 @@ export const translations = {
     vcc_opening_card_title: "Video giới thiệu VCC",
     vcc_opening_card_description: "Xem video giới thiệu toàn diện về Trung tâm Việt-Hàn PTIT, cơ sở vật chất, chương trình đào tạo và đời sống sinh viên.",
 
+    //Student Benefits Section
+    student_title: "Quyền Lợi",
+    benefits_title: "Sinh Viên",
+
+    benefit_1_title: "Lộ trình du học",
+    benefit_1_decs: "Cơ hội chuyển tiếp sang CAU Hàn Quốc vào năm 3 hoặc năm 4",
+
+    benefit_2_title: "Bằng quốc tế",
+    benefit_2_decs: "Nhận bằng do Đại học Chung-Ang (CAU) cấp",
+
+    benefit_3_title: "Chương trình quốc tế",
+    benefit_3_decs: "Tiếp cận chương trình và phương pháp giảng dạy chuẩn quốc tế",
+
+    benefit_4_title: "Cuộc thi quốc tế",
+    benefit_4_decs: "Tham gia hackathon và workshop quốc tế",
+
+    benefit_5_title: "Học bổng",
+    benefit_5_decs: "Nhiều cơ hội học bổng và hỗ trợ tài chính",
+
+    benefit_6_title: "Định hướng nghề nghiệp",
+    benefit_6_decs: "Môi trường học hiện đại cùng định hướng nghề nghiệp rõ ràng",
+
     // Expert Opinion Section
     expert_name_1: "TS. Cao Minh Thắng",
     expert_position_1: "Giám đốc Viện Công nghệ Thông tin và Truyền thông (CDIT) - PTIT",
@@ -155,8 +302,8 @@ export const translations = {
 
     expert_name_2: "GS. Wi Jong Hyun",
     expert_position_2: "Trưởng khoa, Trường Đại học Hội tụ Ảo, Đại học Chung-ang",
-    expert_opinion_2: "Trường Đại học Hội tụ Ảo(VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.",
-    expert_opinion_2_full: "Trường Đại học Hội tụ Ảo(VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.\n\nCác phương pháp giảng dạy sáng tạo của chúng tôi bao gồm Học tập dựa trên Game, Học tập dựa trên Dự án và hợp tác liên ngành, sử dụng nền tảng CNTT tiên tiến và AI cho trải nghiệm học tập tương tác, cá nhân hóa. Chúng tôi cung cấp sự kết hợp giữa các lớp học trực tuyến và ngoại tuyến, mang đến cho sinh viên cả sự linh hoạt kỹ thuật số và tương tác thực hành trực tiếp.\n\nĐể nâng cao khả năng cạnh tranh quốc tế, chúng tôi đang xây dựng quan hệ đối tác chiến lược với các trường đại học hàng đầu thế giới. Sinh viên của chúng tôi tham gia vào các trải nghiệm đa văn hóa đa dạng, bao gồm các lớp học hợp tác với các bạn quốc tế, nhóm dự án đa quốc gia và hackathon trên toàn thế giới.\n\nHơn nữa, chúng tôi đang mở rộng phương pháp giáo dục thông qua quan hệ đối tác ngành, cung cấp thực tập và thiết kế chương trình giảng dạy hợp tác. Cách tiếp cận này giúp sinh viên khởi nghiệp, tư duy sáng tạo và tạo ra những điều mới trong công nghệ.",
+    expert_opinion_2: "Trường Đại học Hội tụ Ảo (VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.",
+    expert_opinion_2_full: "Trường Đại học Hội tụ Ảo (VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.\n\nCác phương pháp giảng dạy sáng tạo của chúng tôi bao gồm Học tập dựa trên Game, Học tập dựa trên Dự án và hợp tác liên ngành, sử dụng nền tảng CNTT tiên tiến và AI cho trải nghiệm học tập tương tác, cá nhân hóa. Chúng tôi cung cấp sự kết hợp giữa các lớp học trực tuyến và ngoại tuyến, mang đến cho sinh viên cả sự linh hoạt kỹ thuật số và tương tác thực hành trực tiếp.\n\nĐể nâng cao khả năng cạnh tranh quốc tế, chúng tôi đang xây dựng quan hệ đối tác chiến lược với các trường đại học hàng đầu thế giới. Sinh viên của chúng tôi tham gia vào các trải nghiệm đa văn hóa đa dạng, bao gồm các lớp học hợp tác với các bạn quốc tế, nhóm dự án đa quốc gia và hackathon trên toàn thế giới.\n\nHơn nữa, chúng tôi đang mở rộng phương pháp giáo dục thông qua quan hệ đối tác ngành, cung cấp thực tập và thiết kế chương trình giảng dạy hợp tác. Cách tiếp cận này giúp sinh viên khởi nghiệp, tư duy sáng tạo và tạo ra những điều mới trong công nghệ.",
 
     expert_name_3: "TS. Trần Thanh Hà",
     expert_position_3: "Kiến trúc sư phần mềm cấp cao",
@@ -170,8 +317,8 @@ export const translations = {
 
     testimonial_2_name: "GS. Wi Jong Hyun",
     testimonial_2_position: "Trưởng khoa, Trường Đại học Hội tụ Ảo, Đại học Chung-ang",
-    testimonial_2_text: "Trường Đại học Hội tụ Ảo(VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.",
-    testimonial_2_full: "Trường Đại học Hội tụ Ảo(VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.\n\nCác phương pháp giảng dạy sáng tạo của chúng tôi bao gồm Học tập dựa trên Game, Học tập dựa trên Dự án và hợp tác liên ngành, sử dụng nền tảng CNTT tiên tiến và AI cho trải nghiệm học tập tương tác, cá nhân hóa. Chúng tôi cung cấp sự kết hợp giữa các lớp học trực tuyến và ngoại tuyến, mang đến cho sinh viên cả sự linh hoạt kỹ thuật số và tương tác thực hành trực tiếp.\n\nĐể nâng cao khả năng cạnh tranh quốc tế, chúng tôi đang xây dựng quan hệ đối tác chiến lược với các trường đại học hàng đầu thế giới. Sinh viên của chúng tôi tham gia vào các trải nghiệm đa văn hóa đa dạng, bao gồm các lớp học hợp tác với các bạn quốc tế, nhóm dự án đa quốc gia và hackathon trên toàn thế giới.\n\nHơn nữa, chúng tôi đang mở rộng phương pháp giáo dục thông qua quan hệ đối tác ngành, cung cấp thực tập và thiết kế chương trình giảng dạy hợp tác. Cách tiếp cận này giúp sinh viên khởi nghiệp, tư duy sáng tạo và tạo ra những điều mới trong công nghệ.",
+    testimonial_2_text: "Trường Đại học Hội tụ Ảo (VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.",
+    testimonial_2_full: "Trường Đại học Hội tụ Ảo (VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.\n\nCác phương pháp giảng dạy sáng tạo của chúng tôi bao gồm Học tập dựa trên Game, Học tập dựa trên Dự án và hợp tác liên ngành, sử dụng nền tảng CNTT tiên tiến và AI cho trải nghiệm học tập tương tác, cá nhân hóa. Chúng tôi cung cấp sự kết hợp giữa các lớp học trực tuyến và ngoại tuyến, mang đến cho sinh viên cả sự linh hoạt kỹ thuật số và tương tác thực hành trực tiếp.\n\nĐể nâng cao khả năng cạnh tranh quốc tế, chúng tôi đang xây dựng quan hệ đối tác chiến lược với các trường đại học hàng đầu thế giới. Sinh viên của chúng tôi tham gia vào các trải nghiệm đa văn hóa đa dạng, bao gồm các lớp học hợp tác với các bạn quốc tế, nhóm dự án đa quốc gia và hackathon trên toàn thế giới.\n\nHơn nữa, chúng tôi đang mở rộng phương pháp giáo dục thông qua quan hệ đối tác ngành, cung cấp thực tập và thiết kế chương trình giảng dạy hợp tác. Cách tiếp cận này giúp sinh viên khởi nghiệp, tư duy sáng tạo và tạo ra những điều mới trong công nghệ.",
 
     // Contact Section
     contact_title: "Liên hệ với chúng tôi",
@@ -196,19 +343,63 @@ export const translations = {
     // News Items (hardcoded in component)
     news_item_1_title: "PTIT VCC Khai trương Phòng thí nghiệm AI mới",
     news_item_1_description: "Trung tâm Việt-Hàn khai trương cơ sở nghiên cứu trí tuệ nhân tạo hiện đại.",
+    news_item_1_time: "15 Tháng 3 2024",
+
     news_item_2_title: "Ra mắt Chương trình Trao đổi Sinh viên",
     news_item_2_description: "Đợt đầu tiên sinh viên VCC khởi hành đến Đại học Chung-Ang tại Hàn Quốc.",
+    news_item_2_time: "10 Tháng 3 2024",
+    
     news_item_3_title: "Cuộc thi Phát triển Game 2024",
     news_item_3_description: "Cuộc thi game thường niên giới thiệu các dự án sáng tạo từ sinh viên VCC.",
+    news_item_3_time: "5 Tháng 3 2024",
+    
     news_item_4_title: "Thông báo Hợp tác Doanh nghiệp",
     news_item_4_description: "VCC ký kết biên bản ghi nhớ với các công ty công nghệ hàng đầu cho chương trình thực tập.",
+    news_item_4_time: "28 Tháng 2 2024",
+    
     news_item_5_title: "Cập nhật Chương trình Giảng dạy mới 2024",
     news_item_5_description: "Cấu trúc khóa học được cải tiến bao gồm công nghệ tiên tiến và đào tạo thực tế.",
+    news_item_5_time: "20 Tháng 2 2024",
+    
     news_item_6_title: "Câu chuyện Thành công của Cựu sinh viên VCC",
     news_item_6_description: "Cựu sinh viên chia sẻ thành tựu của họ trong ngành công nghệ toàn cầu.",
+    news_item_6_time: "15 Tháng 2 2024",
+    
     news_item_7_title: "Công bố Nghiên cứu của Giảng viên",
     news_item_7_description: "Các giáo sư VCC đóng góp cho các tạp chí quốc tế về khoa học máy tính và AI.",
+    news_item_7_time: "10 Tháng 2 2024",
+    
     news_item_8_title: "Nâng cấp Cơ sở hạ tầng Trường học",
-    news_item_8_description: "Phòng thí nghiệm hiện đại và không gian học tập nâng cao môi trường học tập."
+    news_item_8_description: "Phòng thí nghiệm hiện đại và không gian học tập nâng cao môi trường học tập.",
+    news_item_8_time: "5 Tháng 2 2024",
+
+    //NotableActivities
+    act_1_title: "Chương trình định hướng sinh viên",
+    act_1_des: "Chào đón tân sinh viên tham gia chương trình VCC",
+    act_1_date:"12-01-2024",
+
+    act_2_title: "Sự kiện giao lưu văn hóa",
+    act_2_des: "Kết nối với văn hóa và ngôn ngữ Hàn Quốc",
+    act_2_date:"20-02-2024",
+
+    act_3_title: "Ngày hội việc làm",
+    act_3_des: "Gặp gỡ chuyên gia ngành và nhà tuyển dụng tiềm năng",
+    act_3_date:"15-03-2024",
+
+    //Credits Section
+    footer_menu: "Menu",
+    footer_social: "Mạng xã hội",
+    footer_policy: "Chính sách",
+    footer_contact_info: "Thông tin liên hệ",
+
+    footer_privacy_policy: "Chính sách bảo mật",
+    footer_terms_of_service: "Điều khoản dịch vụ",
+    footer_accessibility: "Hỗ trợ truy cập",
+    footer_cookies_policy: "Chính sách Cookie",
+
+    footer_company_name:"PTIT - Học viện Công nghệ Bưu chính Viễn thông",
+    footer_address: "Địa chỉ: Km10, Đường Nguyễn Trãi, Quận Hà Đông, Hà Nội, Việt Nam",
+    footer_phone: "Điện thoại: +84 (024) 3854 2308",
+    footer_email: "Email: vcc@ptit.edu.vn",
   }
 };

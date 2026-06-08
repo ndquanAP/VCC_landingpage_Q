@@ -1,76 +1,75 @@
 import React from 'react';
 import styles from './NewsSection.module.css';
 import NewsCard from '../../ui/NewsCard/NewsCard';
-
-import placeholderImg from '../../../assets/placeholder.webp';
+import { useTranslation } from '../../../hooks/useTranslation';
 
 function NewsSection() {
-
+  const {t} = useTranslation();
   // TODO: Replace with actual news data from API or translation file
   const newsItems = [
     {
       id: 1,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news1.webp",
       link: "https://example.com/news/1",
-      time: "March 15, 2024",
-      title: "PTIT VCC Opens New AI Research Lab",
-      description: "The Vietnam-Korea Center inaugurates state-of-the-art artificial intelligence research facilities."
+      time: t('news_item_1_time'),
+      title: t('news_item_1_title'),
+      description: t('news_item_1_description'),
     },
     {
       id: 2,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news2.webp",
       link: "https://example.com/news/2",
-      time: "March 10, 2024",
-      title: "Student Exchange Program Launch",
-      description: "First batch of VCC students depart for Chung-Ang University in South Korea."
+      time: t('news_item_2_time'),
+      title: t('news_item_2_title'),
+      description: t('news_item_2_description'),
     },
-    {
+      {
       id: 3,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news3.webp",
       link: "https://example.com/news/3",
-      time: "March 5, 2024",
-      title: "Game Development Competition 2024",
-      description: "Annual gaming contest showcases innovative projects from VCC students."
+      time: t('news_item_3_time'),
+      title: t('news_item_3_title'),
+      description: t('news_item_3_description'),
     },
     {
       id: 4,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news4.webp",
       link: "https://example.com/news/4",
-      time: "February 28, 2024",
-      title: "Industry Partnership Announcement",
-      description: "VCC signs MOU with leading tech companies for internship programs."
+      time: t('news_item_4_time'),
+      title: t('news_item_4_title'),
+      description: t('news_item_4_description'),
     },
     {
       id: 5,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news5.webp",
       link: "https://example.com/news/5",
-      time: "February 20, 2024",
-      title: "New Curriculum Updates 2024",
-      description: "Enhanced course structure includes cutting-edge technologies and practical training."
+      time: t('news_item_5_time'),
+      title: t('news_item_5_title'),
+      description: t('news_item_5_description'),
     },
     {
       id: 6,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news6.webp",
       link: "https://example.com/news/6",
-      time: "February 15, 2024",
-      title: "VCC Alumni Success Stories",
-      description: "Former students share their achievements in the global tech industry."
+      time: t('news_item_6_time'),
+      title: t('news_item_6_title'),
+      description: t('news_item_6_description'),
     },
     {
       id: 7,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news7.webp",
       link: "https://example.com/news/7",
-      time: "February 10, 2024",
-      title: "Faculty Research Publications",
-      description: "VCC professors contribute to international journals on computer science and AI."
+      time: t('news_item_7_time'),
+      title: t('news_item_7_title'),
+      description: t('news_item_7_description'),
     },
     {
       id: 8,
-      img: placeholderImg,
+      img: "/src/v2/assets/news/news8.webp",
       link: "https://example.com/news/8",
-      time: "February 5, 2024",
-      title: "Campus Infrastructure Upgrade",
-      description: "Modern laboratories and study spaces enhance the learning environment."
+      time: t('news_item_8_time'),
+      title: t('news_item_8_title'),
+      description: t('news_item_8_description'),
     }
   ];
 
@@ -80,7 +79,7 @@ function NewsSection() {
         {/* Header with title and video */}
         <div className={styles.header}>
           <h1 className={styles.title}>
-            News from us!
+            {t("news_title")}
           </h1>
           
           <div className={styles.videoContainer}>
