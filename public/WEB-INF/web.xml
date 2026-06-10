@@ -5,6 +5,12 @@
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+    <!-- Welcome file list - Default to index.html -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <!-- Error page handler for SPA routing -->
     <error-page>
         <error-code>404</error-code>
         <location>/index.html</location>

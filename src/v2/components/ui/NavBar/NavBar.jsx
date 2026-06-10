@@ -12,7 +12,8 @@ const NavBar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
   
-
+  // Get base URL from Vite
+  const baseUrl = import.meta.env.BASE_URL;
 
   const navItems = [
     { key: "nav_home", path: "/", label: t("nav_home") },
@@ -21,8 +22,8 @@ const NavBar = () => {
       label: t("nav_program"),
       hasDropdown: true,
       dropdownItems: [
-        { label: t("nav_multimedia"), href: "/multimedia.html" },
-        { label: t("nav_game"), href: "/game-design.html" },
+        { label: t("nav_multimedia"), href: `${baseUrl}multimedia.html` },
+        { label: t("nav_game"), href: `${baseUrl}game-design.html` },
       ],
     },
     {
@@ -48,7 +49,7 @@ const NavBar = () => {
       <div className={styles.container}>
         {/* Logo */}
         <Link to="/" className={styles.logo}>
-          <img src="/vite.svg" alt="VCC Logo" className={styles.logoImage} />
+          <img src={`${baseUrl}vite.svg`} alt="VCC Logo" className={styles.logoImage} />
           <span className={styles.logoText}>PTIT VCC</span>
         </Link>
 

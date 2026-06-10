@@ -20,7 +20,7 @@ const OrganizationalSection = () => {
         
         <div className={styles.imageContainer}>
           <img 
-            src="/src/v2/assets/organizational_structure.webp" 
+            src={`${import.meta.env.BASE_URL}src/v2/assets/organizational_structure.webp`} 
             alt="PTIT VCC Organizational Structure"
             className={styles.structureImage}
           />

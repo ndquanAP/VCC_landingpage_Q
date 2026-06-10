@@ -13,7 +13,7 @@ const TestimonialSection = () => {
   const testimonials = [
     {
       id: 1,
-      image: "/src/v2/assets/image.webp",
+      image: `${import.meta.env.BASE_URL}src/v2/assets/image.webp`,
       testimonial: t('testimonial_1_text'),
       fullTestimonial: t('testimonial_1_full'), // Full version
       name: t('testimonial_1_name'),
@@ -22,7 +22,7 @@ const TestimonialSection = () => {
     },
     {
       id: 2,
-      image: "/src/v2/assets/image2.webp",
+      image: `${import.meta.env.BASE_URL}src/v2/assets/image2.webp`,
       testimonial: t('testimonial_2_text'),
       fullTestimonial: t('testimonial_2_full'), // Full version from file
       name: t('testimonial_2_name'),

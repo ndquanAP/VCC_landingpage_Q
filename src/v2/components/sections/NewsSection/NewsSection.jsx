@@ -9,7 +9,7 @@ function NewsSection() {
   const newsItems = [
     {
       id: 1,
-      img: "/src/v2/assets/news/news1.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news1.webp`,
       link: "https://example.com/news/1",
       time: t('news_item_1_time'),
       title: t('news_item_1_title'),
@@ -17,7 +17,7 @@ function NewsSection() {
     },
     {
       id: 2,
-      img: "/src/v2/assets/news/news2.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news2.webp`,
       link: "https://example.com/news/2",
       time: t('news_item_2_time'),
       title: t('news_item_2_title'),
@@ -25,7 +25,7 @@ function NewsSection() {
     },
       {
       id: 3,
-      img: "/src/v2/assets/news/news3.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news3.webp`,
       link: "https://example.com/news/3",
       time: t('news_item_3_time'),
       title: t('news_item_3_title'),
@@ -33,7 +33,7 @@ function NewsSection() {
     },
     {
       id: 4,
-      img: "/src/v2/assets/news/news4.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news4.webp`,
       link: "https://example.com/news/4",
       time: t('news_item_4_time'),
       title: t('news_item_4_title'),
@@ -41,7 +41,7 @@ function NewsSection() {
     },
     {
       id: 5,
-      img: "/src/v2/assets/news/news5.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news5.webp`,
       link: "https://example.com/news/5",
       time: t('news_item_5_time'),
       title: t('news_item_5_title'),
@@ -49,7 +49,7 @@ function NewsSection() {
     },
     {
       id: 6,
-      img: "/src/v2/assets/news/news6.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news6.webp`,
       link: "https://example.com/news/6",
       time: t('news_item_6_time'),
       title: t('news_item_6_title'),
@@ -57,7 +57,7 @@ function NewsSection() {
     },
     {
       id: 7,
-      img: "/src/v2/assets/news/news7.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news7.webp`,
       link: "https://example.com/news/7",
       time: t('news_item_7_time'),
       title: t('news_item_7_title'),
@@ -65,7 +65,7 @@ function NewsSection() {
     },
     {
       id: 8,
-      img: "/src/v2/assets/news/news8.webp",
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news8.webp`,
       link: "https://example.com/news/8",
       time: t('news_item_8_time'),
       title: t('news_item_8_title'),

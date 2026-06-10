@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         {/* Navigation Bar - Sticky */}
         <NavBar />
 

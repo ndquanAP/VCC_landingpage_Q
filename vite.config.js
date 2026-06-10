@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig({
-  base: '/vcc/',
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/vcc/' : '/', // Dev mode: '/', Build mode: '/vcc/'
   plugins: [react()],
   build: {
     rollupOptions: {
@@ -28,4 +28,4 @@ export default defineConfig({
     ]
     
   }
-})
+}))

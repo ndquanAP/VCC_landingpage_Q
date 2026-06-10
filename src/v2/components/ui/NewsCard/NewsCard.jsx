@@ -18,7 +18,7 @@ function NewsCard({ img, link, time, title, description, ...props }) {
     >
       <div className={styles.imageContainer}>
         <img 
-          src={img || '/src/v2/assets/placeholder.webp'} 
+          src={img || `${import.meta.env.BASE_URL}src/v2/assets/placeholder.webp`} 
           alt={title} 
           className={styles.image}
         />
