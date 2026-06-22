@@ -1,6 +1,7 @@
 .contactSection {
+  margin-top: 40px;
   width: 100%;
-  padding: var(--section-padding-large);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 187, 0, 0.4) 100%);
 }
 
 .container {
@@ -26,13 +27,18 @@
 .rightContent {
   flex: 1;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 .title {
-  font-family: var(--font-family-saira);
-  font-size: var(--font-size-h2);
-  font-weight: 700;
-  color: var(--color-orange);
+  margin-top: 30px;
+  font-size: 64px;
+  background: linear-gradient(294.2deg, #FF8600 0%, #FFD651 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  color: transparent;
   /* margin: 0 0 var(--gap-small) 0; */
 }
 
@@ -47,7 +53,7 @@
   flex-direction: row;
   gap: var(--gap-small);
   align-items: flex-start;
-  color: var(--color-orange);
+  color: #FF552A;
 }
 
 .contactItem svg {
@@ -59,7 +65,7 @@
   font-family: var(--font-family-saira);
   font-size: var(--font-size-body);
   font-weight: 600;
-  color: var(--color-text-dark);
+  color: #FF552A;
 }
 
 .contactValue {
@@ -69,11 +75,11 @@
 }
 
 .newsletterSection {
-  background: var(--color-white);
+  background: linear-gradient(90deg, #FCF3D0 0%, #FFE5CF 100%);
   padding: var(--gap-large);
   border-radius: var(--border-radius-medium);
   box-shadow: var(--shadow-light);
-  border-left: 4px solid var(--color-orange);
+  border: 3px dotted var(--color-orange);
 }
 
 .newsletterTitle {
@@ -104,8 +110,9 @@
 .emailInput {
   flex: 1;
   padding: 12px 16px;
-  border: 2px solid #e5e5e5;
-  border-radius: var(--border-radius-small);
+  border: 2px solid white;
+  background-color: var(--color-white);
+  border-radius: 40px;
   font-size: var(--font-size-body);
   font-family: var(--font-family);
   transition: var(--transition-fast);
@@ -122,6 +129,9 @@
 }
 
 .submitButton {
+  background-color: #FFBD00;
+  border: 2px solid #FFBD00;
+  border-radius: 40px;
   min-width: 50px;
   display: flex;
   align-items: center;
@@ -139,7 +149,7 @@
   border-radius: var(--border-radius-medium);
   overflow: hidden;
   box-shadow: var(--shadow-medium);
-  border: 3px solid var(--color-orange-light);
+  border: 3px solid #FFBD00;
 }
 
 .mapElement {

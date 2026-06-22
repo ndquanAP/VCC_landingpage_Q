@@ -34,13 +34,14 @@
 }
 
 .card--orange-gradient {
-  background: linear-gradient(145deg, var(--color-white) 0%, #fff4e6 100%);
-  border: 3px solid transparent;
+  background: linear-gradient(145deg, var(--color-white) 0%);
+  border: 3px solid #E67A35;
   background-clip: padding-box;
   position: relative;
+  box-shadow: 0 5px 15px rgba(#E67A35, 0.5);
 }
 
-.card--orange-gradient::before {
+/* .card--orange-gradient::before {
   content: "";
   position: absolute;
   top: 0;
@@ -59,16 +60,17 @@
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   z-index: -1;
-}
+} */
 
 .card--purple-gradient {
-  background: linear-gradient(145deg, var(--color-white) 0%, #f5f0ff 100%);
-  border: 3px solid transparent;
+  background: linear-gradient(145deg, var(--color-white) 0%);
+  border: 3px solid #8B5FBF;
   background-clip: padding-box;
   position: relative;
+  box-shadow: 0 5px 15px rgba(#8B5FBF, 0.5);
 }
 
-.card--purple-gradient::before {
+/* .card--purple-gradient::before {
   content: "";
   position: absolute;
   top: 0;
@@ -83,7 +85,7 @@
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   z-index: -1;
-}
+} */
 
 .card--transparent {
   background: transparent;
@@ -122,11 +124,11 @@
   transform: translateY(-2px);
 }
 
-.card--orange-gradient:hover,
+/* .card--orange-gradient:hover,
 .card--purple-gradient:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-medium);
-}
+} */
 
 @media (max-width: 768px) {
   .card {

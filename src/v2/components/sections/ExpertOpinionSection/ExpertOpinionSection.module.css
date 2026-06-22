@@ -1,16 +1,29 @@
 .expertOpinionSection {
   width: 100%;
-  padding: var(--section-padding-large);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ff97844d 100%);
+
 }
 
 .container {
   max-width: var(--container-max-width);
   margin: 0 auto;
   padding: var(--content-padding);
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--gap-xxl);
+}
+
+.title{
+  margin-top: 30px;
+  font-size: 55px;
+  background: linear-gradient(294.2deg, #FF8600 0%, #FFD651 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 5px;
+  color: transparent;
 }
 
 .expertCardContainer {
@@ -27,20 +40,16 @@
   gap: var(--gap-xl);
   align-items: center;
   flex: 1;
+  width: 100%;
   min-height: 350px;
-  background: var(--color-white);
   padding: var(--gap-xl);
   border-radius: var(--border-radius-large);
-  box-shadow: var(--shadow-medium);
-  border: 2px solid transparent;
-  background: linear-gradient(var(--color-white), var(--color-white))
-      padding-box,
-    linear-gradient(45deg, var(--color-orange-light), var(--color-orange))
-      border-box;
+
 }
 
 .expertImage {
   flex-shrink: 0;
+  position: relative;
 }
 
 .image {
@@ -50,6 +59,13 @@
   object-fit: cover;
   border: 3px solid var(--color-orange-light);
   box-shadow: 0 5px 20px rgba(255, 140, 66, 0.2);
+}
+
+.graphic{
+  width: 40%;
+  position: absolute;
+  left: 75%;
+  bottom: 10%;
 }
 
 .expertContent {
@@ -73,15 +89,15 @@
 .opinion {
   font-family: var(--font-family-saira);
   font-size: var(--font-size-expert-opinion);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.5;
   color: var(--color-text-medium);
-  font-style: italic;
+  font-style:normal;
+  text-align: justify;
   position: relative;
-  padding-left: var(--gap-small);
 }
 
-.opinion::before {
+/* .opinion::before {
   content: '"';
   position: absolute;
   left: -10px;
@@ -90,10 +106,9 @@
   color: var(--color-orange);
   font-family: serif;
   line-height: 1;
-}
+} */
 
 .expertInfo {
-  border-top: 2px solid var(--color-orange-light);
   padding-top: var(--gap-large);
 }
 
@@ -109,7 +124,7 @@
   font-family: var(--font-family-saira);
   font-size: var(--font-size-body);
   font-weight: 400;
-  color: var(--color-text-muted);
+  color: var(--color-orange);
   margin: 0;
 }
 
@@ -125,9 +140,10 @@
   cursor: pointer;
   transition: all 0.3s ease;
   flex-shrink: 0;
-  background: var(--color-white);
-  border: 2px solid var(--color-orange);
-  color: var(--color-orange);
+  background: #ff88006b;
+  border: 2px solid #ff88006b;
+  color: var(--color-white);
+  padding: 0;
 }
 
 .navButton:hover {
@@ -139,7 +155,6 @@
 
 .navButton:focus {
   outline: none;
-  border: 1px solid var(--color-orange);
 }
 
 .indicators {
@@ -148,7 +163,7 @@
 }
 
 .indicator {
-  padding: 8px;
+  padding: 5px;
   border-radius: 100%;
   border: 1px solid var(--color-orange);
   background: var(--color-orange-light);
@@ -187,18 +202,25 @@
 }
 
 @media (max-width: 768px) {
-  .expertOpinionSection {
-    padding: 60px 0;
-  }
-
   .container {
     padding: 0 20px;
     gap: var(--gap-large);
   }
 
   .expertCardContainer {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .expertCard {
     flex-direction: column;
-    gap: var(--gap-medium);
+    min-height: auto;
+  }
+
+  .graphic{
+    display: none;
   }
 
   .expertCard {
@@ -215,8 +237,8 @@
   }
 
   .image {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
   }
 
   .expertContent {
@@ -225,8 +247,7 @@
 
   .opinion {
     font-size: 16px;
-    text-align: left;
-    padding-left: var(--gap-medium);
+    text-align:justify;
   }
 
   .opinion::before {
@@ -257,10 +278,6 @@
 }
 
 @media (max-width: 480px) {
-  .expertOpinionSection {
-    padding: 40px 0;
-  }
-
   .container {
     padding: 0 16px;
   }
@@ -277,7 +294,6 @@
 
   .opinion {
     font-size: 14px;
-    padding-left: var(--gap-small);
   }
 
   .opinion::before {
@@ -347,40 +363,53 @@
 
 .modalOpinion {
   display: flex;
-  flex-direction: column;
-  gap: var(--gap-medium);
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+  margin-top: 35px;
 }
 
 .modalParagraph {
-  font-family: var(--font-family-saira);
-  font-size: var(--font-size-body);
-  line-height: 1.6;
-  color: var(--color-text-medium);
-  margin: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ff6a00;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-/* Mobile modal styles */
-@media (max-width: 768px) {
-  .modalExpertInfo {
-    flex-direction: column;
-    text-align: center;
-    gap: var(--gap-medium);
+.modalParagraph span:hover {
+  transform: scale(1.15);
+}
+
+.active {
+  width: 42px !important;
+  border-radius: 999px !important;
+  background: #ff6a00;
+}
+
+@media (max-width:768px){
+
+  .modalExpertInfo{
+    flex-direction:column;
+    text-align:center;
   }
 
-  .modalImage {
-    width: 100px;
-    height: 100px;
+  .modalImage{
+    width:100px;
+    height:100px;
   }
 
-  .modalName {
-    font-size: var(--font-size-h4);
+  .modalName{
+    font-size:22px;
   }
 
-  .modalPosition {
-    font-size: 14px;
+  .modalPosition{
+    font-size:14px;
   }
 
-  .modalParagraph {
-    font-size: 15px;
+  .modalParagraph{
+    font-size:15px;
   }
 }

@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './NewsSection.module.css';
 import NewsCard from '../../ui/NewsCard/NewsCard';
 import { useTranslation } from '../../../hooks/useTranslation';
+import CreditsSection from "../CreditsSection/CreditsSection.jsx";
+import { ArrowRight } from 'lucide-react';
 
 function NewsSection() {
   const {t} = useTranslation();
-  // TODO: Replace with actual news data from API or translation file
+
   const newsItems = [
     {
       id: 1,
@@ -14,7 +16,7 @@ function NewsSection() {
       time: t('news_item_1_time'),
       title: t('news_item_1_title'),
       description: t('news_item_1_description'),
-    },
+    }, 
     {
       id: 2,
       img: `${import.meta.env.BASE_URL}src/v2/assets/news/news2.webp`,
@@ -70,8 +72,62 @@ function NewsSection() {
       time: t('news_item_8_time'),
       title: t('news_item_8_title'),
       description: t('news_item_8_description'),
-    }
+    },
+/*     {
+      id: 9,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news8.webp`,
+      link: "https://example.com/news/8",
+      time: t('news_item_8_time'),
+      title: t('news_item_8_title'),
+      description: t('news_item_8_description'),
+    },
+    {
+      id: 10,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news8.webp`,
+      link: "https://example.com/news/8",
+      time: t('news_item_8_time'),
+      title: t('news_item_8_title'),
+      description: t('news_item_8_description'),
+    },{
+      id: 11,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news8.webp`,
+      link: "https://example.com/news/8",
+      time: t('news_item_8_time'),
+      title: t('news_item_8_title'),
+      description: t('news_item_8_description'),
+    },
+    {
+      id: 12,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news8.webp`,
+      link: "https://example.com/news/8",
+      time: t('news_item_8_time'),
+      title: t('news_item_8_title'),
+      description: t('news_item_8_description'),
+    },
+    {
+      id: 13,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news8.webp`,
+      link: "https://example.com/news/8",
+      time: t('news_item_8_time'),
+      title: t('news_item_8_title'),
+      description: t('news_item_8_description'),
+    }, 
+    {
+      id: 14,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/news8.webp`,
+      link: "https://example.com/news/8",
+      time: t('news_item_8_time'),
+      title: t('news_item_8_title'),
+      description: t('news_item_8_description'),
+    } */
+
   ];
+
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedNews = showAll
+    ? newsItems
+    : newsItems.slice(0, 12);
 
   return (
     <section className={styles.newsSection}>
@@ -81,11 +137,11 @@ function NewsSection() {
           <h1 className={styles.title}>
             {t("news_title")}
           </h1>
-          
+
           <div className={styles.videoContainer}>
             <iframe
               className={styles.video}
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=example"
+              src=""
               title="VCC News Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -96,19 +152,33 @@ function NewsSection() {
         </div>
 
         {/* News Grid */}
-        <div className={styles.newsGrid}>
-          {newsItems.map((item) => (
-            <NewsCard
-              key={item.id}
-              img={item.img}
-              link={item.link}
-              time={item.time}
-              title={item.title}
-              description={item.description}
-            />
-          ))}
-        </div>
+         <div className={styles.newsGrid}>
+            {displayedNews.map((item) => (
+              <NewsCard
+                key={item.id}
+                img={item.img}
+                link={item.link}
+                time={item.time}
+                title={item.title}
+                description={item.description}
+              />
+            ))}
+          </div>
+
+          {!showAll && newsItems.length > 12 && (
+            <div className={styles.viewButton}>
+              <button
+                className={styles.view}
+                onClick={() => setShowAll(true)}
+              >
+                View All
+                <ArrowRight size={20} />
+              </button>
+            </div>
+          )}
       </div>
+      {/* Credits Section */}
+      <CreditsSection />
     </section>
   );
 }

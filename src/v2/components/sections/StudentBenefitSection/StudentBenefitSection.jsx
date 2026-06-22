@@ -1,7 +1,9 @@
 import React from "react";
-import { Star } from "lucide-react";
+import { Sparkle } from "lucide-react";
 import styles from "./StudentBenefitSection.module.css";
 import { useTranslation } from "../../../hooks/useTranslation.js";
+import CreditsSection from "../CreditsSection/CreditsSection.jsx";
+
 
 const StudentBenefitSection = () => {
   const { t } = useTranslation();
@@ -36,17 +38,25 @@ const StudentBenefitSection = () => {
       title: t('benefit_6_title'),
       description: t('benefit_6_decs'),
     },
+    {
+      id: 7,
+      title: t('benefit_6_title'),
+      description: t('benefit_6_decs'),
+    },
   ];
 
   return (
-    <section className={styles.studentBenefitSection}>
+    <section className={styles.studentBenefitSection} id="student-benefits">
       <div className={styles.container}>
         <div className={styles.titleContainer}>
-          <h2 className={styles.studentTitle}>
+          
+          <h2 className={styles.studentTitle}> 
             {t("student_title")}
+            <div className={styles.titleBox}></div>
           </h2>
 
           <h2 className={styles.benefitsTitle}>
+          <div className={styles.titleBox2}></div>
             {t("benefits_title")}
           </h2>
         </div>
@@ -59,37 +69,39 @@ const StudentBenefitSection = () => {
                   index % 2 === 0 ? styles.leftLayout : styles.rightLayout
                 }`}
               >
-                {/* Left side layout: Star + Content */}
+                {/* Left side layout: Sparkles + Content */}
                 {index % 2 === 0 ? (
                   <>
-                    <div className={styles.iconContainer}>
-                      <Star
-                        size={24}
-                        className={styles.icon}
-                        fill="currentColor"
-                      />
-                    </div>
                     <div className={styles.benefitContent}>
-                      <h3 className={styles.benefitTitle}>{benefit.title}</h3>
                       <p className={styles.benefitDescription}>
                         {benefit.description}
                       </p>
+                      <div className={styles.iconContainer}>
+                        <Sparkle
+                          size={24}
+                          className={styles.icon}
+                          fill="currentColor"
+                        />
                     </div>
+                    </div>
+                    <div className={styles.stickLeft}></div>
                   </>
                 ) : (
                   <>
+                  <div></div>
+                  <div></div>
+                  <div className={styles.stickRight}></div>
                     <div className={styles.benefitContent}>
-                      <h3 className={styles.benefitTitle}>{benefit.title}</h3>
+                      <div className={styles.iconContainer}>
+                        <Sparkle
+                          size={24}
+                          className={styles.icon}
+                          fill="currentColor"
+                        />
+                      </div>
                       <p className={styles.benefitDescription}>
                         {benefit.description}
                       </p>
-                    </div>
-                    <div className={styles.iconContainer}>
-                      <Star
-                        size={24}
-                        className={styles.icon}
-                        fill="currentColor"
-                      />
                     </div>
                   </>
                 )}
@@ -102,9 +114,14 @@ const StudentBenefitSection = () => {
             </div>
           ))}
         </div>
+        <img src="/src/v2/assets/student_benifits/Group 1224.png" className={styles.image}/>
       </div>
+      {/* Credits Section */}
+      <CreditsSection />
     </section>
   );
 };
+
+
 
 export default StudentBenefitSection;

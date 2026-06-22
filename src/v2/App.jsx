@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/ui/NavBar/NavBar";
+import ScrollToTop from "./ScrollToTop";
 import styles from "./App.module.css";
 
 // Import pages
@@ -11,11 +12,11 @@ import NewsActivitiesPage from "./pages/NewsActivitiesPage";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
-
   return (
     <div className={styles.app}>
       <Router basename={import.meta.env.BASE_URL}>
-        {/* Navigation Bar - Sticky */}
+        <ScrollToTop />
+
         <NavBar />
 
         <Routes>

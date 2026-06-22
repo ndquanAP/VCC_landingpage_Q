@@ -10,21 +10,13 @@ const VideoSection = () => {
   
   return (
     <section className={styles.videoSection} id="video">
+    <img src="/src/v2/assets/v1/song.png" className={styles.song}/>
       <div className={styles.container}>
-        <Title 
-          level="h2" 
-          color="orange" 
-          variant="gradient-lines"
-          icon={<Play size={24} color="#E67A35" />}
-        >
-          {t('vcc_opening_card_title')}
-        </Title>
-
         <div className={styles.videoContent}>
           <div className={styles.videoWrapper}>
             <div className={styles.videoContainer}>
               <iframe
-                src= "https://www.youtube.com/embed/Fq6ZR6vNDJk?rel=0"
+                src= "https://www.youtube.com/embed/n581vo7CHRY"
                 title="VCC Introduction Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
@@ -40,17 +32,23 @@ const VideoSection = () => {
           </div>
 
           <div className={styles.textContent}>
+            <div className={styles.title}>
+              <div className={styles.banner}>
+                {t('vcc_opening_card_title')}
+              </div>
+              <img src="/src/v2/assets/v1/SVG.png"/>
+            </div>
             <p className={styles.description}>
               {t('vcc_opening_card_description')}
             </p>
             
-            <Button 
+            {/*<Button 
               variant="outline-orange"
               icon={<ExternalLink size={18} />}
               className={styles.seeMoreButton}
             >
               {t('see_more')}
-            </Button>
+            </Button>*/}
           </div>
         </div>
       </div>

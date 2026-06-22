@@ -1,6 +1,6 @@
 import React from "react";
 import NewsSection from "../components/sections/NewsSection/NewsSection";
-import ActivitiesSection from "../components/sections/ActivitiesSection/ActivitiesSection";
+/* import ActivitiesSection from "../components/sections/ActivitiesSection/ActivitiesSection"; */
 import styles from "./Page.module.css";
 
 const NewsActivitiesPage = () => {
@@ -9,9 +9,9 @@ const NewsActivitiesPage = () => {
       <div id="news-activities">
         <NewsSection />
       </div>
-      <div id="activities">
+      {/* <div id="activities">
         <ActivitiesSection />
-      </div>
+      </div> */}
     </div>
   );
 };

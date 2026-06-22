@@ -1,18 +1,52 @@
 .creditsSection {
   width: 100%;
-  padding: var(--section-padding-large);
-  background: linear-gradient(135deg, var(--color-text-dark) 0%, #1a1a1a 100%);
+  background: linear-gradient(286.39deg, #FFF9EB 0%, #FFF6F3 100%);
+  border-top-left-radius: 96px;
+  border-top-right-radius: 96px;
   color: var(--color-white);
+  margin-top: 50px;
 }
 
 .container {
+  width: 75%;
+  padding-top: 50px;
   max-width: var(--container-max-width);
   margin: 0 auto;
-  padding: var(--content-padding);
+  display: flex;
+}
+
+.companyCard {
+  width: 30%;
+  padding: 10px;
+}
+
+.companyLogo {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+
+.companyDesc {
+  margin: 0 0 10px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: #090C1C;
+}
+
+.companyEmail {
+  font-size: 16px;
+  color: #090C1C;
+  text-decoration: none;
+  font-weight: 600;
+
 }
 
 .mainContent {
+  width: 70%;
   display: grid;
+  display: flex;
+  justify-content: space-around;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--gap-xl);
   margin-bottom: var(--gap-xl);
@@ -28,7 +62,7 @@
   font-family: var(--font-family-saira);
   font-size: 20px;
   font-weight: 600;
-  color: var(--color-orange);
+  color: #090C1C;
   margin: 0;
   /* margin-bottom: var(--gap-small); */
 }
@@ -40,7 +74,7 @@
 }
 
 .link {
-  color: #cccccc;
+  color: #090C1C;
   text-decoration: none;
   font-size: var(--font-size-body);
   line-height: 1.5;
@@ -111,21 +145,24 @@
   font-size: var(--font-size-small);
 }
 
-/* TODO: Add responsive design for tablet and mobile */
-@media (max-width: 1024px) {
-  .mainContent {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--gap-large);
-  }
+.virtual{
+  width: 100%;
+  margin-bottom: -5px;
 }
 
 @media (max-width: 768px) {
   .container {
     padding: 0 var(--gap-small);
+    display: block;
+  }
+  
+  .companyCard, .mainContent{
+    width: 100%;
+    padding-bottom: 30px;
   }
 
   .creditsSection {
-    padding: var(--gap-xl) 0;
+    padding-top: 50px;
   }
 
   .mainContent {
@@ -141,5 +178,18 @@
 
   .legalLinks {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent{
+    display: block;
+    width: 100%;
+    max-width: 170px;
+    margin: 0 auto;
+  }
+
+  .section{
+    margin-top: 30px;
   }
 }

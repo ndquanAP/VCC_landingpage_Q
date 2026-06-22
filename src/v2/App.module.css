@@ -3,6 +3,11 @@
 .app {
   width: 100%;
   min-height: 100vh;
-  background: var(--gradient-orange);
+
+  /* background: var(--gradient-orange), */
   font-family: var(--font-family);
+}
+
+.background{
+  background-image: url(../../public/src/v2/assets/BACKGROUND1.png);
 }

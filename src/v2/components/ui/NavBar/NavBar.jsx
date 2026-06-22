@@ -13,11 +13,11 @@ const NavBar = () => {
   const location = useLocation();
   
   // Get base URL from Vite
-  const baseUrl = import.meta.env.BASE_URL;
+/*   const baseUrl = import.meta.env.BASE_URL; */
 
   const navItems = [
     { key: "nav_home", path: "/", label: t("nav_home") },
-    {
+    /* {
       key: "nav_program",
       label: t("nav_program"),
       hasDropdown: true,
@@ -25,7 +25,7 @@ const NavBar = () => {
         { label: t("nav_multimedia"), href: `${baseUrl}multimedia.html` },
         { label: t("nav_game"), href: `${baseUrl}game-design.html` },
       ],
-    },
+    }, */
     {
       key: "nav_student_benefits",
       path: "/student-benefits",
@@ -49,8 +49,8 @@ const NavBar = () => {
       <div className={styles.container}>
         {/* Logo */}
         <Link to="/" className={styles.logo}>
-          <img src={`${baseUrl}vite.svg`} alt="VCC Logo" className={styles.logoImage} />
-          <span className={styles.logoText}>PTIT VCC</span>
+          <img src="/src/v2/assets/logo/logo.png" alt="VCC Logo" className={styles.logoImage} />
+          {/* <span className={styles.logoText}>PTIT VCC</span> */}
         </Link>
 
         {/* Navigation Links */}
@@ -68,7 +68,7 @@ const NavBar = () => {
                     <ChevronDown size={16} className={styles.chevron} />
                   </button>
                   {isDropdownOpen && (
-                    <div className={styles.dropdownMenu}>
+                    <div className={styles.dropdownMenu}> 
                       {item.dropdownItems.map((dropItem, index) =>
                         dropItem.href ? (
                           <a
@@ -107,10 +107,10 @@ const NavBar = () => {
 
         {/* Right Side - Language, Sign In & Mobile Menu */}
         <div className={styles.rightSection}>
+          <button className={styles.signInButton}>{t("sign_in")}</button>  
           <div className={styles.desktopLanguage}>
             <LanguageSwitch />
           </div>
-          {/*<button className={styles.signInButton}>{t("sign_in")}</button>*/}
 
           {/* Mobile Menu Button */}
           <button

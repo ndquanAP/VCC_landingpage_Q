@@ -8,7 +8,7 @@ export const translations = {
     nav_program: "Program",
     nav_student_benefits: "Student Benefits",
     nav_expert_opinions: "Expert Opinions",
-    nav_news_and_activities: "News and Activities",
+    nav_news_and_activities: "News & Activities",
     nav_contact: "Contact",
     nav_multimedia: "Multimedia",
     nav_game: "Game Design and Development",
@@ -18,9 +18,9 @@ export const translations = {
     about_description: "International collaboration program between PTIT and Chung-Ang University (CAU)",
 
     // Mission & Vision Section
-    vision_mission: "Mission - Vision",
-    vision_title: "Our Vision",
-    mission_title: "Our Mission",
+    vision_mission: "Mission & Vision",
+    vision_title: "Vision",
+    mission_title: "Mission",
     mission_description: "To train high-quality human resources in information technology, contributing to the development of the digital economy and smart society. We aim to provide students with cutting-edge knowledge and practical skills.",
     vision_description: "Becoming a leading regional center for IT training and research, with sustainable and effective international cooperation. We envision creating global opportunities for Vietnamese students.",
 
@@ -28,7 +28,7 @@ export const translations = {
     organizational: "Organizational Structure",
 
     // Faculty Section
-    teachers_title: "Faculty Team",
+    teachers_title: "Faculty Members",
     faculty_title: "Our Faculty",
 
     staff_1_name:"Dr. Nguyễn Văn A",
@@ -57,27 +57,30 @@ export const translations = {
     staff_5_dep:"Research",
     
     // Facilities Section
-    infrastructure_title: "Modern Facilities",
+    infrastructure_title: "MODERN FACILITIES",
     facilities_title: "State-of-the-Art Facilities",
 
     // Activities Section
-    noticable_activities_title: "Notable Activities",
+    noticable_activities_title: "HIGHTLIGHT ACTIVITY PHOTOS",
     activities_title: "Campus Activities",
 
+    //HIGHTLIGHT ACTIVITY PHOTOS
+    hightlight:"HIGHTLIGHT ACTIVITY PHOTOS",
+
     // Expert Opinions Section
-    expert_opinions_title: "Expert Opinions",
+    expert_opinions_title: "EXPERT OPINIONS",
 
     // News Section
-    news_title: "News from us!",
-    news_and_activities_title: "News and Activities",
+    news_title: "NEWS & ACTIVITIES",
+    news_and_activities_title: "NEWS & ACTIVITIES",
 
     // Video Section
     vcc_opening_card_title: "VCC Introduction Video",
     vcc_opening_card_description: "Watch our comprehensive introduction video to learn more about the PTIT Vietnam-Korea Center, our facilities, programs, and student life.",
 
     //Student Benefits Section
-    student_title: "Student",
-    benefits_title: "Benefits",
+    student_title: "STUDENT",
+    benefits_title: "BENEFITS",
 
     benefit_1_title: "Study Abroad Pathway",
     benefit_1_decs: "Transfer opportunities to CAU Korea in the 3rd or 4th year",
@@ -113,17 +116,17 @@ export const translations = {
 
     // Testimonials Section
     testimonial_1_name: "Dr. Cao Minh Thang",
-    testimonial_1_position: "Director of Institute of Information and Communications Technology (CDIT) - PTIT",
+    testimonial_1_position: "Dr. Cao Minh Thang",
     testimonial_1_text: "PTIT VCC opens an official pathway for young people who are passionate about making games to enter the global gaming industry.",
     testimonial_1_full: "PTIT VCC opens an official pathway for young people who are passionate about making games to enter the global gaming industry, serving as a solid foundation for game creators to achieve success in their careers.\n\nThe program represents a significant milestone in Vietnam's educational landscape, bridging the gap between theoretical knowledge and practical industry application. Through our collaboration with Chung-Ang University, we are establishing world-class standards in game development education.\n\nOur comprehensive curriculum combines cutting-edge technology with hands-on experience, preparing students not just to participate in the global gaming industry, but to lead it. We are committed to nurturing the next generation of creative professionals who will shape the future of digital entertainment.",
 
     testimonial_2_name: "Professor Wi Jong Hyun",
-    testimonial_2_position: "Dean, Virtual Convergence College, Chung-ang University",
+    testimonial_2_position: "Professor Wi Jong Hyun",
     testimonial_2_text: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.",
     testimonial_2_full: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.\n\nOur innovative teaching methods include Game-based Learning, Project-Based Learning, and interdisciplinary collaborations, utilizing advanced IT platforms and AI for personalized, interactive learning experiences. We offer a mix of online and offline classes, providing students with both digital flexibility and hands-on, face-to-face interactions. Our curriculum covers games, animation, IT applications, film, and AI, preparing learners for careers in the evolving entertainment and software industries.\n\nTo enhance our international competitiveness, we are building strategic partnerships with the world's leading universities. Our students engage in diverse cross-cultural experiences, including collaborative classes with international peers, multinational project teams, and worldwide hackathons. By doing activities across different countries, our students see the world in a bigger way. They also learn skills that help them do well in the modern worldwide workplace.\n\nFurthermore, we are expanding our educational approach through industry partnerships, offering internships and collaborative curriculum design. This approach helps students start new businesses, think creatively, and make new things in tech. We teach our students important tech skills, how to think like business owners, and how to be creative. This helps them become leaders who can make big changes in the fast-changing world of technology.",
 
     // Contact Section
-    contact_title: "Contact Us",
+    contact_title: "CONTACT",
     contact_office_title: "Office Address",
     contact_office_address: "PTIT - Posts and Telecommunications Institute of Technology, Km10, Nguyen Trai Road, Ha Dong District, Hanoi, Vietnam",
     contact_email_title: "Contact Email",
@@ -143,50 +146,50 @@ export const translations = {
     view_larger_map: "View Larger Map",
 
     // News Items (hardcoded in component)
-    news_item_1_title: "PTIT VCC Opens New AI Research Lab",
-    news_item_1_description: "The Vietnam-Korea Center inaugurates state-of-the-art artificial intelligence research facilities.",
-    news_item_1_time: "March 15, 2024",
+    news_item_1_title: "The Posts and Telecommunications Institute of Technology and the Korea Game Society sign a Global Cooperation Memorandum of Understanding on Game Education.",
+    news_item_1_description: "PTIT and the Korea Game Society signed an MoU to advance game development training.",
+    news_item_1_time: "August 02, 2024",
 
-    news_item_2_title: "Student Exchange Program Launch",
-    news_item_2_description: "First batch of VCC students depart for Chung-Ang University in South Korea.",
-    news_item_2_time: "March 10, 2024",
+    news_item_2_title: "President and Senior Delegation of Chung-Ang University (South Korea) Hold Working Session with Posts and Telecommunications Institute of Technology (PTIT)",
+    news_item_2_description: "The high-level meeting in Hanoi is joined by key representatives from the South Korean Embassy and the MIC",
+    news_item_2_time: "January 10, 2025",
 
-    news_item_3_title: "Game Development Competition 2024",
-    news_item_3_description: "Annual gaming contest showcases innovative projects from VCC students.",
-    news_item_3_time: "March 5, 2024",
+    news_item_3_title: "Students of PTIT and Chung-Ang University compete in Startup Innovation at “PTIT-CAU HACKATHON 2025”",
+    news_item_3_description: "Students compete with the theme of startup and cooperation in digital communication and immersive media. ",
+    news_item_3_time: "May 14, 2025",
     
-    news_item_4_title: "Industry Partnership Announcement",
-    news_item_4_description: "VCC signs MOU with leading tech companies for internship programs.",
-    news_item_4_time: "Febuary 28, 2024",
+    news_item_4_title: "General Secretary Tô Lâm and South Korean Prime Minister Kim Min-seok witnessed the signing of a cooperation agreement between the Posts and Telecommunications Institute of Technology and Chung-Ang University.",
+    news_item_4_description: "Under top leadership witness, both universities partner to train high-quality human resources in Multimedia and Game Design. ",
+    news_item_4_time: "August 12, 2025",
     
-    news_item_5_title: "New Curriculum Updates 2024",
-    news_item_5_description: "Enhanced course structure includes cutting-edge technologies and practical training.",
-    news_item_5_time: "February 20, 2024",
+    news_item_5_title: "PTIT officially joins the Global Virtual Convergence University Network in South Korea.",
+    news_item_5_description: "The alliance marks a milestone in establishing a cross-border ecosystem using AI and XR technologies. ",
+    news_item_5_time: "November 25, 2025",
     
-    news_item_6_title: "VCC Alumni Success Stories",
-    news_item_6_description: "Former students share their achievements in the global tech industry.",
-    news_item_6_time: "February 15, 2024",
+    news_item_6_title: "PTIT and Chung-Ang University Launch \"Attractive Vietnam Ecotourism\"",
+    news_item_6_description: "The joint initiative merges VR/AR technology and content creation to revolutionize cultural tourism experiences. ",
+    news_item_6_time: "January 10, 2026",
     
-    news_item_7_title: "Faculty Research Publications",
-    news_item_7_description: "VCC professors contribute to international journals on computer science and AI.",
-    news_item_7_time: "February 10, 2024",
+    news_item_7_title: "Opening Ceremony of the “PTITxCAU Joint Hackathon 2026”",
+    news_item_7_description: "The opening ceremony is held at PTIT’s Ngoc Truc campus with delegates from both universities in attendance.",
+    news_item_7_time: "May 11, 2026",
     
-    news_item_8_title: "Campus Infrastructure Upgrade",
-    news_item_8_description: "Modern laboratories and study spaces enhance the learning environment.",
-    news_item_8_time: "February 5, 2024",
+    news_item_8_title: "Academic Pathway Orientation: PTIT VCC Students Meet the College of Virtual Convergence, Chung-Ang University ",
+    news_item_8_description: "Professors engage in direct discussions with VCC students regarding academic transfer opportunities to South Korea.",
+    news_item_8_time: "May 11, 2026",
 
     //NotableActivities
     act_1_title: "Student Orientation Program",
     act_1_des: "Welcome new students to the VCC program",
-    act_1_date:"01-15-2024",
+    act_1_date:"May 15, 2024",
 
     act_2_title: "Cultural Exchange Event",
     act_2_des: "Connect with Korean culture and language",
-    act_2_date:"02-20-2024",
+    act_2_date:"May 15, 2024",
 
     act_3_title: "Career Fair",
     act_3_des: "Meet with industry professionals and potential employers",
-    act_3_date:"03-15-2024",
+    act_3_date:"May 15, 2024",
 
     //Credits Section
     footer_menu: "Menu",
@@ -211,7 +214,7 @@ export const translations = {
     nav_program: "Chương trình",
     nav_student_benefits: "Quyền lợi sinh viên",
     nav_expert_opinions: "Ý kiến chuyên gia",
-    nav_news_and_activities: "Tin tức và sự kiện",
+    nav_news_and_activities: "Tin tức & sự kiện",
     nav_contact: "Liên hệ",
     nav_multimedia: "Đa phương tiện",
     nav_game: "Thiết kế và phát triển trò chơi",
@@ -221,9 +224,9 @@ export const translations = {
     about_description: "Chương trình liên kết quốc tế giữa PTIT và Chung-Ang University (CAU)",
 
     // Mission & Vision Section
-    vision_mission: "Sứ mệnh - Tầm nhìn",
-    vision_title: "Tầm nhìn của chúng tôi",
-    mission_title: "Sứ mệnh của chúng tôi",
+    vision_mission: "Sứ mệnh & Tầm nhìn",
+    vision_title: "Tầm nhìn",
+    mission_title: "Sứ mệnh",
     mission_description: "Đào tạo nguồn nhân lực chất lượng cao trong lĩnh vực công nghệ thông tin, góp phần phát triển kinh tế số và xã hội thông minh. Chúng tôi hướng đến việc cung cấp cho sinh viên kiến thức tiên tiến và kỹ năng thực tế.",
     vision_description: "Trở thành trung tâm đào tạo và nghiên cứu hàng đầu khu vực về công nghệ thông tin, với sự hợp tác quốc tế bền vững và hiệu quả. Chúng tôi hướng đến việc tạo ra cơ hội toàn cầu cho sinh viên Việt Nam.",
 
@@ -255,12 +258,15 @@ export const translations = {
     staff_5_dep:"Nghiên cứu",
     
     // Facilities Section
-    infrastructure_title: "Cơ sở vật chất hiện đại",
-    facilities_title: "Cơ sở vật chất hiện đại",
+    infrastructure_title: "CƠ SỞ VẬT CHẤT HIỆN ĐẠI",
+    facilities_title: "CƠ SỞ VẬT CHẤT HIỆN ĐẠI",
 
     // Activities Section
     noticable_activities_title: "Hoạt động tiêu biểu",
     activities_title: "Hoạt động trường học",
+
+    //HIGHTLIGHT ACTIVITY PHOTOS
+    hightlight:"HÌNH ẢNH HOẠT ĐỘNG NỔI BẬT",
 
     // Expert Opinions Section
     expert_opinions_title: "Ý kiến chuyên gia",
@@ -321,7 +327,7 @@ export const translations = {
     testimonial_2_full: "Trường Đại học Hội tụ Ảo (VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.\n\nCác phương pháp giảng dạy sáng tạo của chúng tôi bao gồm Học tập dựa trên Game, Học tập dựa trên Dự án và hợp tác liên ngành, sử dụng nền tảng CNTT tiên tiến và AI cho trải nghiệm học tập tương tác, cá nhân hóa. Chúng tôi cung cấp sự kết hợp giữa các lớp học trực tuyến và ngoại tuyến, mang đến cho sinh viên cả sự linh hoạt kỹ thuật số và tương tác thực hành trực tiếp.\n\nĐể nâng cao khả năng cạnh tranh quốc tế, chúng tôi đang xây dựng quan hệ đối tác chiến lược với các trường đại học hàng đầu thế giới. Sinh viên của chúng tôi tham gia vào các trải nghiệm đa văn hóa đa dạng, bao gồm các lớp học hợp tác với các bạn quốc tế, nhóm dự án đa quốc gia và hackathon trên toàn thế giới.\n\nHơn nữa, chúng tôi đang mở rộng phương pháp giáo dục thông qua quan hệ đối tác ngành, cung cấp thực tập và thiết kế chương trình giảng dạy hợp tác. Cách tiếp cận này giúp sinh viên khởi nghiệp, tư duy sáng tạo và tạo ra những điều mới trong công nghệ.",
 
     // Contact Section
-    contact_title: "Liên hệ với chúng tôi",
+    contact_title: "LIÊN HỆ",
     contact_office_title: "Địa chỉ văn phòng",
     contact_office_address: "PTIT - Học viện Công nghệ Bưu chính Viễn thông, Km10, Đường Nguyễn Trãi, Quận Hà Đông, Hà Nội, Việt Nam",
     contact_email_title: "Email liên hệ",
@@ -341,37 +347,37 @@ export const translations = {
     view_larger_map: "Xem bản đồ lớn hơn",
 
     // News Items (hardcoded in component)
-    news_item_1_title: "PTIT VCC Khai trương Phòng thí nghiệm AI mới",
-    news_item_1_description: "Trung tâm Việt-Hàn khai trương cơ sở nghiên cứu trí tuệ nhân tạo hiện đại.",
-    news_item_1_time: "15 Tháng 3 2024",
+    news_item_1_title: "Học viện Công nghệ Bưu chính Viễn thông và Hiệp hội Game Hàn Quốc ký Biên bản ghi nhớ hợp tác toàn cầu về đào tạo ngành Game.",
+    news_item_1_description: "PTIT và Hiệp hội Game Hàn Quốc ký kết Biên bản ghi nhớ nhằm thúc đẩy đào tạo và phát triển nguồn nhân lực ngành công nghiệp game.",
+    news_item_1_time: "02 tháng 08, 2024",
 
-    news_item_2_title: "Ra mắt Chương trình Trao đổi Sinh viên",
-    news_item_2_description: "Đợt đầu tiên sinh viên VCC khởi hành đến Đại học Chung-Ang tại Hàn Quốc.",
-    news_item_2_time: "10 Tháng 3 2024",
-    
-    news_item_3_title: "Cuộc thi Phát triển Game 2024",
-    news_item_3_description: "Cuộc thi game thường niên giới thiệu các dự án sáng tạo từ sinh viên VCC.",
-    news_item_3_time: "5 Tháng 3 2024",
-    
-    news_item_4_title: "Thông báo Hợp tác Doanh nghiệp",
-    news_item_4_description: "VCC ký kết biên bản ghi nhớ với các công ty công nghệ hàng đầu cho chương trình thực tập.",
-    news_item_4_time: "28 Tháng 2 2024",
-    
-    news_item_5_title: "Cập nhật Chương trình Giảng dạy mới 2024",
-    news_item_5_description: "Cấu trúc khóa học được cải tiến bao gồm công nghệ tiên tiến và đào tạo thực tế.",
-    news_item_5_time: "20 Tháng 2 2024",
-    
-    news_item_6_title: "Câu chuyện Thành công của Cựu sinh viên VCC",
-    news_item_6_description: "Cựu sinh viên chia sẻ thành tựu của họ trong ngành công nghệ toàn cầu.",
-    news_item_6_time: "15 Tháng 2 2024",
-    
-    news_item_7_title: "Công bố Nghiên cứu của Giảng viên",
-    news_item_7_description: "Các giáo sư VCC đóng góp cho các tạp chí quốc tế về khoa học máy tính và AI.",
-    news_item_7_time: "10 Tháng 2 2024",
-    
-    news_item_8_title: "Nâng cấp Cơ sở hạ tầng Trường học",
-    news_item_8_description: "Phòng thí nghiệm hiện đại và không gian học tập nâng cao môi trường học tập.",
-    news_item_8_time: "5 Tháng 2 2024",
+    news_item_2_title: "Hiệu trưởng và đoàn đại biểu cấp cao của Đại học Chung-Ang (Hàn Quốc) làm việc với Học viện Công nghệ Bưu chính Viễn thông (PTIT).",
+    news_item_2_description: "Buổi làm việc cấp cao tại Hà Nội có sự tham dự của các đại diện quan trọng từ Đại sứ quán Hàn Quốc và Bộ Thông tin và Truyền thông.",
+    news_item_2_time: "10 tháng 01, 2025",
+
+    news_item_3_title: "Sinh viên PTIT và Đại học Chung-Ang tranh tài đổi mới sáng tạo khởi nghiệp tại “PTIT-CAU Hackathon 2025”.",
+    news_item_3_description: "Sinh viên tham gia cuộc thi với chủ đề khởi nghiệp và hợp tác trong lĩnh vực truyền thông số và truyền thông nhập vai.",
+    news_item_3_time: "14 tháng 05, 2025",
+
+    news_item_4_title: "Tổng Bí thư Tô Lâm và Thủ tướng Hàn Quốc Kim Min-seok chứng kiến lễ ký kết thỏa thuận hợp tác giữa Học viện Công nghệ Bưu chính Viễn thông và Đại học Chung-Ang.",
+    news_item_4_description: "Dưới sự chứng kiến của lãnh đạo cấp cao hai nước, hai trường hợp tác đào tạo nguồn nhân lực chất lượng cao trong lĩnh vực Thiết kế Đa phương tiện và Game.",
+    news_item_4_time: "12 tháng 08, 2025",
+
+    news_item_5_title: "PTIT chính thức gia nhập Mạng lưới Đại học Hội tụ Ảo Toàn cầu tại Hàn Quốc.",
+    news_item_5_description: "Sự kiện đánh dấu cột mốc quan trọng trong việc xây dựng hệ sinh thái xuyên biên giới dựa trên công nghệ AI và XR.",
+    news_item_5_time: "25 tháng 11, 2025",
+
+    news_item_6_title: "PTIT và Đại học Chung-Ang triển khai dự án “Du lịch sinh thái Việt Nam hấp dẫn”.",
+    news_item_6_description: "Sáng kiến hợp tác kết hợp công nghệ VR/AR và sáng tạo nội dung nhằm đổi mới trải nghiệm du lịch văn hóa.",
+    news_item_6_time: "10 tháng 01, 2026",
+
+    news_item_7_title: "Lễ khai mạc “PTITxCAU Joint Hackathon 2026”.",
+    news_item_7_description: "Lễ khai mạc được tổ chức tại cơ sở Ngọc Trục của PTIT với sự tham dự của đại biểu từ hai trường đại học.",
+    news_item_7_time: "11 tháng 05, 2026",
+
+    news_item_8_title: "Định hướng lộ trình học tập: Sinh viên VCC của PTIT gặp gỡ Trường Hội tụ Ảo (College of Virtual Convergence) thuộc Đại học Chung-Ang.",
+    news_item_8_description: "Các giáo sư trao đổi trực tiếp với sinh viên VCC về cơ hội chuyển tiếp học tập tại Hàn Quốc.",
+    news_item_8_time: "11 tháng 05, 2026",
 
     //NotableActivities
     act_1_title: "Chương trình định hướng sinh viên",

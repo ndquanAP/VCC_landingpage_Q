@@ -13,9 +13,7 @@ const FacilitiesSection = () => {
       <div className={styles.container}>
         <Title 
           level="h2" 
-          color="orange" 
-          variant="gradient-lines"
-          icon={<Building size={24} color="#E67A35" />}
+          color="blue"
         >
           {t('infrastructure_title')}
         </Title>
@@ -35,6 +33,7 @@ const FacilitiesSection = () => {
           ))}
         </div>
       </div>
+      <img src="/src/v2/assets/v1/foot_fa.png" className={styles.foot}/>
     </section>
   );
 };

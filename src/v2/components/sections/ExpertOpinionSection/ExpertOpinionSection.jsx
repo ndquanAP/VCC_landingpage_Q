@@ -3,8 +3,9 @@ import styles from './ExpertOpinionSection.module.css';
 import Title from '../../ui/Title/Title';
 import Button from '../../ui/Button/Button';
 import Modal from '../../ui/Modal/Modal';
-import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ExternalLink } from 'lucide-react';
 import { useTranslation } from '../../../hooks/useTranslation';
+import CreditsSection from "../CreditsSection/CreditsSection.jsx";
 
 function ExpertOpinionSection() {
   const { t } = useTranslation();
@@ -46,9 +47,9 @@ function ExpertOpinionSection() {
     setCurrentExpert((prev) => (prev - 1 + experts.length) % experts.length);
   };
 
-  const openModal = () => {
+{/*   const openModal = () => {
     setIsModalOpen(true);
-  };
+  }; */}
 
   const closeModal = () => {
     setIsModalOpen(false);
@@ -60,8 +61,8 @@ function ExpertOpinionSection() {
     <section className={styles.expertOpinionSection}>
       <div className={styles.container}>
         {/* Section Title */}
-        <Title level="h2" color="orange" variant="gradient-lines">
-          {t('expert_opinions_title')}
+        <Title level="h2" className={styles.title}>
+         "{t('expert_opinions_title')}"
         </Title>
 
         {/* Expert Card with Side Navigation */}
@@ -69,11 +70,11 @@ function ExpertOpinionSection() {
           {/* Left Arrow */}
           <Button 
             variant="outline" 
-            size="small"
+            size="small" 
             onClick={prevExpert}
             className={styles.navButton}
           >
-            <ChevronLeft size={20} />
+            <ArrowLeft size={30}/>
           </Button>
 
           {/* Expert Card */}
@@ -84,14 +85,18 @@ function ExpertOpinionSection() {
                 alt={currentExpertData.name}
                 className={styles.image}
               />
+              <img 
+                src="/src/v2/assets/v1/Graphic.png"
+                className={styles.graphic}
+              />
             </div>
             
             <div className={styles.expertContent}>
               <div className={styles.opinion}>
-                "{currentExpertData.opinion}"
+                {currentExpertData.opinion}
               </div>
 
-              {currentExpertData.hasMore && (
+              {/* {currentExpertData.hasMore && (
                 <div className={styles.seeMoreContainer}>
                   <Button
                     variant="outline-orange"
@@ -103,7 +108,7 @@ function ExpertOpinionSection() {
                     {t('see_more')}
                   </Button>
                 </div>
-              )}
+              )} */}
 
               <div className={styles.expertInfo}>
                 <h3 className={styles.name}>{currentExpertData.name}</h3>
@@ -119,7 +124,7 @@ function ExpertOpinionSection() {
             onClick={nextExpert}
             className={styles.navButton}
           >
-            <ChevronRight size={20} />
+            <ArrowRight size={30} />
           </Button>
         </div>
 
@@ -154,15 +159,18 @@ function ExpertOpinionSection() {
             </div>
           </div>
 
-          <div className={styles.modalOpinion}>
+          <div className={styles.modalOpinion}> 
             {currentExpertData.fullOpinion.split('\n\n').map((paragraph, index) => (
               <p key={index} className={styles.modalParagraph}>
                 {paragraph.replace(/^\n/, '').replace(/\n$/, '')}
               </p>
             ))}
           </div>
+          
         </div>
       </Modal>
+      {/* Credits Section */}
+      <CreditsSection />
     </section>
   );
 }

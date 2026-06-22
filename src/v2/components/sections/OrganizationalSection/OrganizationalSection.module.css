@@ -3,7 +3,6 @@
 
 .organizationalSection {
   width: 100%;
-  padding: var(--section-padding);
 }
 
 .container {
@@ -13,7 +12,7 @@
   text-align: center;
   border-radius: var(--border-radius-large);
   padding: 1px 40px 60px 40px;
-  box-shadow: var(--shadow-light);
+  /* box-shadow: var(--shadow-light); */
   margin: 0 40px;
 }
 
@@ -39,10 +38,6 @@
 }
 
 @media (max-width: 768px) {
-  .organizationalSection {
-    padding: 60px 0;
-  }
-
   .container {
     margin: 0 16px;
     padding: 1px 20px 40px 20px;
@@ -58,10 +53,6 @@
 }
 
 @media (max-width: 480px) {
-  .organizationalSection {
-    padding: 40px 0;
-  }
-
   .container {
     margin: 0 12px;
     padding: 1px 16px 30px 16px;

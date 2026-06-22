@@ -3,6 +3,7 @@ import styles from "./ContactSection.module.css";
 import Button from "../../ui/Button/Button";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
 import { useTranslation } from "../../../hooks/useTranslation";
+import CreditsSection from "../CreditsSection/CreditsSection.jsx";
 
 const ContactSection = () => {
   const { t } = useTranslation();
@@ -25,7 +26,7 @@ const ContactSection = () => {
         <div className={styles.content}>
           {/* Left Content - Contact Information */}
           <div className={styles.leftContent}>
-            <h2 className={styles.title}>
+            <h2 className={styles.title}> 
               {t("contact_title") || "Contact Us"}
             </h2>
 
@@ -85,7 +86,7 @@ const ContactSection = () => {
                     size="medium"
                     className={styles.submitButton}
                   >
-                    <Send size={18} />
+                    Send
                   </Button>
                 </div>
               </form>
@@ -121,6 +122,8 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
+      {/* Credits Section */}
+      <CreditsSection />
     </section>
   );
 };

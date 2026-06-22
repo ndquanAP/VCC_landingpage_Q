@@ -24,6 +24,11 @@
   justify-content: center;
 }
 
+.triangleButton{
+  width: 150px;
+  height: auto;
+}
+
 .carousel {
   position: relative;
   width: 100%;
@@ -85,8 +90,73 @@
   border-radius: var(--border-radius-medium);
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: var(--shadow-medium);
-  overflow: hidden;
+  overflow: visible;
+}
+
+.arcadeBg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.person {
+  position: absolute;
+  bottom: 40px;
+  left: 40%;
+  transform: translateX(-50%);
+
+  width: 65%;
+  height: auto;
+
+  z-index: 2;
+}
+
+.cardLeft .person,
+.cardRight .person {
+  width: 55%;
+}
+
+.bubble {
+  position: absolute;
+  top: -50px;
+  left: 80%;
+  transform: translateX(-50%);
+
+  width: 80%;
+  z-index: 4;
+}
+
+.bubbleText {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+
+  text-align: center;
+  color: black;
+}
+
+.bubbleText h4 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.bubbleText p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cardContent {
+  position: absolute;
+  top: -90px;
+
+  transform: translateX(-50%);
+  width: 265px;
+
+  background: transparent;
+  text-align: center;
+
+  z-index: 5;
 }
 
 .cardCenter {
@@ -97,13 +167,13 @@
 
 .cardLeft {
   z-index: 2;
-  transform: translateX(-280px) scale(0.9);
+  transform: translateX(-300px) scale(0.9);
   opacity: 0.7;
 }
 
 .cardRight {
   z-index: 2;
-  transform: translateX(280px) scale(0.9);
+  transform: translateX(300px) scale(0.9);
   opacity: 0.7;
 }
 
@@ -115,34 +185,29 @@
 
 .cardContent {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: -65px;
+  left: 245px;
   right: 0;
-  padding: 24px;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-  color: var(--color-white);
+  padding: 18px;
   text-align: left;
 }
 
 .cardName {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
-  margin: 0 0 8px 0;
-  color: var(--color-white);
+  margin: 0 0 3px 0;
 }
 
 .cardTitle {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
-  margin: 0 0 8px 0;
-  color: var(--color-orange-light);
+  margin: 0 0 3px 0; 
 }
 
 .cardDesc {
-  font-size: 13px;
+  font-size: 12px;
   margin: 0;
   line-height: 1.4;
-  color: rgba(255, 255, 255, 0.9);
 }
 
 /* Dots Navigation */
@@ -169,7 +234,6 @@
   background: var(--color-orange);
   border: 2px solid var(--color-orange);
 }
-
 
 .dot:focus {
   outline: none;
@@ -219,7 +283,8 @@
 
   .carouselContainer {
     height: 300px;
-    margin-top: 40px;
+    margin-top: 70px;
+
   }
 
   .navButton {
@@ -235,6 +300,11 @@
     right: 20px;
   }
 
+  .cardContent{
+    left: 180px;
+    width: 200px;
+  }
+
   .card {
     width: 220px;
     height: 280px;
@@ -246,15 +316,15 @@
   }
 
   .cardName {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .cardTitle {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .cardDesc {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -269,7 +339,7 @@
 
   .carouselContainer {
     height: 250px;
-    margin-top: 30px;
+    margin-top: 80px;
   }
 
   .card {
@@ -279,20 +349,22 @@
 
   .cardContent {
     padding: 16px;
+    width: 185px;
+    left: 160px;
   }
 
   .cardName {
-    font-size: 16px;
-    margin-bottom: 6px;
+    font-size: 14px;
+    margin-bottom: 2px;
   }
 
   .cardTitle {
-    font-size: 12px;
-    margin-bottom: 6px;
+    font-size: 10px;
+    margin-bottom: 2px;
   }
 
   .cardDesc {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .navButton {

@@ -1,0 +1,48 @@
+.button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.15);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button svg {
+  width: 80px;
+  height: 80px;
+}
+
+.right {
+  transform: rotate(180deg);
+}
+
+.left {
+  transform: rotate(0deg);
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .button svg {
+  width: 70px;
+  height: 70px;
+}
+
+}
+
+@media (max-width: 480px) {
+  .button svg {
+  width: 60px;
+  height: 60px;
+}
+}

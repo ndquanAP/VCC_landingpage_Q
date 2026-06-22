@@ -3,8 +3,14 @@
 
 .videoSection {
   width: 100%;
-  padding: var(--section-padding);
   position: relative;
+  background: linear-gradient(171.23deg, #FFEEC0 4.62%, rgba(255, 255, 255, 0) 65.5%);
+
+}
+
+.song {
+  display: block;
+  width: 100%;
 }
 
 .container {
@@ -51,6 +57,32 @@
 }
 
 /* Decorative overlay approach - subtle corner elements */
+.title{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: -100px;
+  margin-top: -90px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.banner{
+  width: 400px;
+  height: 70px;
+  background-color: #FFBD00;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 1;
+
+}
+
+.title img{
+  height: 70px;
+}
+
 .decorativeOverlay {
   position: absolute;
   top: 0;
@@ -133,12 +165,14 @@
 }
 
 @media (max-width: 768px) {
-  .videoSection {
-    padding: 60px 0;
-  }
-
   .container {
     padding: 0 20px;
+    display: block;
+  }
+  
+
+  .title{
+    margin: 0;
   }
 
   .videoContent {
@@ -175,17 +209,22 @@
 }
 
 @media (max-width: 480px) {
-  .videoSection {
-    padding: 40px 0;
-  }
-
   .container {
     padding: 0 16px;
+    display: block;
   }
 
   .videoContent {
     gap: 24px;
     margin-top: 30px;
+  }
+
+  .banner{
+    width: 100%;
+  }
+
+  .title{
+    margin: 0;
   }
 
   .textContent {

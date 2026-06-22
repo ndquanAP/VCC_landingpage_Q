@@ -12,7 +12,7 @@ const AboutSection = () => {
         <div className={styles.content}>
           <Title level="h1" align="center" color="blue" className={styles.title}>
             {t('about_title')}
-          </Title>
+          </Title> 
           <p className={styles.description}>
             {t('about_description')}
           </p>

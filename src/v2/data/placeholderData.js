@@ -25,36 +25,56 @@ export const getActivitiesData = (t) => [
 ];
 
 export const facilitiesImages = [
-  {
+  { 
     id: 1,
     title: "Modern Facility 1",
-    image: `${import.meta.env.BASE_URL}src/v2/assets/v1/random-pic1.webp`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/Cau campus.png`
   },
   {
     id: 2,
     title: "Modern Facility 2",
-    image: `${import.meta.env.BASE_URL}src/v2/assets/v1/random-pic2.webp`
+    image: `/src/v2/assets/Facilities/cau_CAD_computer_room.jpg`
   },
   {
     id: 3,
     title: "Modern Facility 3",
-    image: `${import.meta.env.BASE_URL}src/v2/assets/v1/random-pic3.webp`
+    image: `/src/v2/assets/Facilities/cau_galary.jpg`
   },
   {
     id: 4,
     title: "Modern Facility 4",
-    image: `${import.meta.env.BASE_URL}src/v2/assets/v1/random-pic4.webp`
+    image: `/src/v2/assets/Facilities/cau_library.jfif`
   },
   {
     id: 5,
     title: "Modern Facility 5",
-    image: `${import.meta.env.BASE_URL}src/v2/assets/v1/random-pic5.webp`
+    image: `/src/v2/assets/Facilities/cau_library.jpg`
   },
   {
     id: 6,
     title: "Modern Facility 6",
-    image: `${import.meta.env.BASE_URL}src/v2/assets/v1/random-pic6.webp`
-  }
+    image: `/src/v2/assets/Facilities/cau_studio.jpg`
+  },
+  {
+    id: 7,
+    title: "Modern Facility 7",
+    image: `/src/v2/assets/Facilities/CLC_class.png`
+  },
+  {
+    id: 8,
+    title: "Modern Facility 6",
+    image: `/src/v2/assets/Facilities/lab cau.jpg`
+  },
+  {
+    id: 9,
+    title: "Modern Facility 6",
+    image: `/src/v2/assets/Facilities/lab ikame.jpg`
+  },
+  {
+    id: 10,
+    title: "Modern Facility 6",
+    image: `/src/v2/assets/Facilities/lab.jpg`
+  },
 ];
 
 export const getStaffMembers = (t) => [
@@ -63,15 +83,15 @@ export const getStaffMembers = (t) => [
     name: t("staff_1_name"),
     title: t("staff_1_title"),
     description: t("staff_1_des"),
-    image: `${import.meta.env.BASE_URL}src/v2/assets/NguyenvanA.webp`,
+    image: `${import.meta.env.BASE_URL}src/v2/assets/`,
     department: t("staff_1_dep"),
   },
-  {
+  { 
     id: 2,
     name: t("staff_2_name"),
     title: t("staff_2_title"),
     description: t("staff_2_des"),
-    image: `${import.meta.env.BASE_URL}src/v2/assets/kim-ha-neul-1.webp`,
+    image: `${import.meta.env.BASE_URL}src/v2/assets/`,
     department: t("staff_2_dep"),
   },
   {
@@ -79,7 +99,7 @@ export const getStaffMembers = (t) => [
     name: t("staff_3_name"),
     title: t("staff_3_title"),
     description: t("staff_3_des"),
-    image: `${import.meta.env.BASE_URL}src/v2/assets/TranthiB.webp`,
+    image: `${import.meta.env.BASE_URL}src/v2/assets/`,
     department: t("staff_3_dep"),
   },
   {
@@ -87,7 +107,7 @@ export const getStaffMembers = (t) => [
     name: t("staff_4_name"),
     title: t("staff_4_title"),
     description: t("staff_4_des"),
-    image: `${import.meta.env.BASE_URL}src/v2/assets/Lee.webp`,
+    image: `${import.meta.env.BASE_URL}src/v2/assets/`,
     department: t("staff_4_dep"),
   },
   {

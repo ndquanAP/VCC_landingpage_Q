@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Title from '../../ui/Title/Title';
+import TriangleButton from "../../ui/TriangleButton/TriangleButton";
 import { useTranslation } from '../../../hooks/useTranslation';
 import { getStaffMembers } from '../../../data/placeholderData';
 import { Users, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -63,21 +64,11 @@ const FacultySection = () => {
         </Title>
 
         <div className={styles.carouselContainer}>
-          <button 
-            className={styles.navButton} 
+          <TriangleButton
+            direction="left"
+
             onClick={prevSlide}
-            aria-label="Previous faculty member"
-          >
-            <ChevronLeft size={32} />
-          </button>
-          
-          <button 
-            className={styles.navButton} 
-            onClick={nextSlide}
-            aria-label="Next faculty member"
-          >
-            <ChevronRight size={32} />
-          </button>
+          />
 
           <div className={styles.carousel}>
             {staffMembers.map((member, index) => (
@@ -85,19 +76,44 @@ const FacultySection = () => {
                 key={member.id}
                 className={`${styles.card} ${getCardClasses(index)}`}
                 onClick={() => goToSlide(index)}
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(${member.image})`,
-                }}
               >
-                <div className={styles.cardContent}>
-                  <h4 className={styles.cardName}>{member.name}</h4>
-                  <p className={styles.cardTitle}>{member.title}</p>
-                  <p className={styles.cardDesc}>{member.description}</p>
-                </div>
+                <img
+                  src="/src/v2/assets/v1/character-background.webp"
+                  alt=""
+                  className={styles.arcadeBg}
+                />
+
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className={styles.person}
+                />
+
+                {index === currentSlide && (
+                  <div className={styles.bubbleWrapper}>
+                    <img
+                      src="/src/v2/assets/v1/hoi_thoai.png"
+                      alt=""
+                      className={styles.bubble}
+                    />
+
+                    <div className={styles.cardContent}>
+                      <h4 className={styles.cardName}>{member.name}</h4>
+                      <p className={styles.cardTitle}>{member.title}</p>
+                      <p className={styles.cardDesc}>{member.description}</p>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
-        </div>
+
+          <TriangleButton
+            direction="right"
+            
+            onClick={nextSlide}
+          />
+        </div> 
 
         <div className={styles.dotsContainer}>
           {staffMembers.map((_, index) => (

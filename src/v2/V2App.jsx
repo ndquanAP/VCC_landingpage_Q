@@ -25,6 +25,8 @@ import StudentBenefitSection from "./components/sections/StudentBenefitSection/S
 import NewsSection from "./components/sections/NewsSection/NewsSection";
 import ContactSection from "./components/sections/ContactSection/ContactSection";
 import CreditsSection from "./components/sections/CreditsSection/CreditsSection";
+import SignUpSection from "./components/sections/SignUpSection/SignUpSection";
+import ExpertShowcaseSection from "./components/sections/ExpertShowcaseSection/ExpertShowcaseSection";
 
 // Import V2 sections (will be created progressively)
 // import V2NavBar from './components/ui/NavBar/V2NavBar';
@@ -62,6 +64,11 @@ function V2App() {
         <AboutSection />
       </div>
 
+      {/* Sign Up Section */}
+      <div id="sign-up">
+        <SignUpSection />
+      </div>
+
       {/* Testimonial Section */}
       <div id="testimonials">
         <TestimonialSection />
@@ -95,6 +102,11 @@ function V2App() {
       {/* Video Section */}
       <div id="video">
         <VideoSection />
+      </div>
+
+      {/* Expert Showcase Section */}
+      <div id="expert-showcase">
+        <ExpertShowcaseSection />
       </div>
 
       {/* Expert Opinion Section */}
