@@ -5,6 +5,8 @@ import { useTranslation } from '../../../hooks/useTranslation';
 import { getStaffMembers } from '../../../data/placeholderData';
 import { Users, ChevronLeft, ChevronRight } from 'lucide-react';
 import styles from './FacultySection.module.css';
+import characterBg from '../../../assets/v1/character-background.webp';
+import hoiThoai from '../../../assets/v1/hoi_thoai.png';
 
 const FacultySection = () => {
   const { t } = useTranslation();
@@ -78,7 +80,7 @@ const FacultySection = () => {
                 onClick={() => goToSlide(index)}
               >
                 <img
-                  src="/src/v2/assets/v1/character-background.webp"
+                  src={characterBg}
                   alt=""
                   className={styles.arcadeBg}
                 />
@@ -92,7 +94,7 @@ const FacultySection = () => {
                 {index === currentSlide && (
                   <div className={styles.bubbleWrapper}>
                     <img
-                      src="/src/v2/assets/v1/hoi_thoai.png"
+                      src={hoiThoai}
                       alt=""
                       className={styles.bubble}
                     />

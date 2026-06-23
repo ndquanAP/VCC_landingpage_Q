@@ -6,6 +6,10 @@ import Modal from '../../ui/Modal/Modal';
 import { ArrowLeft, ArrowRight, ExternalLink } from 'lucide-react';
 import { useTranslation } from '../../../hooks/useTranslation';
 import CreditsSection from "../CreditsSection/CreditsSection.jsx";
+import image1 from "../../../assets/image.webp";
+import image2 from "../../../assets/image2.webp";
+import image3 from "../../../assets/TranthiB.webp";
+import graphic from "../../../assets/v1/Graphic.png";
 
 function ExpertOpinionSection() {
   const { t } = useTranslation();
@@ -18,7 +22,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_1'),
       opinion: t('expert_opinion_1'),
       fullOpinion: t('expert_opinion_1'),
-      image: `${import.meta.env.BASE_URL}src/v2/assets/image.webp`,
+      image: image1,
       hasMore: false
     },
     {
@@ -26,7 +30,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_2'),
       opinion: t('expert_opinion_2'),
       fullOpinion: t('expert_opinion_2_full'),
-      image: `${import.meta.env.BASE_URL}src/v2/assets/image2.webp`,
+      image: image2,
       hasMore: true
     },
     {
@@ -34,7 +38,7 @@ function ExpertOpinionSection() {
       position: t('expert_position_3'),
       opinion: t('expert_opinion_3'),
       fullOpinion: t('expert_opinion_3'),
-      image: `${import.meta.env.BASE_URL}src/v2/assets/TranthiB.webp`,
+      image: image3,
       hasMore: false
     },
   ];
@@ -86,7 +90,7 @@ function ExpertOpinionSection() {
                 className={styles.image}
               />
               <img 
-                src="/src/v2/assets/v1/Graphic.png"
+                src={graphic}
                 className={styles.graphic}
               />
             </div>

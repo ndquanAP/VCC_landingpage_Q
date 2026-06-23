@@ -4,6 +4,7 @@ import { useTranslation } from '../../../hooks/useTranslation';
 import { facilitiesImages } from '../../../data/placeholderData';
 import { Building } from 'lucide-react';
 import styles from './FacilitiesSection.module.css';
+import footFa from '../../../assets/v1/foot_fa.png';
 
 const FacilitiesSection = () => {
   const { t } = useTranslation();
@@ -33,7 +34,7 @@ const FacilitiesSection = () => {
           ))}
         </div>
       </div>
-      <img src="/src/v2/assets/v1/foot_fa.png" className={styles.foot}/>
+      <img src={footFa} className={styles.foot}/>
     </section>
   );
 };

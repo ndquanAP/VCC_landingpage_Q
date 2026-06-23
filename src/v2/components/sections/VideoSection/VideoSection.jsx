@@ -4,13 +4,15 @@ import Button from '../../ui/Button/Button';
 import { useTranslation } from '../../../hooks/useTranslation';
 import { Play, ExternalLink } from 'lucide-react';
 import styles from './VideoSection.module.css';
+import song from '../../../assets/v1/song.png';
+import svg from '../../../assets/v1/SVG.png';
 
 const VideoSection = () => {
   const { t } = useTranslation();
   
   return (
     <section className={styles.videoSection} id="video">
-    <img src="/src/v2/assets/v1/song.png" className={styles.song}/>
+    <img src={song} className={styles.song}/>
       <div className={styles.container}>
         <div className={styles.videoContent}>
           <div className={styles.videoWrapper}>
@@ -30,13 +32,13 @@ const VideoSection = () => {
               <div className={styles.bottomRightDecor}></div>
             </div>
           </div>
-
+ 
           <div className={styles.textContent}>
             <div className={styles.title}>
               <div className={styles.banner}>
                 {t('vcc_opening_card_title')}
               </div>
-              <img src="/src/v2/assets/v1/SVG.png"/>
+              <img src={svg}/>
             </div>
             <p className={styles.description}>
               {t('vcc_opening_card_description')}

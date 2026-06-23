@@ -16,7 +16,7 @@
   padding: 40px 20px;
   border-radius: 67px;
 
-  background-image: url('/src/v2/assets/background.png');
+  background-image: url('../../../assets/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

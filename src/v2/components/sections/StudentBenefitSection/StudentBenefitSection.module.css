@@ -2,7 +2,7 @@
 
 .studentBenefitSection {
   width: 100%;
-  background-image: url(/src/v2/assets/student_benifits/Background.png);
+  background-image: url(../../../assets/student_benifits/Background.png);
   height: 100%;
 }
 

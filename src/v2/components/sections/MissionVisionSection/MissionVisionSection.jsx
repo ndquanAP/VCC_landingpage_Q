@@ -4,6 +4,8 @@ import Title from '../../ui/Title/Title';
 import MissionCard from '../../ui/MissionCard/MissionCard';
 import { ShieldCheck } from 'lucide-react';
 import { useTranslation } from '../../../hooks/useTranslation';
+import missionIcon from '../../../assets/v1/mission.png';
+import visionIcon from '../../../assets/v1/vision.png';
 /* import { imageOverlay } from 'leaflet'; */
 
 function MissionVisionSection() {
@@ -21,7 +23,7 @@ function MissionVisionSection() {
         <div className={styles.cardsContainer}>
           <MissionCard 
             variant="orange-gradient"
-            icon={  <img src="/public/src/v2/assets/v1/mission.png"/>}
+            icon={  <img src={missionIcon}/>}
             title= {t("mission_title")}
             description= {t("mission_description")}
             textAlign="left"
@@ -29,7 +31,7 @@ function MissionVisionSection() {
 
           <MissionCard 
             variant="purple-gradient"
-            icon={  <img src="/public/src/v2/assets/v1/vision.png"/>}
+            icon={  <img src={visionIcon}/>}
             title= {t("vision_title")}
             description= {t("vision_description")}
           />

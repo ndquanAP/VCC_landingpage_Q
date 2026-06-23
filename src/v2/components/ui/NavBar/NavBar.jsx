@@ -4,6 +4,7 @@ import styles from "./NavBar.module.css";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useTranslation } from "../../../hooks/useTranslation";
 import LanguageSwitch from "../LanguageSwitch/LanguageSwitch";
+import logo from "../../../assets/logo/logo.png";
 
 
 const NavBar = () => {
@@ -49,7 +50,7 @@ const NavBar = () => {
       <div className={styles.container}>
         {/* Logo */}
         <Link to="/" className={styles.logo}>
-          <img src="/src/v2/assets/logo/logo.png" alt="VCC Logo" className={styles.logoImage} />
+          <img src={logo} alt="VCC Logo" className={styles.logoImage} />
           {/* <span className={styles.logoText}>PTIT VCC</span> */}
         </Link>
 

@@ -7,6 +7,7 @@ import styles from "./ExpertShowcaseSection.module.css";
 import image1 from "../../../assets/image.webp";
 import image2 from "../../../assets/image2.webp";
 import image3 from "../../../assets/TranthiB.webp";
+import circleBg from "../../../assets/v1/Circle BG.png";
 
 function ExpertShowcaseSection() {
   const { t } = useTranslation();
@@ -113,7 +114,7 @@ function ExpertShowcaseSection() {
               >
                 <div className={styles.imageArea}>
                   <img
-                    src="/src/v2/assets/v1/Circle BG.png"
+                    src={circleBg}
                     className={styles.circle}
                   />
 

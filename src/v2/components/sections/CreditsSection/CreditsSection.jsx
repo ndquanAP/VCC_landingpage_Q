@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./CreditsSection.module.css";
 import { useTranslation } from "../../../hooks/useTranslation";
+import linkMainLogo from "../../../assets/logo/Link - Main Logo.png";
+import virtualCollegeImg from "../../../assets/Virtual Convergence College.png";
 
 const CreditsSection = () => {
 
@@ -11,7 +13,7 @@ const CreditsSection = () => {
       <div className={styles.container}>
         <div className={styles.companyCard}>
           <img
-            src="/public/src/v2/assets/logo/Link - Main Logo.png"
+            src={linkMainLogo}
             alt="VCC"
             className={styles.companyLogo}
           />
@@ -143,7 +145,7 @@ const CreditsSection = () => {
           </div>
         </div>*/}
       </div>
-      <img src="/src/v2/assets/Virtual Convergence College.png" className={styles.virtual}/>
+      <img src={virtualCollegeImg} className={styles.virtual}/>
     </footer>
   );
 };

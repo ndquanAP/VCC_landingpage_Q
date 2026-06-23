@@ -9,7 +9,7 @@
   position: relative;
   width: 100%;
   max-width: 760px;
-  background-image: url(/src/v2/assets/v1/signup.png);
+  background-image: url(../../../assets/v1/signup.png);
 
   background-size: cover;
   background-position: center;

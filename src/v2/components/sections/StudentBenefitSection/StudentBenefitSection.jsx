@@ -3,6 +3,7 @@ import { Sparkle } from "lucide-react";
 import styles from "./StudentBenefitSection.module.css";
 import { useTranslation } from "../../../hooks/useTranslation.js";
 import CreditsSection from "../CreditsSection/CreditsSection.jsx";
+import groupImage from "../../../assets/student_benifits/Group 1224.png";
 
 
 const StudentBenefitSection = () => {
@@ -114,7 +115,7 @@ const StudentBenefitSection = () => {
             </div>
           ))}
         </div>
-        <img src="/src/v2/assets/student_benifits/Group 1224.png" className={styles.image}/>
+        <img src={groupImage} className={styles.image}/>
       </div>
       {/* Credits Section */}
       <CreditsSection />

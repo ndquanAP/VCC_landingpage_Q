@@ -3,6 +3,8 @@ import Title from '../../ui/Title/Title';
 import { Settings } from 'lucide-react';
 import styles from './OrganizationalSection.module.css';
 import { useTranslation } from '../../../hooks/useTranslation';
+import orgStructureEn from '../../../assets/organizational_structure.png';
+import orgStructureVi from '../../../assets/oraganizational_vi.png';
 
 const OrganizationalSection = () => {
   const { t, currentLang } = useTranslation();
@@ -22,8 +24,8 @@ const OrganizationalSection = () => {
           <img
             src={
               currentLang === "EN"
-                ? `/src/v2/assets/organizational_structure.png`
-                : `/src/v2/assets/oraganizational_vi.png`
+                ? orgStructureEn
+                : orgStructureVi
             }
             alt="PTIT VCC Organizational Structure"
             className={styles.structureImage}
