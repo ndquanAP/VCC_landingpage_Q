@@ -85,9 +85,9 @@ function V2App() {
       </div>
 
       {/* Faculty Members Section */}
-      <div id="faculty">
+      {/* <div id="faculty">
         <FacultySection />
-      </div>
+      </div> */}
 
       {/* Modern Facilities Section */}
       <div id="facilities">

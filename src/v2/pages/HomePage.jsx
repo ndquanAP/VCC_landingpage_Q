@@ -43,9 +43,9 @@ const HomePage = () => {
         </div>
 
         {/* Faculty Members Section */}
-        <div id="faculty">
+        {/* <div id="faculty">
           <FacultySection />
-        </div>
+        </div> */}
       </div>
 
       {/* Modern Facilities Section */}
