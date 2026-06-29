@@ -2,7 +2,6 @@ import React from "react";
 import Modal from "../Modal/Modal"; 
 import styles from "./NewsModal.module.css";
 
-import { VscWhitespace } from "react-icons/vsc";
 
 const NewsModal = ({ isOpen, onClose, news }) => {
   if (!news) return null;

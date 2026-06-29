@@ -108,7 +108,7 @@ const NavBar = () => {
 
         {/* Right Side - Language, Sign In & Mobile Menu */}
         <div className={styles.rightSection}>
-          <button className={styles.signInButton}>{t("sign_in")}</button>  
+          {/* <button className={styles.signInButton}>{t("sign_in")}</button>   */}
           <div className={styles.desktopLanguage}>
             <LanguageSwitch />
           </div>
