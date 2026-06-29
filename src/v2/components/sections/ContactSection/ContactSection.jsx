@@ -65,7 +65,7 @@ const ContactSection = () => {
             {/* Newsletter Signup */}
             <div className={styles.newsletterSection}>
               <h3 className={styles.newsletterTitle}>
-                {t("newsletter_title") || "Stay Updated"}
+                {t("newsletter_title") || "Online contract form!"}
               </h3>
               <p className={styles.newsletterDescription}>
                 {t("newsletter_description")}
@@ -76,7 +76,7 @@ const ContactSection = () => {
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder={t("newsletter_placeholder") || "Enter your email address"}
+                    placeholder={t("newsletter_placeholder") || "Your email"}
                     className={styles.emailInput}
                     required
                   />

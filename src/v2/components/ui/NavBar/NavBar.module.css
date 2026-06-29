@@ -290,6 +290,12 @@ a.dropdownItem {
   overflow-y: auto;
 }
 
+.mobileLanguage{
+  display: flex;
+  justify-content: end;
+  font-size: 28px;
+}
+
 .mobileNavItem {
   border-bottom: 1px solid #f0f0f0;
 }
@@ -374,6 +380,10 @@ a.dropdownItem {
     display: block;
   }
 
+  .desktopLanguage{
+    display: none;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -387,7 +397,7 @@ a.dropdownItem {
   }
 
   .logoImage {
-    width: 32px;
+    /* width: 32px; */
     height: 32px;
   }
 

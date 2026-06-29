@@ -41,8 +41,8 @@ const StudentBenefitSection = () => {
     },
     {
       id: 7,
-      title: t('benefit_6_title'),
-      description: t('benefit_6_decs'),
+      title: t('benefit_7_title'),
+      description: t('benefit_7_decs'),
     },
   ];
 

@@ -180,6 +180,7 @@
 .rightLayout .benefitContent{
     text-align:left;
     margin-left:20px;
+    justify-self: start;
 }
 
 .benefitTitle {
@@ -288,7 +289,7 @@
     text-align: left !important;
     justify-content: flex-start;
     display: flex;
-    align-items: center;
+    align-items: end;
     gap: 12px;
   }
 

@@ -36,6 +36,7 @@
 }
 
 .sliderWrapper {
+  height: auto;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -93,7 +94,7 @@
 .imageArea {
   overflow: hidden;
   position: relative;
-  height: 340px;
+  height: 400px;
 }
 
 .person {
@@ -104,7 +105,7 @@
 
   transform: translateX(-50%);
 
-  height: 300px;
+  height: 400px;
   object-fit: contain;
   z-index: 2;
 }

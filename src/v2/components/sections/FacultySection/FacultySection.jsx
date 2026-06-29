@@ -60,7 +60,7 @@ const FacultySection = () => {
           level="h2" 
           color="orange" 
           variant="gradient-lines"
-          icon={<Users size={24} color="#E67A35" />}
+          icon={<Users size={24} color="#E67A35"/>}
         >
           {t('teachers_title')}
         </Title>
@@ -99,7 +99,7 @@ const FacultySection = () => {
                       className={styles.bubble}
                     />
 
-                    <div className={styles.cardContent}>
+                    <div className={styles.cardContent}> 
                       <h4 className={styles.cardName}>{member.name}</h4>
                       <p className={styles.cardTitle}>{member.title}</p>
                       <p className={styles.cardDesc}>{member.description}</p>

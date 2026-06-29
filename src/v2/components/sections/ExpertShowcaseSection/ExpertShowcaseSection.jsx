@@ -4,9 +4,9 @@ import { ChevronLeft, ChevronRight, Users } from "lucide-react";
 import { useTranslation } from "../../../hooks/useTranslation";
 import styles from "./ExpertShowcaseSection.module.css";
 
-import image1 from "../../../assets/image.webp";
-import image2 from "../../../assets/image2.webp";
-import image3 from "../../../assets/TranthiB.webp";
+import image1 from "../../../assets/ANh A1 1.png";
+import image2 from "../../../assets/ANh A1 1.png";
+import image3 from "../../../assets/ANh A1 1.png";
 import circleBg from "../../../assets/v1/Circle BG.png";
 
 function ExpertShowcaseSection() {
@@ -118,11 +118,11 @@ function ExpertShowcaseSection() {
                     className={styles.circle}
                   />
 
-                  {/* <img
+                  <img
                     src={expert.image}
                     alt={expert.name}
                     className={styles.person}
-                  /> */}
+                  />
                 </div>
 
                 <div className={styles.content}>

@@ -101,19 +101,19 @@
 
 .person {
   position: absolute;
-  bottom: 40px;
+  bottom: 55px;
   left: 40%;
   transform: translateX(-50%);
 
-  width: 65%;
-  height: auto;
+  height: 330px;
+  width: auto;
 
   z-index: 2;
 }
 
 .cardLeft .person,
 .cardRight .person {
-  width: 55%;
+  height: 280px;
 }
 
 .bubble {
@@ -245,7 +245,7 @@
 }
 
 /* Responsive breakpoints */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .container {
     padding: 0 40px;
   }
@@ -259,8 +259,22 @@
   }
 
   .card {
-    width: 260px;
+    width: 280px;
     height: 320px;
+  }
+
+  .person{
+    height: 220px;
+    bottom: 40px;
+  }
+
+  .cardLeft .person,
+  .cardRight .person {
+    height: 200px;
+  }
+
+  .cardContent{
+    left: 235px;
   }
 
   .cardLeft {
@@ -306,8 +320,13 @@
   }
 
   .card {
-    width: 220px;
+    width: 230px;
     height: 280px;
+  }
+
+  .person{
+    height: 200px;
+    bottom: 35px;
   }
 
   .cardLeft,
@@ -343,14 +362,20 @@
   }
 
   .card {
-    width: 200px;
+    width: 220px;
     height: 250px;
+  }
+
+  .person{
+    bottom: 30px;
+    height: 180px;
+    width: auto;
   }
 
   .cardContent {
     padding: 16px;
-    width: 185px;
-    left: 160px;
+    width: 200px;
+    left: 177px;
   }
 
   .cardName {

@@ -107,7 +107,7 @@ export const getStaffMembers = (t) => [
     name: t("staff_4_name"),
     title: t("staff_4_title"),
     description: t("staff_4_des"),
-    image: `${import.meta.env.BASE_URL}src/v2/assets/`,
+    image: `${import.meta.env.BASE_URL}src/v2/assets/ANh A1 1.png`,
     department: t("staff_4_dep"),
   },
   {

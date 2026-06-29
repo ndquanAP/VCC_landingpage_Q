@@ -128,6 +128,9 @@ const NavBar = () => {
       {isMobileMenuOpen && (
         <div className={styles.mobileMenu}>
           <div className={styles.mobileMenuContent}>
+            <div className={styles.mobileLanguage}>
+              <LanguageSwitch />
+            </div>
             {navItems.map((item) => (
               <div key={item.key} className={styles.mobileNavItem}>
                 {item.hasDropdown ? (

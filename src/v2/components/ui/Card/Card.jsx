@@ -8,7 +8,6 @@ const Card = ({
   padding = 'medium',
   shadow = 'light',
   textAlign = 'left',
-  icon = null
 }) => {
   const cardClasses = [
     styles.card,
