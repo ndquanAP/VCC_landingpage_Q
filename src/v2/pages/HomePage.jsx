@@ -63,10 +63,10 @@ const HomePage = () => {
         <VideoSection />
       </div>
 
-      {/* Expert Showcase Section */}
+      {/* Expert Showcase Section 
       <div id="expert-showcase">
         <ExpertShowcaseSection />
-      </div>
+      </div>*/}
 
       {/* Credits Section */}
       <CreditsSection />

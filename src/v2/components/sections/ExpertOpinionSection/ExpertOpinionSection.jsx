@@ -8,7 +8,6 @@ import { useTranslation } from '../../../hooks/useTranslation';
 import CreditsSection from "../CreditsSection/CreditsSection.jsx";
 import image1 from "../../../assets/image.webp";
 import image2 from "../../../assets/image2.webp";
-import image3 from "../../../assets/TranthiB.webp";
 import graphic from "../../../assets/v1/Graphic.png";
 
 function ExpertOpinionSection() {
@@ -32,14 +31,6 @@ function ExpertOpinionSection() {
       fullOpinion: t('expert_opinion_2_full'),
       image: image2,
       hasMore: true
-    },
-    {
-      name: t('expert_name_3'),
-      position: t('expert_position_3'),
-      opinion: t('expert_opinion_3'),
-      fullOpinion: t('expert_opinion_3'),
-      image: image3,
-      hasMore: false
     },
   ];
 
@@ -66,7 +57,7 @@ function ExpertOpinionSection() {
       <div className={styles.container}>
         {/* Section Title */}
         <Title level="h2" className={styles.title}>
-         "{t('expert_opinions_title')}"
+         {t('expert_opinions_title')}
         </Title>
 
         {/* Expert Card with Side Navigation */}

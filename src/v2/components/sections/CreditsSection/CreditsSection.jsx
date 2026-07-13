@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./CreditsSection.module.css";
-import { useTranslation } from "../../../hooks/useTranslation";
+//import { useTranslation } from "../../../hooks/useTranslation";
 import linkMainLogo from "../../../assets/logo/Link - Main Logo.png";
 import virtualCollegeImg from "../../../assets/Virtual Convergence College.png";
 
 const CreditsSection = () => {
 
-  const {t} = useTranslation();
+  {/*const {t} = useTranslation();*/}
 
   return (
     <footer className={styles.creditsSection}>
@@ -18,23 +18,23 @@ const CreditsSection = () => {
             className={styles.companyLogo}
           />
 
-          <p className={styles.companyDesc}>
+          {/*<p className={styles.companyDesc}>
             Make your database provisioning cloud-native
             using our database generation.
           </p>
 
-          <a
+           <a
             href="mailto:hello@automaterpro.com"
             className={styles.companyEmail}
           >
             hello@automaterpro.com
-          </a>
+          </a> */}
         </div>
 
         {/* Main Footer Content */}
         <div className={styles.mainContent}>
           {/* Menu Section */}
-          <div className={styles.section}>
+          {/*<div className={styles.section}>
             <h3 className={styles.sectionTitle}>{t("footer_menu")}</h3>
             <div className={styles.linksList}>
               <a href="/" className={styles.link}>
@@ -42,11 +42,11 @@ const CreditsSection = () => {
               </a>
               <a href="/" className={styles.link}>
                 {t("nav_about")}
-              </a>
+              </a>/ */}
               {/* <a href="#program" className={styles.link}>
                 {t("nav_program")}
               </a> */}
-              <a href="/student-benefits" className={styles.link}>
+              {/*<a href="/student-benefits" className={styles.link}>
                 {t("nav_student_benefits")}
               </a>
               <a href="/expert-opinions" className={styles.link}>
@@ -59,10 +59,10 @@ const CreditsSection = () => {
                 {t("nav_contact")}
               </a>
             </div>
-          </div>
+          </div>*/}
   
            {/* Social Section  */}
-          <div className={styles.section}>
+          {/*<div className={styles.section}>
             <h3 className={styles.sectionTitle}>{t("footer_social")}</h3>
             <div className={styles.linksList}>
               <a href="#" className={styles.link} target="_blank" rel="noopener noreferrer">
@@ -81,10 +81,10 @@ const CreditsSection = () => {
                 TikTok
               </a>
             </div>
-          </div>
+          </div>*/}
 
           {/* Policy Section  */}
-          <div className={styles.section}>
+          {/*<div className={styles.section}>
             <h3 className={styles.sectionTitle}>{t("footer_policy")}</h3>
             <div className={styles.linksList}>
               <a href="/privacy" className={styles.link}>
@@ -100,7 +100,7 @@ const CreditsSection = () => {
                 {t("footer_cookies_policy")}
               </a>
             </div>
-          </div>
+          </div>*/}
 
           {/* Contact Info 
           <div className={styles.section}>

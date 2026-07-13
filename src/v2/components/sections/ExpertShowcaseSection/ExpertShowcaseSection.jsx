@@ -6,7 +6,7 @@ import styles from "./ExpertShowcaseSection.module.css";
 
 import image1 from "../../../assets/ANh A1 1.png";
 import image2 from "../../../assets/ANh A1 1.png";
-import image3 from "../../../assets/ANh A1 1.png";
+
 import circleBg from "../../../assets/v1/Circle BG.png";
 
 function ExpertShowcaseSection() {
@@ -24,12 +24,6 @@ function ExpertShowcaseSection() {
       position: t("expert_position_2"),
       opinion: t("expert_opinion_2"),
       image: image2,
-    },
-    {
-      name: t("expert_name_3"),
-      position: t("expert_position_3"),
-      opinion: t("expert_opinion_3"),
-      image: image3,
     },
   ];
 
@@ -94,7 +88,7 @@ function ExpertShowcaseSection() {
             </Title>
 
           <h2 className={styles.title}>
-            {t("expert_opinions_title")}
+            {t("teachers_title")}
           </h2>
         </div>
 

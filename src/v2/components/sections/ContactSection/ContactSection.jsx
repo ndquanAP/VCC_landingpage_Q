@@ -86,7 +86,7 @@ const ContactSection = () => {
                     size="medium"
                     className={styles.submitButton}
                   >
-                    Send
+                    {t("newsletter_button")}
                   </Button>
                 </div>
               </form>
