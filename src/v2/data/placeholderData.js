@@ -33,47 +33,47 @@ export const facilitiesImages = [
   {
     id: 2,
     title: "Modern Facility 2",
-    image: `/src/v2/assets/Facilities/cau_CAD_computer_room.jpg`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/cau_CAD_computer_room.jpg`
   },
   {
     id: 3,
     title: "Modern Facility 3",
-    image: `/src/v2/assets/Facilities/cau_galary.jpg`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/cau_galary.jpg`
   },
   {
     id: 4,
     title: "Modern Facility 4",
-    image: `/src/v2/assets/Facilities/cau_library.jfif`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/cau_library.jfif`
   },
   {
     id: 5,
     title: "Modern Facility 5",
-    image: `/src/v2/assets/Facilities/cau_library.jpg`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/cau_library.jpg`
   },
   {
     id: 6,
     title: "Modern Facility 6",
-    image: `/src/v2/assets/Facilities/cau_studio.jpg`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/cau_studio.jpg`
   },
   {
     id: 7,
     title: "Modern Facility 7",
-    image: `/src/v2/assets/Facilities/CLC_class.png`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/CLC_class.png`
   },
   {
     id: 8,
     title: "Modern Facility 6",
-    image: `/src/v2/assets/Facilities/lab cau.jpg`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/lab cau.jpg`
   },
   {
     id: 9,
     title: "Modern Facility 6",
-    image: `/src/v2/assets/Facilities/lab ikame.jpg`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/lab ikame.jpg`
   },
   {
     id: 10,
     title: "Modern Facility 6",
-    image: `/src/v2/assets/Facilities/lab.jpg`
+    image: `${import.meta.env.BASE_URL}src/v2/assets/Facilities/lab.jpg`
   },
 ];
 
