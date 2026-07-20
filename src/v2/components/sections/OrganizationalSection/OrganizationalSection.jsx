@@ -3,7 +3,7 @@ import Title from '../../ui/Title/Title';
 import { Settings } from 'lucide-react';
 import styles from './OrganizationalSection.module.css';
 import { useTranslation } from '../../../hooks/useTranslation';
-import orgStructureEn from '../../../assets/organizational_structure.png';
+import orgStructureEn from '../../../assets/Cấu trúc tổ chức.png';
 import orgStructureVi from '../../../assets/oraganizational_vi.png';
 
 const OrganizationalSection = () => {

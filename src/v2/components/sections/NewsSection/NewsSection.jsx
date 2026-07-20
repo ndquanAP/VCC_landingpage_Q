@@ -164,48 +164,47 @@ function NewsSection() {
     },
     {
       id: 7,
-      img: `${import.meta.env.BASE_URL}src/v2/assets/news/act3.webp`,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/100125/1.png`,
       link: "https://example.com/news/2",
       time: t('news_item_7_time'),
       title: t('news_item_7_title'),
       description: t('news_item_7_description'),
       content: [
         {
-          image: `${import.meta.env.BASE_URL}src/v2/assets/news/act3.webp`,
           detail: t('news_item_7_detail_1'),
         },
         {
-          image: `${import.meta.env.BASE_URL}src/v2/assets/news/act3.webp`,
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/100125/1.png`,
           detail: t('news_item_7_detail_2'),
         },
         {
-          image: `${import.meta.env.BASE_URL}src/v2/assets/news/act3.webp`,
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/100125/2.png`,
           detail: t('news_item_7_detail_3'),
         },
         {
-          image: `${import.meta.env.BASE_URL}src/v2/assets/news/act3.webp`,
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/100125/3.png`,
           detail: t('news_item_7_detail_4'),
         },
         {
-          image: `${import.meta.env.BASE_URL}src/v2/assets/news/act3.webp`,
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/100125/4.png`,
           detail: t('news_item_7_detail_5'),
         },
         {
-          image: `${import.meta.env.BASE_URL}src/v2/assets/news/act3.webp`,
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/100125/5.png`,
           detail: t('news_item_7_detail_6'),
         },
       ]
     },
     {
       id: 8,
-      img: `${import.meta.env.BASE_URL}src/v2/assets/news/act1.webp`,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/020824.png`,
       link: "https://example.com/news/1",
       time: t('news_item_8_time'),
       title: t('news_item_8_title'),
       description: t('news_item_8_description'),
       content: [
         {
-          image: `${import.meta.env.BASE_URL}src/v2/assets/news/act1.webp`,
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/020824.png`,
           detail: t('news_item_8_detail_1'),
         },
       ]
