@@ -10,7 +10,7 @@ import TestimonialSection from "../components/sections/TestimonialSection/Testim
 import CreditsSection from "../components/sections/CreditsSection/CreditsSection";
 import SignUpSection from "../components/sections/SignUpSection/SignUpSection";
 import ExpertShowcaseSection from "../components/sections/ExpertShowcaseSection/ExpertShowcaseSection";
-import HightlightPhotoSection from "../components/sections/HightlightPhotoSection/HightlightPhotoSection";
+import HighlightPhotoSection from "../components/sections/HighlightPhotoSection/HighlightPhotoSection";
 
 const HomePage = () => {
   return (
@@ -54,8 +54,8 @@ const HomePage = () => {
       </div>
 
       {/* Activities Section */}
-      <div id="hightlight-photo">
-        <HightlightPhotoSection />
+      <div id="Highlight-photo">
+        <HighlightPhotoSection />
       </div>
 
       {/* Video Section */}

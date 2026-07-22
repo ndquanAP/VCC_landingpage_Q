@@ -11,12 +11,12 @@ import TriangleButton from "../../ui/TriangleButton/TriangleButton";
 import { useTranslation } from "../../../hooks/useTranslation";
 import { getActivitiesData } from "../../../data/placeholderData";
 
-import styles from "./HightlightPhotoSection.module.css";
+import styles from "./HighlightPhotoSection.module.css";
 
 import frameRed from "../../../assets/v1/frame-red.png";
 import framePink from "../../../assets/v1/frame-pink.png";
 
-const HightlightPhotoSection = () => {
+const HighlightPhotoSection = () => {
   const { t } = useTranslation();
 
   const activitiesData = getActivitiesData(t);
@@ -68,7 +68,7 @@ const HightlightPhotoSection = () => {
 
   return (
     <section
-      id="hightlightPhoto"
+      id="HighlightPhoto"
       className={styles.section}
     >
       <div className={styles.container}>
@@ -76,7 +76,7 @@ const HightlightPhotoSection = () => {
           level="h2"
           color="blue"
         >
-          {t("hightlight")}
+          {t("highlight")}
         </Title>
 
         <div className={styles.sliderWrapper}>
@@ -165,4 +165,4 @@ const HightlightPhotoSection = () => {
   );
 };
 
-export default HightlightPhotoSection;
+export default HighlightPhotoSection;

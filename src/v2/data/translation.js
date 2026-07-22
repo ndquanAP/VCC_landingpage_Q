@@ -61,11 +61,11 @@ export const translations = {
     facilities_title: "State-of-the-Art Facilities",
 
     // Activities Section
-    noticable_activities_title: "HIGHTLIGHT ACTIVITY PHOTOS",
+    noticable_activities_title: "HIGHLIGHT ACTIVITY PHOTOS",
     activities_title: "Campus Activities",
 
-    //HIGHTLIGHT ACTIVITY PHOTOS
-    hightlight:"HIGHTLIGHT ACTIVITY PHOTOS",
+    //HIGHLIGHT ACTIVITY PHOTOS
+    highlight:"HIGHLIGHT ACTIVITY PHOTOS",
 
     // Expert Opinions Section
     expert_opinions_title: "EXPERT OPINIONS",
@@ -110,13 +110,13 @@ export const translations = {
     expert_opinion_1: "PTIT VCC opens an official pathway for young people who are passionate about making games to enter the global gaming industry, serving as a solid foundation for game creators to achieve success in their careers.",
 
     expert_name_2: "Professor Wi Jong Hyun",
-    expert_position_2: "Dean, Virtual Convergence College, Chung-ang University, Co-Dean of PTIT VCC",
+    expert_position_2: "Dean, Virtual Convergence College, Chung-ang University",
     expert_opinion_2: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies, Co-Dean of PTIT VCC",
     expert_opinion_2_full: "Virtual Convergence College (VCC) cultivates creative talents who will lead future society through an education model centered on cutting-edge technologies.\n\nOur innovative teaching methods include Game-based Learning, Project-Based Learning, and interdisciplinary collaborations, utilizing advanced IT platforms and AI for personalized, interactive learning experiences. We offer a mix of online and offline classes, providing students with both digital flexibility and hands-on, face-to-face interactions. Our curriculum covers games, animation, IT applications, film, and AI, preparing learners for careers in the evolving entertainment and software industries.\n\nTo enhance our international competitiveness, we are building strategic partnerships with the world's leading universities. Our students engage in diverse cross-cultural experiences, including collaborative classes with international peers, multinational project teams, and worldwide hackathons. By doing activities across different countries, our students see the world in a bigger way. They also learn skills that help them do well in the modern worldwide workplace.\n\nFurthermore, we are expanding our educational approach through industry partnerships, offering internships and collaborative curriculum design. This approach helps students start new businesses, think creatively, and make new things in tech. We teach our students important tech skills, how to think like business owners, and how to be creative. This helps them become leaders who can make big changes in the fast-changing world of technology.",
 
     // Testimonials Section
     testimonial_1_name: "Dr. Cao Minh Thang",
-    testimonial_1_position: "Director, Institute of Information and Communication Technology (CDIT) – PTIT",
+    testimonial_1_position: "Director, Institute of Information and Communication Technology (CDIT) – PTIT, Co-Dean of PTIT VCC",
     testimonial_1_text: "PTIT VCC opens an official pathway for young people who are passionate about making games to enter the global gaming industry.",
     testimonial_1_full: "PTIT VCC opens an official pathway for young people who are passionate about making games to enter the global gaming industry, serving as a solid foundation for game creators to achieve success in their careers.\n\nThe program represents a significant milestone in Vietnam's educational landscape, bridging the gap between theoretical knowledge and practical industry application. Through our collaboration with Chung-Ang University, we are establishing world-class standards in game development education.\n\nOur comprehensive curriculum combines cutting-edge technology with hands-on experience, preparing students not just to participate in the global gaming industry, but to lead it. We are committed to nurturing the next generation of creative professionals who will shape the future of digital entertainment.",
 
@@ -293,8 +293,8 @@ export const translations = {
     noticable_activities_title: "Hoạt động tiêu biểu",
     activities_title: "Hoạt động trường học",
 
-    //HIGHTLIGHT ACTIVITY PHOTOS
-    hightlight:"HÌNH ẢNH HOẠT ĐỘNG NỔI BẬT",
+    //HIGHLIGHT ACTIVITY PHOTOS
+    highlight:"HÌNH ẢNH HOẠT ĐỘNG NỔI BẬT",
 
     // Expert Opinions Section
     expert_opinions_title: "Ý KIẾN CHUYÊN GIA",
@@ -333,11 +333,11 @@ export const translations = {
 
     // Expert Opinion Section
     expert_name_1: "TS. Cao Minh Thắng",
-    expert_position_1:"Viện trưởng Viện Công nghệ Thông tin và Truyền thông (CDIT) - PTIT, Đồng Viện trưởng PTIT VCC",
+    expert_position_1:"Viện trưởng Viện Công nghệ Thông tin và Truyền thông (CDIT) - PTIT, Đồng Trưởng ban PTIT VCC ",
     expert_opinion_1: "PTIT VCC mở ra con đường chính thức cho những bạn trẻ đam mê làm game bước vào ngành công nghiệp game toàn cầu, đóng vai trò là nền tảng vững chắc để các nhà sáng tạo game đạt được thành công trong sự nghiệp.",
 
     expert_name_2: "GS. Wi Jong Hyun",
-    expert_position_2: "Trưởng khoa, Trường Đại học Hội tụ Ảo, Đại học Chung-ang, Đồng Viện trưởng PTIT VCC",
+    expert_position_2: "Trưởng khoa, Trường Đại học Hội tụ Ảo, Đại học Chung-ang",
     expert_opinion_2: "Trường Đại học Hội tụ Ảo (VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.",
     expert_opinion_2_full: "Trường Đại học Hội tụ Ảo (VCC) đào tạo những tài năng sáng tạo sẽ dẫn dắt xã hội tương lai thông qua mô hình giáo dục tập trung vào các công nghệ tiên tiến.\n\nCác phương pháp giảng dạy sáng tạo của chúng tôi bao gồm Học tập dựa trên Game, Học tập dựa trên Dự án và hợp tác liên ngành, sử dụng nền tảng CNTT tiên tiến và AI cho trải nghiệm học tập tương tác, cá nhân hóa. Chúng tôi cung cấp sự kết hợp giữa các lớp học trực tuyến và ngoại tuyến, mang đến cho sinh viên cả sự linh hoạt kỹ thuật số và tương tác thực hành trực tiếp.\n\nĐể nâng cao khả năng cạnh tranh quốc tế, chúng tôi đang xây dựng quan hệ đối tác chiến lược với các trường đại học hàng đầu thế giới. Sinh viên của chúng tôi tham gia vào các trải nghiệm đa văn hóa đa dạng, bao gồm các lớp học hợp tác với các bạn quốc tế, nhóm dự án đa quốc gia và hackathon trên toàn thế giới.\n\nHơn nữa, chúng tôi đang mở rộng phương pháp giáo dục thông qua quan hệ đối tác ngành, cung cấp thực tập và thiết kế chương trình giảng dạy hợp tác. Cách tiếp cận này giúp sinh viên khởi nghiệp, tư duy sáng tạo và tạo ra những điều mới trong công nghệ.",
 
@@ -347,7 +347,7 @@ export const translations = {
 
     // Testimonials Section
     testimonial_1_name: "TS. Cao Minh Thắng",
-    testimonial_1_position: "Viện trưởng Viện Công nghệ Thông tin và Truyền thông (CDIT) - PTIT",
+    testimonial_1_position: "Viện trưởng Viện Công nghệ Thông tin và Truyền thông (CDIT) - PTIT, Đồng Trưởng ban PTIT VCC",
     testimonial_1_text: "PTIT VCC mở ra con đường chính thức cho những bạn trẻ đam mê làm game bước vào ngành công nghiệp game toàn cầu.",
     testimonial_1_full: "PTIT VCC mở ra con đường chính thức cho những bạn trẻ đam mê làm game bước vào ngành công nghiệp game toàn cầu, đóng vai trò là nền tảng vững chắc để các nhà sáng tạo game đạt được thành công trong sự nghiệp.\n\nChương trình này đại diện cho một cột mốc quan trọng trong bối cảnh giáo dục Việt Nam, thu hẹp khoảng cách giữa kiến thức lý thuyết và ứng dụng thực tế trong ngành. Thông qua sự hợp tác với Đại học Chung-Ang, chúng tôi đang thiết lập các tiêu chuẩn đẳng cấp thế giới trong giáo dục phát triển game.\n\nChương trình giảng dạy toàn diện của chúng tôi kết hợp công nghệ tiên tiến với trải nghiệm thực hành, chuẩn bị sinh viên không chỉ để tham gia vào ngành công nghiệp game toàn cầu, mà còn để dẫn dắt nó. Chúng tôi cam kết nuôi dưỡng thế hệ chuyên gia sáng tạo tiếp theo sẽ định hình tương lai của ngành giải trí kỹ thuật số.",
 
