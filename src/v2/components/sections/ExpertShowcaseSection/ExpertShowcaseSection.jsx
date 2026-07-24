@@ -4,8 +4,8 @@ import { ChevronLeft, ChevronRight, Users } from "lucide-react";
 import { useTranslation } from "../../../hooks/useTranslation";
 import styles from "./ExpertShowcaseSection.module.css";
 
-import image1 from "../../../assets/ANh A1 1.png";
-import image2 from "../../../assets/ANh A1 1.png";
+import image1 from "../../../assets/1. Wi Jong Hyun prof..jpg";
+import image2 from "../../../assets/1. Wi Jong Hyun prof..jpg";
 
 import circleBg from "../../../assets/v1/Circle BG.png";
 

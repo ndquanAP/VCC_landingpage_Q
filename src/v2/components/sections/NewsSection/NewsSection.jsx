@@ -209,6 +209,56 @@ function NewsSection() {
         },
       ]
     }, 
+    {
+      id:9,
+      img: `${import.meta.env.BASE_URL}src/v2/assets/news/company/1.png`,
+      link: "https://example.com/news/1",
+      time: t('news_item_9_time'),
+      title: t('news_item_9_title'),
+      description: t('news_item_9_description'),
+      content: [
+        {
+
+          detail: t('news_item_9_detail_1'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/1.png`,
+          detail: t('news_item_9_detail_2'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/2.png`,
+          detail: t('news_item_9_detail_3'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/3.png`,
+          detail: t('news_item_9_detail_4'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/4.png`,
+          detail: t('news_item_9_detail_5'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/5.png`,
+          detail: t('news_item_9_detail_6'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/6.png`,
+          detail: t('news_item_9_detail_7'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/7.png`,
+          detail: t('news_item_9_detail_8'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/9.png`,
+          detail: t('news_item_9_detail_10'),
+        },
+        {
+          image: `${import.meta.env.BASE_URL}src/v2/assets/news/company/10.png`,
+          detail: t('news_item_9_detail_11'),
+        },
+      ]
+    },
   ];
 
   const [selectedNews, setSelectedNews] = useState(null);

@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight, ExternalLink } from 'lucide-react';
 import { useTranslation } from '../../../hooks/useTranslation';
 import CreditsSection from "../CreditsSection/CreditsSection.jsx";
 import image1 from "../../../assets/image.webp";
-import image2 from "../../../assets/image2.webp";
+import image2 from "../../../assets/1. Wi Jong Hyun prof..jpg";
 import graphic from "../../../assets/v1/Graphic.png";
 
 function ExpertOpinionSection() {

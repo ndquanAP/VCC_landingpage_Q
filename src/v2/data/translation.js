@@ -31,31 +31,38 @@ export const translations = {
     teachers_title: "Faculty Members", 
     faculty_title: "Our Faculty",
 
-    staff_1_name:"Dr. Nguyễn Văn A",
-    staff_1_title:"Program Director",
-    staff_1_des:"Leading the VCC program with over 15 years of experience in international education",
-    staff_1_dep:"Administration",
+    staff_1_name:"Dean/Prof. Wi Jong Hyn",
+    staff_1_title:"Game Business Strategy and Policy",
+    staff_1_des:"jhwi@cau.ac.kr",
 
-    staff_2_name:"Prof. Kim Min-jun",
-    staff_2_title:"Korean Language Instructor",
-    staff_2_des:"Native Korean speaker specializing in language pedagogy",
-    staff_2_dep:"Language",
+    staff_2_name:"Prof. Park Jin Wan",
+    staff_2_title:"Art engineering, Media art, Technology art",
+    staff_2_des:"jinpark@cau.ac.kr",
 
-    staff_3_name:"Dr. Trần Thị B",
-    staff_3_title:"Academic Coordinator",
-    staff_3_des:"Coordinating academic programs and student services",
-    staff_3_dep:"Academics",
+    staff_3_name:"Department Head/ Associate Prof. Bae Yun Ho",
+    staff_3_title:"Production Design and Performance Video Study",
+    staff_3_des:"yoonho@cau.ac.kr",
 
-    staff_4_name:"Ms. Lee Soo-jin",
-    staff_4_title:"Student Affairs Specialist",
-    staff_4_des:"Supporting student life and cultural integration",
-    staff_4_dep:"Student Services",
+    staff_4_name:"Prof. Kim Tak Hoon",
+    staff_4_title:"Content production, Animation, Stop motiont",
+    staff_4_des:"takhoonkim@cau.ac.kr",
 
-    staff_5_name:"Dr. Phạm Văn C",
-    staff_5_title:"Research Coordinator",
-    staff_5_des:"Facilitating research opportunities and collaborations",
-    staff_5_dep:"Research",
+    staff_5_name:"Prof. Moon Jae Cheol",
+    staff_5_title:"Video theory, Animation, Film",
+    staff_5_des:"jcmoon@cau.ac.kr",
+
+    staff_6_name:"Vice dean/ Associate Prof. Kim Kyu Hyun",
+    staff_6_title:"Character animation, Realistic media content",
+    staff_6_des:"gyuhyunkim@cau.ac.kr",
+
+    staff_7_name:"Dr. Nguyen Duc Hoang",
+    staff_7_title:"Game, VR, Simulation",
+    staff_7_des:"hoangnd@ptit.edu.vn, CDIT",
     
+    staff_8_name:"Assoc. Prof. Dr. Vu Huu Tien",
+    staff_8_title:"Digital Image and Video Processing",
+    staff_8_des:"tienvh@ptit.edu.vn, Faculty of Multimedia",
+
     // Facilities Section
     infrastructure_title: "MODERN FACILITIES",
     facilities_title: "State-of-the-Art Facilities",
@@ -178,6 +185,7 @@ export const translations = {
     news_item_4_detail_2: "*[South Korean Prime Minister Kim Min-seok delivered congratulatory remarks at the ceremony.]*\n\n At the conference, Dr. Nguyễn Trung Kiên – Deputy Director of the Institute  represented PTIT in presenting a paper titled: ‘Global Training in Game & Multimedia and Virtual Reality. The presentation received high praise from partners, affirming the Institute’s expertise and vision in cutting-edge technological fields.Joining the Network is a breakthrough that enables PTIT students and lecturers to access pioneering educational technologies such as AI and XR. Through joint training programs and international credit recognition mechanisms, learners will benefit from global knowledge, removing geographical barriers and expanding opportunities for academic exchange and research with prestigious partners.\n\n This event further reinforces the Institute’s pioneering position in proactively embracing new technological trends. It forms a solid foundation for PTIT to achieve its goal of becoming a leading regional center for training and research, committed to providing high-quality human resources ready for the context of global integration.",
      
     news_item_5_title: "General Secretary Tô Lâm and South Korean Prime Minister Kim Min-seok witnessed the signing of a cooperation agreement between the Posts and Telecommunications Institute of Technology and Chung-Ang University.",
+    news_item_5_title_highlight:"General Secretary Tô Lâm and PM Kim Min-seok Witness PTIT–Chung-Ang University Agreement",
     news_item_5_description: "Under top leadership witness, both universities partner to train high-quality human resources in Multimedia and Game Design. ",
     news_item_5_time: "August 12, 2025",
     news_item_5_detail_1: "The Posts and Telecommunications Institute of Technology and Chung-Ang University exchanged the cooperation agreement document under the witness of General Secretary Tô Lâm and South Korean Prime Minister Kim Min-seok\n\n The agreement between PTIT and CAU aims toward comprehensive cooperation in training high-quality human resources, exchanging faculty and students, applied research, and technology transfer. The two institutions focus on joint-degree undergraduate programs in Multimedia Technology and Game Design & Development; establishing a Vietnam–Korea Virtual Convergence School model; and conducting research to develop technological applications in the cultural industries.",
@@ -205,9 +213,23 @@ export const translations = {
     news_item_8_time: "August 02, 2024",
     news_item_8_detail_1:"**Recently, in Seoul (South Korea), the Korea Game Society and the Posts and Telecommunications Institute of Technology of Vietnam (PTIT) signed a Memorandum of Agreement to cooperate in the field of game education. This signing took place during the Vietnam – South Korea Digital Forum.** \n \n The signing ceremony was attended and witnessed by Mr. Nguyen Manh Hung - Minister of Information and Communications, and representatives of the Ministry's departments, agencies, and Vietnamese and South Korean enterprises. The Korea Game Society was represented by Professor Jung-hyun Wi - President; PTIT was represented by Associate Professor Dr. Dang Hoai Bac - Director of the Institute, and members of the working delegation. \n \n According to the signed agreement, the two institutions will establish a close cooperation system in comprehensive research and education, including: joint research activities, cooperative education projects, exchange of learning materials (course materials), exchange of experts and students, organization of conferences and seminars, and joint student activities in the field of Game design and development. \n \n Previously, within the scope of the visit and work trip of the Leaders of the Posts and Telecommunications Institute of Technology (PTIT) to Chung-Ang University, the representatives of the two universities' leadership agreed to establish the first **virtual college** in Vietnam in September, to be located at the Institute's headquarter. The establishment of the **Virtual Convergence College** holds significant meaning for the Game Design and Development major. Its objective is to train excellent students across Vietnam, thereby contributing to enhancing and globalizing the competitiveness of the Vietnamese gaming industry.",
 
+    news_item_9_title: "Bridging Borders: PTIT VCC Students Explore South Korea’s Gaming Frontier",
+    news_item_9_description: "A delegation from the Posts and Telecommunications Institute of Technology recently concluded a strategic study tour of South Korea, immersing talented students in the workspaces of industry giants to foster global perspectives and technological exchange.",
+    news_item_9_time: "",
+    news_item_9_detail_1: "**Inside the Realm of a Gaming Giant: The NCSOFT Experience**\n\nThe journey commenced on November 26 with a visit to the headquarters of NCSOFT, a titan in the global gaming industry. Led by the two Co-Deans of PTIT VCC, Professor Wi Jong-hyun and Dr. Cao Minh Thang, the PGAMES students explored an environment that blends high-level creativity with world-class facilities. The delegation delved into the developer's storied history, learning about the evolution of iconic titles like Lineage and gaining exclusive insights into upcoming projects such as Time Takers and Cinder City. Beyond the development floor, the students toured state-of-the-art recreation zones, including an extensive library and a modern in-house gym, illustrating how the company balances intense innovation with employee well-being.",
+    news_item_9_detail_2: "*Prof. Jong-hyun Wi, along with Director of CDIT Cao Minh Thang and VCC Students, attended the company presentation*\n\n**Pioneering the Future: Immersive VR Training at SKONEC**\n\nContinuing their exploration, the delegation turned their focus to the cutting edge of the XR ecosystem at SKONEC. As a pioneer in virtual reality, SKONEC provided the students with hands-on exposure to breakthrough simulations designed for both entertainment and specialized training. The students engaged with a variety of technical segments, ranging from interactive board games like Mr. Traveler VR to sophisticated tactical military simulators utilizing real-time motion capture. Notably, the group observed portable VR systems tailored for police drills, highlighting the practical utility of VR in law enforcement. Dr. Cao Minh Thang noted that SKONEC’s work aligns perfectly with PTIT’s own initiatives in virtual reality, such as their award-winning pediatrics training and historical preservation projects, signaling strong potential for future international collaboration.",
+    news_item_9_detail_3:"*Fitness equipment in NCSoft's in-house employee gym. *",
+    news_item_9_detail_4:"*NCSoft’s library area*\n\nThe visit to NCSoft is not only an extracurricular activity but a strategic move, underscoring PTIT’s commitment to equipping students with practical experience and a global perspective. This serves as a solid foundation for developing a high-quality workforce for Vietnam's gaming and technology industries.",
+    news_item_9_detail_5: "*Commemorative photos of CDIT Director Cao Minh Thang and students alongside Prof. Jong-hyun Wi *",
+    news_item_9_detail_6: "**Strategic Mastery: Learning the \"Going Global\" Mindset at Mgame Corp**\n\nThe final leg of the tour took the delegation to Mgame Corp, the renowned developer behind Yulgang Online and Knight Online. This session offered a masterclass in the business of gaming, focusing on the company’s \"Going Global\" strategy. Mgame industry experts shared the importance of product diversification as a means to mitigate financial risk and ensure long-term stability. Furthermore, they emphasized that successful global localization requires a deep understanding of local cultures that transcends mere technical proficiency. With Mgame maintaining strong ties to VTC—a close partner of PTIT—the visit underscored a direct pathway for Vietnamese students to enter the international market through strategic corporate partnerships.",
+    news_item_9_detail_7: "*Dr. Thang and the SKONEC CEO discuss PTIT's virtual reality technology projects.*",
+    news_item_9_detail_8: "As a pioneer in Vietnam that has long led the way in VR/AR solutions and applications - such as the virtual reality-based pediatrics training project and the recent \"Returning to the Sacred Moment\" initiative, which garnered widespread public acclaim - Dr. Cao Minh Thang, Director of CDIT, affirmed the immense potential for future collaboration between the two organizations in this field.",
+    news_item_9_detail_9: "*Dr. Cao Minh Thang and PGAME students experience a virtual reality military training room.*\n\nThe trip not only serves as a bridge helping students transform theoretical knowledge into practical insights but also opens up promising career paths and collaboration opportunities within the rapidly growing global game and virtual reality industries.\n\n**EXPLORING MGAME CORP’S \"GOING GLOBAL\" STRATEGY**\n\nThe tour concluded at Mgame Corp, the renowned developer behind major hits like Yulgang Online and Knight Online. ",
+    news_item_9_detail_10: "*CDIT Director Cao Minh Thang and students attended the presentation of MGame*",
+    news_item_9_detail_11: "*The working delegation touring Mgame Corp's workspace*\n\n**A Solid Foundation for Vietnam’s Digital Workforce**\n\nReflecting on the three distinct visits—ranging from NCSOFT’s design philosophy to SKONEC’s XR technology and Mgame’s strategic localization—the study tour proved to be an eye-opening journey for PTIT’s Game Design students. By bridging the gap between theoretical knowledge and global industry standards, the initiative has equipped the next generation of Vietnamese developers with the confidence and practical insights necessary to compete on the world stage. This strategic move by PTIT reaffirms the institution's commitment to developing a high-quality workforce for Vietnam’s rapidly evolving gaming and technology industries.\n\nLooking back on the three visits - from NCSoft's game design philosophy to SKONEC's cutting-edge XR technology and Mgame's global strategy - the study tour was an eye-opening journey for PTIT's Game Design students. More than just observing industry standards, the students gained deep practical insights, a broader global vision, and the confidence to step into the international gaming arena. ",
 
     //NotableActivities
-    act_1_title: "Student Orientation Program",
+    /*act_1_title: "Student Orientation Program",
     act_1_des: "Welcome new students to the VCC program",
     act_1_date:"May 15, 2024",
 
@@ -217,7 +239,7 @@ export const translations = {
 
     act_3_title: "Career Fair",
     act_3_des: "Meet with industry professionals and potential employers",
-    act_3_date:"May 15, 2024",
+    act_3_date:"May 15, 2024",*/
 
     //Credits Section
     footer_menu: "Menu",
@@ -264,26 +286,38 @@ export const translations = {
     // Faculty Section
     teachers_title: "Đội ngũ giảng viên",
     faculty_title: "Đội ngũ giảng viên của chúng tôi",
+   
+    staff_1_name:"Trưởng khoa/Giáo sư Wi Jong Hyun",
+    staff_1_title:"Chiến lược và Chính sách Kinh doanh Trò chơi",
+    staff_1_des:"jhwi@cau.ac.kr",
 
-    staff_1_title:"Giám đốc chương trình",
-    staff_1_des:"Lãnh đạo chương trình VCC với hơn 15 năm kinh nghiệm trong giáo dục quốc tế",
-    staff_1_dep:"Hành chính",
+    staff_2_name:"Giáo sư Park Jin Wan",
+    staff_2_title:"Kỹ thuật Nghệ thuật, Nghệ thuật Truyền thông, Nghệ thuật Công nghệ",
+    staff_2_des:"jinpark@cau.ac.kr",
 
-    staff_2_title:"Giảng viên tiếng Hàn",
-    staff_2_des:"Người bản xứ Hàn Quốc chuyên về phương pháp giảng dạy ngôn ngữ",
-    staff_2_dep:"Ngôn ngữ",
+    staff_3_name:"Trưởng bộ môn/Phó Giáo sư Bae Yun Ho",
+    staff_3_title:"Thiết kế Sản xuất và Nghiên cứu Video Biểu diễn",
+    staff_3_des:"yoonho@cau.ac.kr",
 
-    staff_3_title:"Điều phối học thuật",
-    staff_3_des:"Điều phối các chương trình học thuật và dịch vụ sinh viên",
-    staff_3_dep:"Học thuật",
+    staff_4_name:"Giáo sư Kim Tak Hoon",
+    staff_4_title:"Sản xuất Nội dung, Hoạt hình, Stop-motion",
+    staff_4_des:"takhoonkim@cau.ac.kr",
 
-    staff_4_title:"Chuyên viên công tác sinh viên",
-    staff_4_des:"Hỗ trợ đời sống sinh viên và hội nhập văn hóa",
-    staff_4_dep:"Dịch vụ sinh viên",
+    staff_5_name:"Giáo sư Moon Jae Cheol",
+    staff_5_title:"Lý thuyết Video, Hoạt hình, Điện ảnh",
+    staff_5_des:"jcmoon@cau.ac.kr",
 
-    staff_5_title:"Điều phối nghiên cứu",
-    staff_5_des:"Thúc đẩy cơ hội nghiên cứu và hợp tác học thuật",
-    staff_5_dep:"Nghiên cứu",
+    staff_6_name:"Phó Trưởng khoa/Phó Giáo sư Kim Kyu Hyun",
+    staff_6_title:"Diễn hoạt Nhân vật, Nội dung Truyền thông Chân thực",
+    staff_6_des:"Tgyuhyunkim@cau.ac.kr",
+
+    staff_7_name:"Dr. Nguyen Duc Hoang",
+    staff_7_title:"Game, VR, Simulation",
+    staff_7_des:"hoangnd@ptit.edu.vn, CDIT",
+
+    staff_8_name:"Assoc. Prof. Dr. Vu Huu Tien",
+    staff_8_title:"Digital Image and Video Processing",
+    staff_8_des:"tienvh@ptit.edu.vn, Faculty of Multimedia",
     
     // Facilities Section
     infrastructure_title: "CƠ SỞ VẬT CHẤT HIỆN ĐẠI",
@@ -378,6 +412,21 @@ export const translations = {
     view_larger_map: "Xem bản đồ lớn hơn",
 
     // News Items (hardcoded in component)
+    news_item_9_title: "Kết nối biên giới: Sinh viên PTIT VCC khám phá ngành công nghiệp game tại Hàn Quốc",
+    news_item_9_description: "Đoàn công tác của Học viện Công nghệ Bưu chính Viễn thông (PTIT) vừa hoàn thành chuyến tham quan và học tập chiến lược tại Hàn Quốc, mang đến cho các sinh viên tài năng cơ hội trải nghiệm môi trường làm việc của những tập đoàn hàng đầu trong ngành game, mở rộng tầm nhìn quốc tế và thúc đẩy giao lưu công nghệ.",
+    news_item_9_time: "",
+    news_item_9_detail_1: "**Bên trong đế chế game hàng đầu: Trải nghiệm tại NCSOFT**\n\nHành trình bắt đầu vào ngày 26/11 với chuyến tham quan trụ sở của NCSOFT – một trong những tập đoàn phát triển game hàng đầu thế giới. Dưới sự dẫn dắt của hai đồng Trưởng khoa PTIT VCC là Giáo sư Wi Jong-hyun và Tiến sĩ Cao Minh Thắng, các sinh viên chương trình PGAMES đã được khám phá môi trường làm việc kết hợp giữa sự sáng tạo đỉnh cao và hệ thống cơ sở vật chất hiện đại. Đoàn đã tìm hiểu về lịch sử phát triển của NCSOFT, quá trình hình thành các tựa game huyền thoại như Lineage, đồng thời được giới thiệu độc quyền về những dự án mới như Time Takers và Cinder City. Ngoài khu vực phát triển sản phẩm, sinh viên còn tham quan các không gian giải trí hiện đại như thư viện và phòng gym nội bộ, qua đó thấy được cách doanh nghiệp cân bằng giữa đổi mới sáng tạo và chăm sóc đời sống nhân viên.",
+    news_item_9_detail_2: "*Giáo sư Wi Jong-hyun, Giám đốc CDIT Cao Minh Thắng cùng sinh viên VCC tham dự buổi giới thiệu của công ty.*\n\n**Tiên phong tương lai: Trải nghiệm đào tạo thực tế ảo tại SKONEC**\n\nTiếp tục hành trình, đoàn công tác đã đến thăm SKONEC – đơn vị tiên phong trong lĩnh vực thực tế mở rộng (XR). Tại đây, sinh viên được trực tiếp trải nghiệm các mô phỏng thực tế ảo tiên tiến phục vụ cả giải trí lẫn đào tạo chuyên nghiệp. Các em tham gia nhiều hoạt động kỹ thuật khác nhau, từ trò chơi tương tác như Mr. Traveler VR đến các hệ thống mô phỏng quân sự sử dụng công nghệ ghi nhận chuyển động theo thời gian thực. Đặc biệt, đoàn còn quan sát hệ thống VR di động dành cho huấn luyện lực lượng cảnh sát, cho thấy tiềm năng ứng dụng rộng rãi của công nghệ thực tế ảo trong lĩnh vực an ninh. Tiến sĩ Cao Minh Thắng chia sẻ rằng các nghiên cứu của SKONEC có nhiều điểm tương đồng với những dự án VR mà PTIT đang triển khai, như dự án đào tạo nhi khoa bằng thực tế ảo và dự án bảo tồn di sản, mở ra nhiều cơ hội hợp tác quốc tế trong tương lai.",
+    news_item_9_detail_3: "*Khu vực phòng tập thể dục dành cho nhân viên tại NCSOFT.*",
+    news_item_9_detail_4: "*Khu vực thư viện của NCSOFT.*\n\nChuyến tham quan NCSOFT không chỉ là một hoạt động ngoại khóa mà còn là bước đi chiến lược, thể hiện cam kết của PTIT trong việc trang bị cho sinh viên kiến thức thực tiễn cùng tầm nhìn toàn cầu. Đây là nền tảng quan trọng để đào tạo nguồn nhân lực chất lượng cao cho ngành công nghiệp game và công nghệ tại Việt Nam.",
+    news_item_9_detail_5: "*Giám đốc CDIT Cao Minh Thắng, Giáo sư Wi Jong-hyun cùng các sinh viên chụp ảnh lưu niệm.*",
+    news_item_9_detail_6: "**Làm chủ chiến lược: Học hỏi tư duy \"Vươn ra toàn cầu\" tại Mgame Corp**\n\nĐiểm dừng chân cuối cùng của đoàn là Mgame Corp – nhà phát triển nổi tiếng đứng sau các tựa game Yulgang Online và Knight Online. Tại đây, sinh viên được tìm hiểu sâu về chiến lược \"Going Global\" của doanh nghiệp. Các chuyên gia từ Mgame chia sẻ rằng đa dạng hóa sản phẩm là yếu tố quan trọng giúp giảm thiểu rủi ro tài chính và đảm bảo sự phát triển bền vững. Bên cạnh đó, để thành công trên thị trường quốc tế, doanh nghiệp cần thấu hiểu văn hóa bản địa chứ không chỉ dựa vào năng lực kỹ thuật. Với mối quan hệ hợp tác chặt chẽ giữa Mgame và VTC – đối tác thân thiết của PTIT – chuyến thăm đã mở ra nhiều cơ hội để sinh viên Việt Nam tiếp cận thị trường game quốc tế thông qua các chương trình hợp tác doanh nghiệp.",
+    news_item_9_detail_7: "*Tiến sĩ Cao Minh Thắng trao đổi với Tổng Giám đốc SKONEC về các dự án công nghệ thực tế ảo của PTIT.*",
+    news_item_9_detail_8: "Là đơn vị tiên phong tại Việt Nam trong nghiên cứu và ứng dụng công nghệ VR/AR với nhiều dự án nổi bật như đào tạo nhi khoa bằng thực tế ảo và dự án \"Trở về khoảnh khắc thiêng liêng\" nhận được sự quan tâm rộng rãi của công chúng, Tiến sĩ Cao Minh Thắng – Giám đốc CDIT – khẳng định tiềm năng hợp tác rất lớn giữa hai đơn vị trong lĩnh vực này.",
+    news_item_9_detail_9: "*Tiến sĩ Cao Minh Thắng và các sinh viên PGAME trải nghiệm phòng huấn luyện quân sự bằng công nghệ thực tế ảo.*\n\nChuyến đi không chỉ giúp sinh viên chuyển hóa kiến thức lý thuyết thành kinh nghiệm thực tiễn mà còn mở ra nhiều cơ hội nghề nghiệp và hợp tác trong lĩnh vực game và thực tế ảo đang phát triển mạnh trên toàn cầu.\n\n**KHÁM PHÁ CHIẾN LƯỢC \"GOING GLOBAL\" CỦA MGAME CORP**\n\nHành trình khép lại tại Mgame Corp – nhà phát triển nổi tiếng với các tựa game đình đám như Yulgang Online và Knight Online.",
+    news_item_9_detail_10: "*Giám đốc CDIT Cao Minh Thắng cùng các sinh viên tham dự buổi giới thiệu của Mgame.*",
+    news_item_9_detail_11: "*Đoàn công tác tham quan không gian làm việc tại Mgame Corp.*\n\n**Nền tảng vững chắc cho nguồn nhân lực số của Việt Nam**\n\nQua ba điểm đến tiêu biểu – từ triết lý thiết kế game của NCSOFT, công nghệ XR tiên tiến của SKONEC đến chiến lược toàn cầu hóa của Mgame – chuyến tham quan đã mang đến những trải nghiệm quý giá cho sinh viên ngành Thiết kế Game của PTIT. Không chỉ được tiếp cận các tiêu chuẩn quốc tế, sinh viên còn tích lũy nhiều kinh nghiệm thực tiễn, mở rộng tầm nhìn toàn cầu và tự tin hơn trên con đường phát triển sự nghiệp trong ngành công nghiệp game. Đây là minh chứng rõ nét cho cam kết của PTIT trong việc đào tạo nguồn nhân lực chất lượng cao, đáp ứng nhu cầu ngày càng lớn của ngành công nghệ và công nghiệp game tại Việt Nam.",
+
     news_item_8_title: "Học viện Công nghệ Bưu chính Viễn thông và Hiệp hội Game Hàn Quốc ký Biên bản ghi nhớ hợp tác toàn cầu về đào tạo ngành Game.",
     news_item_8_description: "PTIT và Hiệp hội Game Hàn Quốc ký kết Biên bản ghi nhớ nhằm thúc đẩy đào tạo và phát triển nguồn nhân lực ngành công nghiệp game.",
     news_item_8_time: "02 tháng 08, 2024",
@@ -437,7 +486,7 @@ export const translations = {
     
 
     //NotableActivities
-    act_1_title: "Chương trình định hướng sinh viên",
+    /*act_1_title: "Chương trình định hướng sinh viên",
     act_1_des: "Chào đón tân sinh viên tham gia chương trình VCC",
     act_1_date:"12-01-2024",
 
@@ -447,7 +496,7 @@ export const translations = {
 
     act_3_title: "Ngày hội việc làm",
     act_3_des: "Gặp gỡ chuyên gia ngành và nhà tuyển dụng tiềm năng",
-    act_3_date:"15-03-2024",
+    act_3_date:"15-03-2024",*/
 
     //Credits Section
     footer_menu: "Menu",

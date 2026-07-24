@@ -22,7 +22,7 @@ const TestimonialSection = () => {
     },
     {
       id: 2,
-      image: "/src/v2/assets/image2.webp",
+      image: "/src/v2/assets/1. Wi Jong Hyun prof..jpg",
       testimonial: t('testimonial_2_text'),
       fullTestimonial: t('testimonial_2_full'), // Full version from file
       name: t('testimonial_2_name'),
