@@ -25,7 +25,7 @@ const HighlightPhotoSection = () => {
       img: `${import.meta.env.BASE_URL}src/v2/assets/news/meetting_110526/IMG_1.HEIC`,
       link: "https://example.com/news/8",
       time: t('news_item_1_time'),
-      title: t('news_item_1_title'),
+      title: t('news_item_1_title_highlight'),
       description: t('news_item_1_description'),
       content: [
         {
@@ -185,21 +185,20 @@ const HighlightPhotoSection = () => {
       setCurrentSlide(
         (prev) => (prev + 1) % newsItems.length
       );
-    }, 4000);
+    }, 8000);
 
     return () => clearInterval(timer);
   }, [newsItems.length]);
 
   const nextSlide = () => {
     setCurrentSlide(
-      (prev) => (prev - 1 + newsItems.length) %
-        newsItems.length
+      (prev) => (prev + 1) % newsItems.length
     );
   };
 
   const prevSlide = () => {
     setCurrentSlide(
-      (prev) => (prev + 1) % newsItems.length
+      (prev) => (prev - 1 + newsItems.length) % newsItems.length
     );
   };
 
@@ -219,8 +218,8 @@ const HighlightPhotoSection = () => {
     ? [newsItems[currentSlide]]
     : [
         newsItems[currentSlide],
-        newsItems[(currentSlide + 1) % newsItems.length],
-        newsItems[(currentSlide + 2) % newsItems.length],
+        newsItems[(currentSlide - 1 + newsItems.length) % newsItems.length],
+        newsItems[(currentSlide - 2 + newsItems.length) % newsItems.length],
       ];
 
       const [isModalOpen, setIsModalOpen] = useState(false);
