@@ -19,7 +19,7 @@ const FacultySection = () => {
     if (!isAutoPlaying) return;
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % staffMembers.length);
-    }, 4000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [isAutoPlaying, staffMembers.length]);
 

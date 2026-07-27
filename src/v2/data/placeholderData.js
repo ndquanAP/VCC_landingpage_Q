@@ -134,4 +134,18 @@ export const getStaffMembers = (t) => [
     description: t("staff_8_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Vu Huu Tien.png`,
   },
+  {
+    id: 9,
+    name: t("staff_9_name"),
+    title: t("staff_9_title"),
+    description: t("staff_9_des"),
+    image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Thắng CM.png`,
+  },
+  {
+    id: 10,
+    name: t("staff_10_name"),
+    title: t("staff_10_title"),
+    description: t("staff_10_des"),
+    image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Phí Công Huy.png`,
+  },
 ];

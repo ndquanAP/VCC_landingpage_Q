@@ -44,14 +44,14 @@ export const translations = {
     staff_3_des:"yoonho@cau.ac.kr",
 
     staff_4_name:"Prof. Kim Tak Hoon",
-    staff_4_title:"Content production, Animation, Stop motiont",
+    staff_4_title:"Content production, Animation, Stop motion",
     staff_4_des:"takhoonkim@cau.ac.kr",
 
     staff_5_name:"Prof. Moon Jae Cheol",
     staff_5_title:"Video theory, Animation, Film",
     staff_5_des:"jcmoon@cau.ac.kr",
 
-    staff_6_name:"Vice dean/ Associate Prof. Kim Kyu Hyun",
+    staff_6_name:"Associate Prof. Kim Kyu Hyun",
     staff_6_title:"Character animation, Realistic media content",
     staff_6_des:"gyuhyunkim@cau.ac.kr",
 
@@ -62,6 +62,14 @@ export const translations = {
     staff_8_name:"Assoc. Prof. Dr. Vu Huu Tien",
     staff_8_title:"Digital Image and Video Processing",
     staff_8_des:"tienvh@ptit.edu.vn, Faculty of Multimedia",
+
+    staff_9_name:"Dr. Cao Minh Thang",
+    staff_9_title:"Game, Information Security, Cryptography Engineering",
+    staff_9_des:"thangcm@ptit.edu.vn",
+
+    staff_10_name:"Dr. Phi Cong Huy",
+    staff_10_title:"Film and photography technique, video and image processing",
+    staff_10_des:"huypc@ptit.edu.vn, Faculty of Multimedia",
 
     // Facilities Section
     infrastructure_title: "MODERN FACILITIES",
@@ -90,7 +98,7 @@ export const translations = {
     benefits_title: "BENEFITS",
 
     benefit_1_title: "Study Abroad Pathway",
-    benefit_1_decs: "Transfer opportunities to CAU Korea in the 3rd or 4th year",
+    benefit_1_decs: "Transfer opportunities to CAU Korea in the 3rd year",
 
     benefit_2_title: "International Degree",
     benefit_2_decs: "Receive a degree issued by Chung-Ang University (CAU)",
@@ -308,7 +316,7 @@ export const translations = {
     staff_5_title:"Lý thuyết Video, Hoạt hình, Điện ảnh",
     staff_5_des:"jcmoon@cau.ac.kr",
 
-    staff_6_name:"Phó Trưởng khoa/Phó Giáo sư Kim Kyu Hyun",
+    staff_6_name:"Phó Giáo sư Kim Kyu Hyun",
     staff_6_title:"Diễn hoạt Nhân vật, Nội dung Truyền thông Chân thực",
     staff_6_des:"Tgyuhyunkim@cau.ac.kr",
 
@@ -316,9 +324,17 @@ export const translations = {
     staff_7_title:"Game, VR, Simulation",
     staff_7_des:"hoangnd@ptit.edu.vn, CDIT",
 
-    staff_8_name:"Phó giáo sư/Tiến sĩ Vũ Hữu Tiến",
+    staff_8_name:"PGS. TS Vũ Hữu Tiến",
     staff_8_title:"Digital Image and Video Processing",
-    staff_8_des:"tienvh@ptit.edu.vn, Faculty of Multimedia",
+    staff_8_des:"tienvh@ptit.edu.vn, Khoa Truyeenfthoong ",
+
+    staff_9_name:"Tiến sĩ Cao Minh Thắng",
+    staff_9_title:"Game, Information Security, Cryptography Engineering",
+    staff_9_des:"thangcm@ptit.edu.vn",
+
+    staff_10_name:"Tiến sĩ Phí Công Huy",
+    staff_10_title:"Film and photography technique, video and image processing",
+    staff_10_des:"huypc@ptit.edu.vn, Faculty of Multimedia",
     
     // Facilities Section
     infrastructure_title: "CƠ SỞ VẬT CHẤT HIỆN ĐẠI",
@@ -347,7 +363,7 @@ export const translations = {
     benefits_title: "Sinh Viên",
 
     benefit_1_title: "Lộ trình du học",
-    benefit_1_decs: "Cơ hội chuyển tiếp sang CAU Hàn Quốc vào năm 3 hoặc năm 4",
+    benefit_1_decs: "Cơ hội chuyển tiếp sang CAU Hàn Quốc vào năm 3",
 
     benefit_2_title: "Bằng quốc tế",
     benefit_2_decs: "Nhận bằng do Đại học Chung-Ang (CAU) cấp",
