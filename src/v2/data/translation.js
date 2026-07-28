@@ -325,15 +325,15 @@ export const translations = {
     staff_7_des:"hoangnd@ptit.edu.vn, CDIT",
 
     staff_8_name:"PGS. TS Vũ Hữu Tiến",
-    staff_8_title:"Digital Image and Video Processing",
-    staff_8_des:"tienvh@ptit.edu.vn, Khoa Truyeenfthoong ",
+    staff_8_title:"Xử lý ảnh và video kỹ thuật số",
+    staff_8_des:"tienvh@ptit.edu.vn, Faculty of Multimedia",
 
     staff_9_name:"Tiến sĩ Cao Minh Thắng",
-    staff_9_title:"Game, Information Security, Cryptography Engineering",
+    staff_9_title:"Game, An toàn Thông tin, Kĩ thuật Mật mã",
     staff_9_des:"thangcm@ptit.edu.vn",
 
     staff_10_name:"Tiến sĩ Phí Công Huy",
-    staff_10_title:"Film and photography technique, video and image processing",
+    staff_10_title:"Kỹ thuật điện ảnh và nhiếp ảnh, xử lý video và hình ảnh",
     staff_10_des:"huypc@ptit.edu.vn, Faculty of Multimedia",
     
     // Facilities Section
