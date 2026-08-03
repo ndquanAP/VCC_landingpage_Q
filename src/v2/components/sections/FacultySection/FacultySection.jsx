@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Title from "../../ui/Title/Title";
 import { Mail, Users } from "lucide-react";
 import { useTranslation } from "../../../hooks/useTranslation";
@@ -14,17 +14,16 @@ function FacultySection() {
 
 
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isAutoPlaying] = useState(true);
+  {/* const [isAutoPlaying] = useState(true); */}
   const staffMembers = getStaffMembers(t);
   
 
-  useEffect(() => {
-      if (!isAutoPlaying) return;
+  {/* useEffect(() => {
       const interval = setInterval(() => {
         setCurrentSlide((prev) => (prev + 1) % staffMembers.length);
       }, 5000);
       return () => clearInterval(interval);
-    }, [isAutoPlaying, staffMembers.length]);
+    }, [staffMembers.length]); */}
   
 
    const nextSlide = () => {
