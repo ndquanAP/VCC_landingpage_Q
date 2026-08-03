@@ -236,7 +236,7 @@ const HighlightPhotoSection = () => {
 
   return (
     <section
-      id="HighlightPhoto"
+      id="Highlight-photo"
       className={styles.section}
     >
       <div className={styles.container}>

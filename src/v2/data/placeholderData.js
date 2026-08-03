@@ -81,6 +81,7 @@ export const getStaffMembers = (t) => [
   {
     id: 1,
     name: t("staff_1_name"),
+    position: t("staff_1_position"),
     title: t("staff_1_title"),
     description: t("staff_1_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Wi Jong Hyun prof.png`,
@@ -88,13 +89,16 @@ export const getStaffMembers = (t) => [
   { 
     id: 2,
     name: t("staff_2_name"),
+    position: t("staff_2_position"),
     title: t("staff_2_title"),
     description: t("staff_2_des"),
+    experience: "http://fma.cau.ac.kr/",
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Park Jin Wan prof.png`,
   },
   {
     id: 3,
     name: t("staff_3_name"),
+    position: t("staff_3_position"),
     title: t("staff_3_title"),
     description: t("staff_3_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Bae Yun Ho prof.png`,
@@ -102,6 +106,7 @@ export const getStaffMembers = (t) => [
   {
     id: 4,
     name: t("staff_4_name"),
+    position: t("staff_4_position"),
     title: t("staff_4_title"),
     description: t("staff_4_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Kim Tak Hoon prof.png`,
@@ -109,20 +114,25 @@ export const getStaffMembers = (t) => [
   {
     id: 5,
     name: t("staff_5_name"),
+    position: t("staff_5_position"),
     title: t("staff_5_title"),
     description: t("staff_5_des"),
+    experience: "http://www.caufilm.com",
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Moon Jae Cheol prof.png`,
   },
   {
     id: 6,
     name: t("staff_6_name"),
+    position: t("staff_6_position"),
     title: t("staff_6_title"),
     description: t("staff_6_des"),
+    experience: "https://algomalgo.notion.site/",
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Kim Kyu Hyum prof.png`,
   },
   {
     id: 7,
     name: t("staff_7_name"),
+    position: t("staff_7_position"),
     title: t("staff_7_title"),
     description: t("staff_7_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Nguyen Duc Hoang.png`,
@@ -130,6 +140,7 @@ export const getStaffMembers = (t) => [
   {
     id: 8,
     name: t("staff_8_name"),
+    position: t("staff_8_position"),
     title: t("staff_8_title"),
     description: t("staff_8_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Vu Huu Tien.png`,
@@ -137,6 +148,7 @@ export const getStaffMembers = (t) => [
   {
     id: 9,
     name: t("staff_9_name"),
+    position: t("staff_9_position"),
     title: t("staff_9_title"),
     description: t("staff_9_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Thắng CM.png`,
@@ -144,6 +156,7 @@ export const getStaffMembers = (t) => [
   {
     id: 10,
     name: t("staff_10_name"),
+    position: t("staff_10_position"),
     title: t("staff_10_title"),
     description: t("staff_10_des"),
     image: `${import.meta.env.BASE_URL}src/v2/assets/faculty/Phí Công Huy.png`,

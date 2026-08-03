@@ -9,7 +9,6 @@ import VideoSection from "../components/sections/VideoSection/VideoSection";
 import TestimonialSection from "../components/sections/TestimonialSection/TestimonialSection";
 import CreditsSection from "../components/sections/CreditsSection/CreditsSection";
 import SignUpSection from "../components/sections/SignUpSection/SignUpSection";
-import ExpertShowcaseSection from "../components/sections/ExpertShowcaseSection/ExpertShowcaseSection";
 import HighlightPhotoSection from "../components/sections/HighlightPhotoSection/HighlightPhotoSection";
 
 const HomePage = () => {
@@ -62,11 +61,6 @@ const HomePage = () => {
       <div id="video">
         <VideoSection />
       </div>
-
-      {/* Expert Showcase Section 
-      <div id="expert-showcase">
-        <ExpertShowcaseSection />
-      </div>*/}
 
       {/* Credits Section */}
       <CreditsSection />
