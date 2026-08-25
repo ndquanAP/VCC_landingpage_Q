@@ -31,7 +31,7 @@ export const translations = {
     teachers_title: "Faculty Members", 
     faculty_title: "Our Faculty",
 
-    staff_1_name:"Wi Jong Hyn",
+    staff_1_name:"Wi Jong Hyun",
     staff_1_position:"Dean/Prof. ",
     staff_1_title:"Game Business Strategy and Policy",
     staff_1_des:"jhwi@cau.ac.kr",
@@ -334,7 +334,7 @@ export const translations = {
     staff_6_name:"Kim Kyu Hyun",
     staff_6_position:"Phó Giáo sư ",
     staff_6_title:"Diễn hoạt Nhân vật, Nội dung Truyền thông Chân thực",
-    staff_6_des:"Tgyuhyunkim@cau.ac.kr",
+    staff_6_des:"gyuhyunkim@cau.ac.kr",
 
     staff_7_name:"Nguyễn Đức Hoàng",
     staff_7_position:"Tiến sĩ ",
