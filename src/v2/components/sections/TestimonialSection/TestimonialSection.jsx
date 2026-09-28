@@ -12,21 +12,21 @@ const TestimonialSection = () => {
 
   const testimonials = [
     {
-      id: 1,
-      image: "/src/v2/assets/image.webp",
-      testimonial: t('testimonial_1_text'),
-      fullTestimonial: t('testimonial_1_full'), // Full version
-      name: t('testimonial_1_name'),
-      position: t('testimonial_1_position'),
-      hasMore: true,
-    },
-    {
       id: 2,
       image: "/src/v2/assets/1. Wi Jong Hyun prof..jpg",
       testimonial: t('testimonial_2_text'),
       fullTestimonial: t('testimonial_2_full'), // Full version from file
       name: t('testimonial_2_name'),
       position: t('testimonial_2_position'),
+      hasMore: true,
+    },
+    {
+      id: 1,
+      image: "/src/v2/assets/image.webp",
+      testimonial: t('testimonial_1_text'),
+      fullTestimonial: t('testimonial_1_full'), // Full version
+      name: t('testimonial_1_name'),
+      position: t('testimonial_1_position'),
       hasMore: true,
     },
   ];

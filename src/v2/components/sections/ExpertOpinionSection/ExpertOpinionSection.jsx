@@ -17,20 +17,20 @@ function ExpertOpinionSection() {
 
   const experts = [
     {
-      name: t('expert_name_1'),
-      position: t('expert_position_1'),
-      opinion: t('expert_opinion_1'),
-      fullOpinion: t('expert_opinion_1'),
-      image: image1,
-      hasMore: false
-    },
-    {
       name: t('expert_name_2'),
       position: t('expert_position_2'),
       opinion: t('expert_opinion_2'),
       fullOpinion: t('expert_opinion_2_full'),
       image: image2,
       hasMore: true
+    },
+    {
+      name: t('expert_name_1'),
+      position: t('expert_position_1'),
+      opinion: t('expert_opinion_1'),
+      fullOpinion: t('expert_opinion_1'),
+      image: image1,
+      hasMore: false
     },
   ];
 
